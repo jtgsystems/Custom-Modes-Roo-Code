@@ -17,13 +17,29 @@ Roo Code utilizes specialized AI "modes" or personas to tackle different develop
 
 This repository contains definitions for various modes, including (but not limited to):
 
-- **`boomerang-mode`**: A strategic workflow orchestrator that delegates tasks to other specialized modes.
-- **`frontend-developer`**: An expert in creating web interfaces using modern frameworks and best practices.
-- **`content-strategist`**: Specializes in writing substantial, persuasive, and SEO-aware content.
-- **`seo-specialist`**: Focuses on comprehensive on-page and technical SEO optimization.
-- **`tool-maker`**: Develops new MCP tools for Roo Code.
-- **`mode-creator`**: Defines and creates new custom modes.
-- *(... and many others covering various development, business, and creative roles)*
+### 🤖 Standard Development Modes
+- **`full-stack-developer`**: Expert in comprehensive web application development
+- **`frontend-developer`**: Specialist in creating modern web interfaces
+- **`devops-engineer`**: Infrastructure automation and deployment expert
+- **`content-strategist`**: SEO-aware content creation and strategy
+- **`seo-specialist`**: Comprehensive on-page and technical SEO optimization
+- **`compliance-specialist`**: Regulatory adherence and risk management
+
+### 🚀 NEW: Claude Code ULTRON Mode
+- **`claude-code-ultron`**: Elite software engineer with MCP orchestration capabilities
+  - **25+ Department Organization**: Structured workspace with SECURITY, OPERATIONS, DEVELOPMENT
+  - **12+ MCP Tools**: Unified Thinking (33 frameworks), Research, Image Processing, etc.
+  - **Performance Optimization**: 2-50x speed improvements with parallel processing
+  - **Security Integration**: KEYHOLDER scanning, VAULT credential management
+  - **Auto-Launch Systems**: Session start protocols and health monitoring
+  - **Military-Grade Discipline**: Systematic automation and precision execution
+
+### 📋 Project Management Modes
+- **`product-owner`**: End-to-end project management and client engagement
+- **`software-architect`**: Scalable MVP architecture design
+- **`tech-lead`**: Task decomposition and technical specification
+- **`full-stack-implementer`**: Modular, production-ready implementation
+- **`code-monkey`**: Rapid development following tech lead guidance
 
 Each mode definition includes:
 - `slug`: A unique identifier.
@@ -38,20 +54,83 @@ To use these custom modes with your Roo Code VS Code extension:
 
 1.  **Locate Roo Code Storage:** Find the Roo Code global storage directory. On Windows, this is typically:
     ```
-    C:\Users\<YourUsername>\AppData\Roaming\Code - Insiders\User\globalStorage\rooveterinaryinc.roo-cline\settings\
+    C:\\Users\\<YourUsername>\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\rooveterinaryinc.roo-cline\\settings\\
     ```
     *(Adjust the path if you use the stable version of VS Code or a different operating system)*.
-2.  **Copy Configuration:** Copy the `custom_modes.json` file from this repository into the `settings` directory found in step 1, replacing the existing file if necessary.
+
+2.  **Copy Configuration:** Copy the appropriate `custom_modes.json` file from this repository into the `settings` directory found in step 1, replacing the existing file if necessary.
+
 3.  **Restart VS Code:** Restart Visual Studio Code to ensure Roo Code loads the new mode definitions.
+
 4.  **Select Mode:** You should now be able to select and use the custom modes defined in this repository within the Roo Code interface.
+
+## 📁 Repository Structure
+
+```
+Custom-Modes-Roo-Code/
+├── README.md                           # This documentation
+├── cline_custom_modes.json            # Complete mode collection
+├── NEW CUSTOM MODES.json              # Project management focused modes  
+├── claude-code-ultron-mode.json       # Claude Code ULTRON mode definition
+└── (additional mode files as needed)
+```
+
+## 🚀 Claude Code ULTRON Integration
+
+The **Claude Code ULTRON** mode represents a revolutionary approach to AI-assisted development:
+
+### Core Capabilities
+- **MCP Tool Orchestration**: Seamlessly integrates 12+ specialized tools
+- **Performance Optimization**: Implements 2-50x speed improvements through parallel processing
+- **Security-First**: KEYHOLDER credential scanning and VAULT management
+- **Autonomous Operation**: Self-managing workflows with minimal human intervention
+
+### Session Start Protocol
+```bash
+# Auto-launch all MCP tools and verify system health
+bash /workspace/SCRIPTS/automation/auto-launch-behavior.sh
+bash /workspace/SCRIPTS/monitoring/ultra-fast-mcp-health-optimized.sh
+```
+
+### Tool Ecosystem
+1. **Unified Thinking MCP** - 33 cognitive frameworks for complex problem solving
+2. **Research MCP** - AI-powered web research with Google Custom Search
+3. **Image Processing MCP** - Complete image toolkit with AI analysis
+4. **KEYHOLDER Security** - Real-time credential leak detection
+5. **VAULT System** - Centralized credential management
+6. **Performance Monitoring** - Ultra-fast verification protocols
+
+### Performance Standards
+- **File Operations**: 400+ files/second minimum
+- **Git Operations**: 1000+ files/second target  
+- **Health Checks**: Sub-3-second completion
+- **Memory Usage**: Optimized garbage collection
+- **Parallel Processing**: Maximum CPU utilization
 
 ## 🤝 Contributing
 
 Contributions are welcome! If you improve an existing mode or create a new useful one, feel free to submit a Pull Request. Please ensure:
+
 - The JSON format is valid.
 - Instructions are clear and follow the established pattern (including Information Verification and Self-Correction clauses).
 - The `botcorrections.json` file is updated if the changes stem from a logged correction.
+- Performance optimization protocols are included for development modes.
+- Security considerations are addressed for modes handling sensitive operations.
+
+## 🔒 Security Considerations
+
+When using modes that handle sensitive data or operations:
+
+- Always use VAULT system for credential management
+- Run KEYHOLDER security scans before commits
+- Follow department naming conventions (CAPITALS for department names)
+- Implement proper error handling and validation
+- Use parallel processing for performance optimization
 
 ## 📄 License
 
 *(Optional: Specify a license here if you wish, e.g., MIT License)*
+
+---
+
+**Note**: The Claude Code ULTRON mode requires the complete ULTRON Project workspace setup with all MCP tools properly configured. Standard Roo Code modes will work with any Roo Code installation.
