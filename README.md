@@ -25,6 +25,7 @@ This repository contains definitions for various modes, including (but not limit
 - **`seo-specialist`**: Comprehensive on-page and technical SEO optimization
 - **`compliance-specialist`**: Regulatory adherence and risk management
 - **`web-design-specialist`**: ⭐ **NEW** - Web Design ULTRON with comprehensive quality gates and enterprise standards
+- **`ui-expert`**: ⭐ **NEW** - UI Expert ULTRON with comprehensive interface design and usability protocols
 
 ### 🎨 NEW: Web Design Specialist ULTRON Mode
 - **`web-design-specialist`**: Revolutionary web design mode with enterprise-grade quality gates
@@ -36,6 +37,17 @@ This repository contains definitions for various modes, including (but not limit
   - **🧪 Automated Testing**: HTML/CSS validation, Lighthouse audits, cross-browser testing
   - **🛠️ Tool Integration**: Web design quality gates, flaw detection, bot validation
   - **📋 100+ Item Checklist**: Comprehensive coverage from HTML foundation to analytics
+
+### 🎨 NEW: UI Expert ULTRON Mode  
+- **`ui-expert`**: Comprehensive UI/UX design mode with user-centered design principles
+  - **🎯 User-Centered Design**: ALL interfaces prioritize user needs and accessibility
+  - **🧩 Design System Excellence**: Consistent, scalable component libraries and style guides
+  - **🔍 Usability First**: Intuitive navigation, clear information architecture, minimal cognitive load
+  - **📱 Responsive Design**: Seamless experience across all devices and screen sizes
+  - **📊 Conversion Optimization**: Strategic CTA placement and user flow optimization
+  - **🧪 Comprehensive Testing**: Usability testing, A/B testing, accessibility validation
+  - **🛠️ Design Methodology**: Discovery, design, testing, and implementation phases
+  - **📈 Success Metrics**: 90%+ task completion rate, 4.5/5+ user satisfaction
 
 ### 🚀 Claude Code ULTRON Mode
 - **`claude-code-ultron`**: Elite software engineer with MCP orchestration capabilities
