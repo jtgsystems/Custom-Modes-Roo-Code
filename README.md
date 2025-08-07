@@ -1,4 +1,4 @@
-# Custom Roo Code Modes 🚀
+# Custom Roo Code Modes by JTG SYSTEMS 🚀
 
 Welcome to the **Custom Roo Code Modes** repository! 🎉 This project serves as a central place to store, manage, and share custom mode definitions for the [Roo Code](https://github.com/RooVetGit/Roo-Code) AI agent within Visual Studio Code.
 
