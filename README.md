@@ -15,20 +15,34 @@ Roo Code utilizes specialized AI "modes" or personas to tackle different develop
 
 ## ✨ Mode Examples Included
 
-This repository contains definitions for various modes, including (but not limited to):
+This repository contains definitions for various modes, organized by category:
 
-### 🤖 Standard Development Modes
-- **`full-stack-developer`**: Expert in comprehensive web application development
-- **`frontend-developer`**: Specialist in creating modern web interfaces
-- **`devops-engineer`**: Infrastructure automation and deployment expert
-- **`content-strategist`**: SEO-aware content creation and strategy
-- **`seo-specialist`**: Comprehensive on-page and technical SEO optimization
-- **`compliance-specialist`**: Regulatory adherence and risk management
-- **`web-design-specialist`**: ⭐ **NEW** - Web Design ULTRON with comprehensive quality gates and enterprise standards
-- **`ui-expert`**: ⭐ **NEW** - UI Expert ULTRON with comprehensive interface design and usability protocols
+### 🤖 Development Modes (`development-modes/`)
+- **`claude-code-ultron`**: Elite software engineer with MCP orchestration capabilities
+- **`full-stack-developer-ultron`**: Full stack development expert with ULTRON optimization
+- **`content-strategist-ultron`**: SEO-aware content creation and strategy
+- **`ui-expert-ultron`**: UI/UX design specialist with comprehensive interface design
+- **`web-design-specialist-ultron`**: Web design specialist with enterprise quality gates
+- **Project Management Modes**: Product owner, software architect, tech lead, implementer, code monkey
+- **Research Protocols**: Deep research methodologies and enhanced research frameworks
 
-### 🎨 NEW: Web Design Specialist ULTRON Mode
-- **`web-design-specialist`**: Revolutionary web design mode with enterprise-grade quality gates
+### ⚖️ Legal Modes (`legal-modes/`)
+- **`compliance-specialist-ultron`**: Regulatory adherence and risk management
+- **`corporate-law-ultron`**: Corporate law and business legal specialist
+- **`criminal-law-ultron`**: Criminal law and legal procedure specialist
+- **`employment-law-ultron`**: Employment law and labor relations specialist
+- **`intellectual-property-ultron`**: IP law and intellectual property specialist
+- **`litigation-support-ultron`**: Litigation support and legal research specialist
+
+### 📋 Research Templates (`research-templates/`)
+- **Contradiction Ledger Template**: Systematic contradiction tracking and resolution
+- **Deep Research Report Template**: Comprehensive research reporting framework
+- **Source Credibility Matrix Template**: Source evaluation and credibility assessment
+
+### 🎨 Featured Development Modes
+
+#### Web Design Specialist ULTRON
+- **`web-design-specialist-ultron`**: Revolutionary web design mode with enterprise-grade quality gates
   - **🚪 Quality Gate Enforcement**: ALL code must pass 70+ score, 0 critical violations
   - **♿ WCAG 2.1 AA Compliance**: Mandatory accessibility standards enforcement
   - **⚡ Core Web Vitals**: LCP <2.5s, FID <100ms, CLS <0.1 optimization
@@ -38,8 +52,8 @@ This repository contains definitions for various modes, including (but not limit
   - **🛠️ Tool Integration**: Web design quality gates, flaw detection, bot validation
   - **📋 100+ Item Checklist**: Comprehensive coverage from HTML foundation to analytics
 
-### 🎨 NEW: UI Expert ULTRON Mode  
-- **`ui-expert`**: Comprehensive UI/UX design mode with user-centered design principles
+#### UI Expert ULTRON
+- **`ui-expert-ultron`**: Comprehensive UI/UX design mode with user-centered design principles
   - **🎯 User-Centered Design**: ALL interfaces prioritize user needs and accessibility
   - **🧩 Design System Excellence**: Consistent, scalable component libraries and style guides
   - **🔍 Usability First**: Intuitive navigation, clear information architecture, minimal cognitive load
@@ -49,7 +63,7 @@ This repository contains definitions for various modes, including (but not limit
   - **🛠️ Design Methodology**: Discovery, design, testing, and implementation phases
   - **📈 Success Metrics**: 90%+ task completion rate, 4.5/5+ user satisfaction
 
-### 🚀 Claude Code ULTRON Mode
+#### Claude Code ULTRON
 - **`claude-code-ultron`**: Elite software engineer with MCP orchestration capabilities
   - **25+ Department Organization**: Structured workspace with SECURITY, OPERATIONS, DEVELOPMENT
   - **12+ MCP Tools**: Unified Thinking (33 frameworks), Research, Image Processing, etc.
@@ -58,7 +72,15 @@ This repository contains definitions for various modes, including (but not limit
   - **Auto-Launch Systems**: Session start protocols and health monitoring
   - **Military-Grade Discipline**: Systematic automation and precision execution
 
+#### Full Stack Developer ULTRON
+- **`full-stack-developer-ultron`**: Elite full stack developer with comprehensive optimization
+  - **2-50x Performance Improvements**: Systematic optimization patterns
+  - **Security-First Development**: Comprehensive security integration
+  - **Military-Grade Precision**: Structured implementation protocols
+  - **End-to-End Architecture**: Complete application development
+
 ### 📋 Project Management Modes
+Available in `development-modes/NEW CUSTOM MODES.json`:
 - **`product-owner`**: End-to-end project management and client engagement
 - **`software-architect`**: Scalable MVP architecture design
 - **`tech-lead`**: Task decomposition and technical specification
@@ -82,7 +104,7 @@ To use these custom modes with your Roo Code VS Code extension:
     ```
     *(Adjust the path if you use the stable version of VS Code or a different operating system)*.
 
-2.  **Copy Configuration:** Copy the appropriate `custom_modes.json` file from this repository into the `settings` directory found in step 1, replacing the existing file if necessary.
+2.  **Copy Configuration:** Copy the appropriate JSON mode file from the relevant category directory (`development-modes/`, `legal-modes/`, etc.) into the `settings` directory found in step 1, replacing the existing file if necessary.
 
 3.  **Restart VS Code:** Restart Visual Studio Code to ensure Roo Code loads the new mode definitions.
 
@@ -93,10 +115,34 @@ To use these custom modes with your Roo Code VS Code extension:
 ```
 Custom-Modes-Roo-Code/
 ├── README.md                           # This documentation
-├── cline_custom_modes.json            # Complete mode collection
-├── NEW CUSTOM MODES.json              # Project management focused modes  
-├── claude-code-ultron-mode.json       # Claude Code ULTRON mode definition
-└── (additional mode files as needed)
+├── CHANGELOG.md                       # Version history and updates
+├── development-modes/                 # Development and technology-focused modes
+│   ├── claude-code-ultron-ide.json    # Claude Code ULTRON IDE mode
+│   ├── claude-code-ultron-mode.json   # Claude Code ULTRON mode definition
+│   ├── cline_custom_modes.json        # Complete mode collection
+│   ├── content-strategist-ultron.json # Content strategy specialist
+│   ├── deep-research-protocol.json   # Research methodology
+│   ├── deep-research-protocol-enhanced.json # Enhanced research protocol
+│   ├── full-stack-developer-ultron.json # Full stack development expert
+│   ├── NEW CUSTOM MODES.json         # Project management focused modes
+│   ├── ui-expert-ultron.json         # UI/UX design specialist
+│   └── web-design-specialist-ultron.json # Web design specialist
+├── legal-modes/                       # Legal department specialist modes
+│   ├── compliance-specialist-ultron.json # Compliance and regulatory specialist
+│   ├── corporate-law-ultron.json      # Corporate law specialist
+│   ├── criminal-law-ultron.json       # Criminal law specialist
+│   ├── employment-law-ultron.json     # Employment law specialist
+│   ├── intellectual-property-ultron.json # IP law specialist
+│   └── litigation-support-ultron.json # Litigation support specialist
+├── research-templates/               # Research methodology templates
+│   ├── contradiction-ledger-template.md # Contradiction tracking template
+│   ├── deep-research-report-template.md # Research report template
+│   └── source-credibility-matrix-template.md # Source evaluation template
+└── LEGAL-DEPT/                       # Legal department documentation
+    ├── LEGAL-DEPARTMENT.md           # Core department structure
+    ├── LEGAL-DEPARTMENT-PROTOCOLS.md # Operational protocols
+    ├── LEGAL-RESEARCH-FRAMEWORKS.md  # Research methodologies
+    └── README.md                     # Department overview
 ```
 
 ## 🚀 Claude Code ULTRON Integration
