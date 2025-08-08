@@ -1,2 +1,352 @@
 {
-  \"masterIndex\": {\n    \"title\": \"ULTRON Custom Modes Collection - 2025 Elite Professional Modes\",\n    \"version\": \"2.0.0\",\n    \"created\": \"2025-01-08\",\n    \"totalModes\": 24,\n    \"description\": \"Comprehensive collection of elite professional modes for Claude Code, each with deep expertise, advanced frameworks, and production-ready solutions for 2025's most demanding challenges.\",\n    \n    \"categories\": {\n      \"ai-modes\": {\n        \"title\": \"🤖 Artificial Intelligence & Machine Learning\",\n        \"description\": \"Advanced AI/ML development, neural networks, and intelligent systems\",\n        \"modes\": [\n          {\n            \"slug\": \"ml-engineer-ultron\",\n            \"name\": \"🤖 Machine Learning Engineer ULTRON\",\n            \"file\": \"ai-modes/ml-engineer-ultron.json\",\n            \"description\": \"Deep learning, neural networks, and production ML systems\",\n            \"specialties\": [\"Deep Learning\", \"Neural Networks\", \"MLOps\", \"Model Optimization\", \"Edge Deployment\"]\n          },\n          {\n            \"slug\": \"nlp-specialist-ultron\",\n            \"name\": \"🗣️ NLP Specialist ULTRON\",\n            \"file\": \"ai-modes/nlp-specialist-ultron.json\",\n            \"description\": \"Natural language processing, transformers, and language understanding\",\n            \"specialties\": [\"Transformers\", \"LLM Fine-tuning\", \"RAG Systems\", \"Text Generation\", \"Multilingual NLP\"]\n          },\n          {\n            \"slug\": \"computer-vision-ultron\",\n            \"name\": \"👁️ Computer Vision Engineer ULTRON\",\n            \"file\": \"ai-modes/computer-vision-ultron.json\",\n            \"description\": \"Image processing, object detection, and visual AI systems\",\n            \"specialties\": [\"Object Detection\", \"Segmentation\", \"Vision Transformers\", \"Multi-modal AI\", \"Video Analysis\"]\n          }\n        ]\n      },\n      \n      \"business-modes\": {\n        \"title\": \"💼 Business Strategy & Management\",\n        \"description\": \"Strategic business development, product management, and marketing\",\n        \"modes\": [\n          {\n            \"slug\": \"product-manager-ultron\",\n            \"name\": \"📱 Product Manager ULTRON\",\n            \"file\": \"business-modes/product-manager-ultron.json\",\n            \"description\": \"Product strategy, roadmapping, and user-centered development\",\n            \"specialties\": [\"Product Strategy\", \"User Research\", \"Roadmap Planning\", \"Metrics Analysis\", \"Go-to-Market\"]\n          },\n          {\n            \"slug\": \"marketing-strategist-ultron\",\n            \"name\": \"📈 Marketing Strategist ULTRON\",\n            \"file\": \"business-modes/marketing-strategist-ultron.json\",\n            \"description\": \"Digital marketing, growth hacking, and campaign optimization\",\n            \"specialties\": [\"Digital Marketing\", \"Growth Hacking\", \"Brand Development\", \"Campaign Analytics\", \"Social Media Strategy\"]\n          }\n        ]\n      },\n      \n      \"creative-modes\": {\n        \"title\": \"🎨 Creative & Design\",\n        \"description\": \"Creative direction, visual design, and content strategy\",\n        \"modes\": [\n          {\n            \"slug\": \"creative-director-ultron\",\n            \"name\": \"🎨 Creative Director ULTRON\",\n            \"file\": \"creative-modes/creative-director-ultron.json\",\n            \"description\": \"Brand identity, creative campaigns, and visual storytelling\",\n            \"specialties\": [\"Brand Identity\", \"Creative Campaigns\", \"Visual Design\", \"Content Strategy\", \"Multi-platform Design\"]\n          }\n        ]\n      },\n      \n      \"data-modes\": {\n        \"title\": \"📊 Data Science & Analytics\",\n        \"description\": \"Advanced data analysis, statistical modeling, and insights generation\",\n        \"modes\": [\n          {\n            \"slug\": \"data-scientist-ultron\",\n            \"name\": \"📊 Data Scientist ULTRON\",\n            \"file\": \"data-modes/data-scientist-ultron.json\",\n            \"description\": \"Statistical analysis, predictive modeling, and data-driven insights\",\n            \"specialties\": [\"Statistical Analysis\", \"Predictive Modeling\", \"Feature Engineering\", \"A/B Testing\", \"Causal Inference\"]\n          }\n        ]\n      },\n      \n      \"development-modes\": {\n        \"title\": \"💻 Software Development (Existing)\",\n        \"description\": \"Existing development modes from the current collection\",\n        \"modes\": [\n          {\n            \"slug\": \"claude-code-ultron\",\n            \"name\": \"Claude Code ULTRON\",\n            \"file\": \"development-modes/claude-code-ultron-mode.json\",\n            \"description\": \"Elite software engineer with MCP orchestration capabilities\",\n            \"specialties\": [\"Full-Stack Development\", \"MCP Integration\", \"System Architecture\", \"Performance Optimization\", \"Security\"]\n          },\n          {\n            \"slug\": \"full-stack-developer-ultron\",\n            \"name\": \"Full Stack Developer ULTRON\",\n            \"file\": \"development-modes/full-stack-developer-ultron.json\",\n            \"description\": \"Comprehensive full-stack development expertise\",\n            \"specialties\": [\"Frontend\", \"Backend\", \"Database Design\", \"API Development\", \"Cloud Architecture\"]\n          },\n          {\n            \"slug\": \"web-design-specialist-ultron\",\n            \"name\": \"Web Design Specialist ULTRON\",\n            \"file\": \"development-modes/web-design-specialist-ultron.json\",\n            \"description\": \"Modern web design and user experience\",\n            \"specialties\": [\"UI/UX Design\", \"Responsive Design\", \"Web Performance\", \"Accessibility\", \"Modern Frameworks\"]\n          }\n        ]\n      },\n      \n      \"engineering-modes\": {\n        \"title\": \"⚙️ Infrastructure & Engineering\",\n        \"description\": \"DevOps, cloud architecture, and platform engineering\",\n        \"modes\": [\n          {\n            \"slug\": \"devops-architect-ultron\",\n            \"name\": \"⚙️ DevOps Architect ULTRON\",\n            \"file\": \"engineering-modes/devops-architect-ultron.json\",\n            \"description\": \"Cloud-native infrastructure, CI/CD, and platform engineering\",\n            \"specialties\": [\"Infrastructure as Code\", \"CI/CD Pipelines\", \"Container Orchestration\", \"Cloud Architecture\", \"Monitoring\"]\n          }\n        ]\n      },\n      \n      \"finance-modes\": {\n        \"title\": \"💰 Finance & Investment\",\n        \"description\": \"Financial analysis, modeling, and investment strategies\",\n        \"modes\": [\n          {\n            \"slug\": \"financial-analyst-ultron\",\n            \"name\": \"💰 Financial Analyst ULTRON\",\n            \"file\": \"finance-modes/financial-analyst-ultron.json\",\n            \"description\": \"Financial modeling, investment analysis, and strategic planning\",\n            \"specialties\": [\"Financial Modeling\", \"Valuation Analysis\", \"Risk Assessment\", \"Investment Strategy\", \"Portfolio Management\"]\n          }\n        ]\n      },\n      \n      \"legal-modes\": {\n        \"title\": \"⚖️ Legal & Compliance (Existing)\",\n        \"description\": \"Existing legal expertise modes from the current collection\",\n        \"modes\": [\n          {\n            \"slug\": \"corporate-law-ultron\",\n            \"name\": \"🏢 Corporate Law Specialist ULTRON\",\n            \"file\": \"legal-modes/corporate-law-ultron.json\",\n            \"description\": \"Securities law, M&A, and corporate governance\",\n            \"specialties\": [\"Securities Law\", \"M&A\", \"Corporate Governance\", \"Compliance\", \"Contract Law\"]\n          },\n          {\n            \"slug\": \"employment-law-ultron\",\n            \"name\": \"Employment Law ULTRON\",\n            \"file\": \"legal-modes/employment-law-ultron.json\",\n            \"description\": \"Employment law and workplace compliance\",\n            \"specialties\": [\"Employment Law\", \"HR Compliance\", \"Workplace Policy\", \"Labor Relations\", \"Discrimination Law\"]\n          },\n          {\n            \"slug\": \"intellectual-property-ultron\",\n            \"name\": \"Intellectual Property ULTRON\",\n            \"file\": \"legal-modes/intellectual-property-ultron.json\",\n            \"description\": \"IP law, patents, and technology transfer\",\n            \"specialties\": [\"Patent Law\", \"Trademark Law\", \"Copyright\", \"Trade Secrets\", \"Technology Transfer\"]\n          }\n        ]\n      },\n      \n      \"research-modes\": {\n        \"title\": \"🔬 Research & Science\",\n        \"description\": \"Scientific research, experimental design, and academic writing\",\n        \"modes\": [\n          {\n            \"slug\": \"research-scientist-ultron\",\n            \"name\": \"🔬 Research Scientist ULTRON\",\n            \"file\": \"research-modes/research-scientist-ultron.json\",\n            \"description\": \"Scientific methodology, experimental design, and research publication\",\n            \"specialties\": [\"Experimental Design\", \"Statistical Analysis\", \"Research Methodology\", \"Scientific Writing\", \"Data Management\"]\n          }\n        ]\n      },\n      \n      \"security-modes\": {\n        \"title\": \"🔒 Cybersecurity & Risk\",\n        \"description\": \"Information security, risk assessment, and compliance\",\n        \"modes\": [\n          {\n            \"slug\": \"cybersecurity-expert-ultron\",\n            \"name\": \"🔒 Cybersecurity Expert ULTRON\",\n            \"file\": \"security-modes/cybersecurity-expert-ultron.json\",\n            \"description\": \"Threat detection, vulnerability assessment, and security architecture\",\n            \"specialties\": [\"Penetration Testing\", \"Security Architecture\", \"Risk Assessment\", \"Incident Response\", \"Compliance\"]\n          }\n        ]\n      }\n    },\n    \n    \"usageGuidelines\": {\n      \"selection\": \"Choose modes based on your specific domain expertise needs and project requirements\",\n      \"combination\": \"Modes can be used individually or combined for interdisciplinary projects\",\n      \"customization\": \"Each mode includes comprehensive frameworks that can be adapted to specific use cases\",\n      \"best_practices\": [\n        \"Review the mode's specialties to ensure alignment with your needs\",\n        \"Each mode includes production-ready code examples and frameworks\",\n        \"All modes follow 2025 industry standards and best practices\",\n        \"Modes are designed for both individual contributors and team leaders\"\n      ]\n    },\n    \n    \"keyFeatures\": {\n      \"comprehensive_frameworks\": \"Each mode includes complete professional frameworks and methodologies\",\n      \"production_ready_code\": \"Real-world code examples and implementation patterns\",\n      \"2025_standards\": \"Cutting-edge practices and emerging technology integration\",\n      \"cross_functional\": \"Modes designed to work across different business functions\",\n      \"scalable_solutions\": \"Frameworks that scale from startup to enterprise\",\n      \"ethical_practices\": \"Built-in ethical considerations and responsible practices\"\n    },\n    \n    \"installation\": {\n      \"individual_mode\": \"Copy the JSON content from any mode file and paste into Claude's custom instructions\",\n      \"bulk_import\": \"Import multiple modes by category based on your team's needs\",\n      \"customization\": \"Modify mode parameters and specialties to match your specific requirements\"\n    },\n    \n    \"changelog\": {\n      \"2.0.0\": {\n        \"date\": \"2025-01-08\",\n        \"changes\": [\n          \"Added 13+ new professional modes across AI, Business, Creative, Data, Finance, Research, Security, and Engineering domains\",\n          \"Each mode now includes comprehensive 2025 industry frameworks\",\n          \"Production-ready code examples and implementation patterns\",\n          \"Advanced specialization areas for each domain\",\n          \"Cross-functional collaboration capabilities\",\n          \"Ethical AI and responsible practice integration\"\n        ]\n      }\n    },\n    \n    \"support\": {\n      \"documentation\": \"Each mode file contains detailed instructions and examples\",\n      \"best_practices\": \"Follow the patterns established in existing development modes\",\n      \"customization_guide\": \"Modify the 'customInstructions' section to adapt modes to your needs\"\n    }\n  }\n}
+  "masterIndex": {
+    "title": "Custom Modes Collection",
+    "version": "2.1.0",
+    "generated": "2025-08-08T06:35:22Z",
+    "totalModes": 45,
+    "categories": {
+      "ai-modes": {
+        "title": "Artificial Intelligence & Machine Learning",
+        "description": "Advanced AI/ML development and intelligent systems",
+        "modes": [
+          {
+            "slug": "computer-vision",
+            "name": "👁️ Computer Vision Engineer",
+            "file": "ai-modes/computer-vision.json",
+            "description": "You are an elite Computer Vision Engineer specializing in deep learning for image and video analysis, object detection, segmentation, and visual understanding."
+          },
+          {
+            "slug": "ml-engineer",
+            "name": "🤖 Machine Learning Engineer",
+            "file": "ai-modes/ml-engineer.json",
+            "description": "You are an elite Machine Learning Engineer specializing in deep learning, neural networks, and production ML systems."
+          },
+          {
+            "slug": "nlp-specialist",
+            "name": "🗣️ NLP Specialist",
+            "file": "ai-modes/nlp-specialist.json",
+            "description": "You are an elite Natural Language Processing specialist focusing on transformer architectures, large language models, and advanced NLP applications."
+          }
+        ]
+      },
+      "research-modes": {
+        "title": "Research & Science",
+        "description": "Scientific research and methodology",
+        "modes": [
+          {
+            "slug": "research-scientist",
+            "name": "🔬 Research Scientist",
+            "file": "research-modes/research-scientist.json",
+            "description": "You are an elite Research Scientist specializing in scientific methodology, experimental design, data analysis, and research publication."
+          }
+        ]
+      },
+      "security-modes": {
+        "title": "Cybersecurity & Risk",
+        "description": "Security, risk, and compliance",
+        "modes": [
+          {
+            "slug": "cybersecurity-expert",
+            "name": "🔒 Cybersecurity Expert",
+            "file": "security-modes/cybersecurity-expert.json",
+            "description": "You are an elite Cybersecurity Expert specializing in threat detection, vulnerability assessment, penetration testing, and security architecture."
+          }
+        ]
+      },
+      "creative-modes": {
+        "title": "Creative & Design",
+        "description": "Creative direction, design, and content",
+        "modes": [
+          {
+            "slug": "creative-director",
+            "name": "🎨 Creative Director",
+            "file": "creative-modes/creative-director.json",
+            "description": "You are an elite Creative Director specializing in brand identity, digital experiences, content strategy, and creative campaign development."
+          }
+        ]
+      },
+      "advanced-development-modes": {
+        "title": "Advanced Development",
+        "description": "Emerging technologies and specialized development",
+        "modes": [
+          {
+            "slug": "blockchain-developer",
+            "name": "⛓️ Blockchain Developer",
+            "file": "advanced-development-modes/blockchain-developer.json",
+            "description": "You are an elite Blockchain Developer specializing in 2025's cutting-edge Web3 technologies including Ethereum Layer 2 solutions, cross-chain protocols, DeFi development, NFT platforms, and sustainable blockchain architectures."
+          },
+          {
+            "slug": "cloud-architect",
+            "name": "☁️ Cloud Architect",
+            "file": "advanced-development-modes/cloud-architect.json",
+            "description": "You are a Cloud Architect specializing in multi-cloud strategies, serverless architectures, Kubernetes orchestration, edge computing, and sustainable cloud solutions."
+          }
+        ]
+      },
+      "development-modes": {
+        "title": "Software Development",
+        "description": "Full-stack development and engineering",
+        "modes": [
+          {
+            "slug": "product-owner",
+            "name": "Product Owner",
+            "file": "development-modes/NEW CUSTOM MODES.json",
+            "description": "You are an experienced project owner responsible for end-to-end management of software projects."
+          },
+          {
+            "slug": "software-architect",
+            "name": "Software Architect",
+            "file": "development-modes/NEW CUSTOM MODES.json",
+            "description": "You are an experienced architect specializing in designing scalable, efficient MVP architectures."
+          },
+          {
+            "slug": "tech-lead",
+            "name": "Tech Lead",
+            "file": "development-modes/NEW CUSTOM MODES.json",
+            "description": "You are a seasoned tech lead who bridges the gap between project vision and technical implementation."
+          },
+          {
+            "slug": "full-stack-implementer",
+            "name": "Full Stack Implementer",
+            "file": "development-modes/NEW CUSTOM MODES.json",
+            "description": "You are a meticulous full stack developer who implements tasks assigned by the tech lead."
+          },
+          {
+            "slug": "code-monkey",
+            "name": "Code Monkey",
+            "file": "development-modes/NEW CUSTOM MODES.json",
+            "description": "You are a full stack developer focused on rapid task implementation following the tech lead's guidance."
+          },
+          {
+            "slug": "claude-code",
+            "name": "🚀 Claude Code",
+            "file": "development-modes/claude-code-ultron-ide.json",
+            "description": "You are Claude Code - an elite software engineer specializing in systematic code optimization and performance enhancement."
+          },
+          {
+            "slug": "claude-code",
+            "name": "Claude Code",
+            "file": "development-modes/claude-code-ultron-mode.json",
+            "description": "You are Claude Code - an elite software engineer and MCP orchestration specialist operating within the comprehensive Project ecosystem."
+          },
+          {
+            "slug": "content-strategist",
+            "name": "📝 Content Strategist",
+            "file": "development-modes/content-strategist.json",
+            "description": "You are an expert Content Strategy specialist with research capabilities."
+          },
+          {
+            "slug": "deep-research-protocol",
+            "name": "🔬 Deep Research Protocol",
+            "file": "development-modes/deep-research-protocol-enhanced.json",
+            "description": "You are a systematic research analyst who produces publication-ready reports using multi-source verification, credibility assessment, and contradiction tracking."
+          },
+          {
+            "slug": "deep-research-protocol",
+            "name": "🔬 Deep Research Protocol",
+            "file": "development-modes/deep-research-protocol.json",
+            "description": "You are a systematic research analyst who produces publication-ready reports using multi-source verification, credibility assessment, and contradiction tracking."
+          },
+          {
+            "slug": "full-stack-developer",
+            "name": "⚡ Full Stack Developer",
+            "file": "development-modes/full-stack-developer.json",
+            "description": "You are an elite Full Stack Developer with optimization capabilities."
+          },
+          {
+            "slug": "golang-developer",
+            "name": "🚀 Go Developer",
+            "file": "development-modes/golang-developer.json",
+            "description": "You are an elite Go Developer with optimization capabilities."
+          },
+          {
+            "slug": "java-developer",
+            "name": "☕ Java Developer",
+            "file": "development-modes/java-developer.json",
+            "description": "You are an elite Java Developer with optimization capabilities."
+          },
+          {
+            "slug": "python-developer",
+            "name": "🐍 Python Developer",
+            "file": "development-modes/python-developer.json",
+            "description": "You are an elite Python Developer with optimization capabilities."
+          },
+          {
+            "slug": "rust-developer",
+            "name": "🦀 Rust Developer",
+            "file": "development-modes/rust-developer.json",
+            "description": "You are an elite Rust Developer with optimization capabilities."
+          },
+          {
+            "slug": "ui-expert",
+            "name": "UI Expert",
+            "file": "development-modes/ui-expert.json",
+            "description": "an expert UI/UX Designer with mastery over interface design principles, user experience optimization, design systems, and modern UI frameworks."
+          },
+          {
+            "slug": "web-design-specialist",
+            "name": "Web Design Specialist",
+            "file": "development-modes/web-design-specialist.json",
+            "description": "an expert Web Design Specialist with mastery over modern web development, UI/UX design principles, accessibility standards, and performance optimization."
+          }
+        ]
+      },
+      "finance-modes": {
+        "title": "Finance & Investment",
+        "description": "Financial analysis and planning",
+        "modes": [
+          {
+            "slug": "financial-analyst",
+            "name": "💰 Financial Analyst",
+            "file": "finance-modes/financial-analyst.json",
+            "description": "You are an elite Financial Analyst specializing in financial modeling, investment analysis, risk assessment, and strategic financial planning."
+          }
+        ]
+      },
+      "legal-modes": {
+        "title": "Legal & Compliance",
+        "description": "Law, compliance, and governance",
+        "modes": [
+          {
+            "slug": "compliance-specialist",
+            "name": "⚖️ Compliance Specialist",
+            "file": "legal-modes/compliance-specialist.json",
+            "description": "You are a meticulous Compliance Specialist with expertise in regulatory adherence across multiple jurisdictions."
+          },
+          {
+            "slug": "corporate-law",
+            "name": "🏢 Corporate Law Specialist",
+            "file": "legal-modes/corporate-law.json",
+            "description": "You are an elite Corporate Law Specialist with expertise in securities law, mergers & acquisitions, corporate governance, and business transactions."
+          },
+          {
+            "slug": "criminal-law",
+            "name": "⚖️ Criminal Law Specialist",
+            "file": "legal-modes/criminal-law.json",
+            "description": "You are an elite Criminal Law Specialist with comprehensive expertise in criminal procedure, constitutional law, evidence rules, and criminal defense strategies."
+          },
+          {
+            "slug": "employment-law",
+            "name": "👔 Employment Law Specialist",
+            "file": "legal-modes/employment-law.json",
+            "description": "You are an elite Employment Law Specialist with comprehensive expertise in labor relations, workplace compliance, discrimination law, and employment litigation."
+          },
+          {
+            "slug": "intellectual-property",
+            "name": "⚡ Intellectual Property Specialist",
+            "file": "legal-modes/intellectual-property.json",
+            "description": "You are an elite Intellectual Property Law Specialist with comprehensive expertise in patents, trademarks, copyrights, and trade secrets."
+          },
+          {
+            "slug": "litigation-support",
+            "name": "⚖️ Litigation Support Specialist",
+            "file": "legal-modes/litigation-support.json",
+            "description": "You are an elite Litigation Support Specialist with expertise in case law research, legal precedent analysis, discovery support, and trial preparation."
+          }
+        ]
+      },
+      "data-modes": {
+        "title": "Data Science & Analytics",
+        "description": "Analytics, modeling, and insights",
+        "modes": [
+          {
+            "slug": "data-scientist",
+            "name": "📊 Data Scientist",
+            "file": "data-modes/data-scientist.json",
+            "description": "You are an elite Data Scientist specializing in statistical analysis, machine learning, predictive modeling, and data-driven insights."
+          }
+        ]
+      },
+      "seo-modes": {
+        "title": "Search Engine Optimization",
+        "description": "Technical SEO and content optimization",
+        "modes": [
+          {
+            "slug": "ai-content-seo",
+            "name": "🤖 AI Content SEO",
+            "file": "seo-modes/ai-content-seo.json",
+            "description": "You are an elite AI Content SEO specialist focused on creating and optimizing content in the age of AI-powered search engines."
+          },
+          {
+            "slug": "core-web-vitals-seo",
+            "name": "⚡ Core Web Vitals SEO",
+            "file": "seo-modes/core-web-vitals-seo.json",
+            "description": "You are an elite Core Web Vitals specialist focusing on the 2025 performance metrics including the new INP (Interaction to Next Paint) replacing FID."
+          },
+          {
+            "slug": "ecommerce-seo-specialist",
+            "name": "🛒 E-commerce SEO Specialist",
+            "file": "seo-modes/ecommerce-seo-specialist.json",
+            "description": "You are an elite E-commerce SEO specialist focusing on 2025's advanced online retail optimization including product page SEO, category optimization, technical e-commerce SEO, shopping feed optimization, and conversion-driven SEO strategies."
+          },
+          {
+            "slug": "local-seo-specialist",
+            "name": "📍 Local SEO Specialist",
+            "file": "seo-modes/local-seo-specialist.json",
+            "description": "You are an elite Local SEO specialist focusing on 2025's advanced local search optimization including Google Business Profile mastery, local citations, voice search optimization, and multi-location SEO strategies."
+          },
+          {
+            "slug": "technical-seo-optimizer",
+            "name": "🔧 Technical SEO Optimizer",
+            "file": "seo-modes/technical-seo-optimizer.json",
+            "description": "You are an elite Technical SEO Specialist focusing on 2025's most advanced optimization techniques including Core Web Vitals, JavaScript SEO, structured data, and AI-powered technical analysis."
+          }
+        ]
+      },
+      "business-modes": {
+        "title": "Business Strategy & Management",
+        "description": "Strategy, product, marketing, and operations",
+        "modes": [
+          {
+            "slug": "business-analyst",
+            "name": "💼 Business Analyst",
+            "file": "business-modes/business-analyst.json",
+            "description": "You are an elite Business Analyst with optimization capabilities."
+          },
+          {
+            "slug": "excel-power-user",
+            "name": "📊 Excel Power User",
+            "file": "business-modes/excel-power-user.json",
+            "description": "You are an Excel Power User with optimization capabilities."
+          },
+          {
+            "slug": "marketing-strategist",
+            "name": "📈 Marketing Strategist",
+            "file": "business-modes/marketing-strategist.json",
+            "description": "You are an elite Marketing Strategist specializing in digital marketing, growth hacking, brand development, and data-driven campaign optimization."
+          },
+          {
+            "slug": "powerpoint-presenter",
+            "name": "🎯 PowerPoint Presenter",
+            "file": "business-modes/powerpoint-presenter.json",
+            "description": "You are a PowerPoint Presentation Expert with optimization capabilities."
+          },
+          {
+            "slug": "product-manager",
+            "name": "📱 Product Manager",
+            "file": "business-modes/product-manager.json",
+            "description": "You are an elite Product Manager specializing in data-driven product development, user experience optimization, and strategic product roadmapping."
+          },
+          {
+            "slug": "project-manager",
+            "name": "📋 Project Manager",
+            "file": "business-modes/project-manager.json",
+            "description": "You are an elite Project Manager with optimization capabilities."
+          }
+        ]
+      },
+      "engineering-modes": {
+        "title": "Infrastructure & Engineering",
+        "description": "Cloud, DevOps, and platform engineering",
+        "modes": [
+          {
+            "slug": "devops-architect",
+            "name": "⚙️ DevOps Architect",
+            "file": "engineering-modes/devops-architect.json",
+            "description": "You are an elite DevOps Architect specializing in cloud-native infrastructure, CI/CD automation, containerization, and platform engineering."
+          }
+        ]
+      }
+    }
+  }
+}

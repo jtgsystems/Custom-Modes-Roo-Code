@@ -1,0 +1,41 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-format
+        name: ruff-format
+        entry: ruff format
+        language: system
+        types_or: [python]
+        files: '\\.py$'
+        pass_filenames: true
+      - id: ruff-lint
+        name: ruff-lint
+        entry: ruff check --fix
+        language: system
+        types_or: [python]
+        files: '\\.py$'
+        pass_filenames: true
+      - id: prettier
+        name: prettier
+        entry: bash -lc 'if command -v prettier >/dev/null 2>&1; then prettier --write "$@"; elif [ -x ./node_modules/.bin/prettier ]; then ./node_modules/.bin/prettier --write "$@"; else echo "[pre-commit] prettier not installed, skipping"; fi'
+        language: system
+        files: '\\.(js|jsx|ts|tsx|json|md|ya?ml)$'
+        pass_filenames: true
+      - id: eslint
+        name: eslint
+        entry: bash -lc 'if command -v eslint >/dev/null 2>&1; then eslint --fix "$@" || true; elif [ -x ./node_modules/.bin/eslint ]; then ./node_modules/.bin/eslint --fix "$@" || true; else echo "[pre-commit] eslint not installed, skipping"; fi'
+        language: system
+        files: '\\.(js|jsx|ts|tsx)$'
+        pass_filenames: true
+      - id: shellcheck
+        name: shellcheck
+        entry: bash -lc 'if command -v shellcheck >/dev/null 2>&1; then shellcheck "$@" || true; else echo "[pre-commit] shellcheck not installed, skipping"; fi'
+        language: system
+        files: '\\.(sh|bash)$'
+        pass_filenames: true
+      - id: shfmt
+        name: shfmt
+        entry: bash -lc 'if command -v shfmt >/dev/null 2>&1; then shfmt -i 2 -ci -bn -w "$@"; else echo "[pre-commit] shfmt not installed, skipping"; fi'
+        language: system
+        files: '\\.(sh|bash)$'
+        pass_filenames: true

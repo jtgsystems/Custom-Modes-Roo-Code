@@ -1,4 +1,4 @@
-# SOURCE CREDIBILITY MATRIX TEMPLATE - ULTRON Research Protocol
+# SOURCE CREDIBILITY MATRIX TEMPLATE - Research Protocol
 
 ## PURPOSE
 Systematic assessment and tracking of source credibility across research providers.
