@@ -381,23 +381,23 @@ When using modes that handle sensitive data or operations:
 - **🛠️ Production-Ready**: All modes include complete frameworks and code examples
 
 ### 🌟 **What Makes Modes Elite**
-✅ **Deep Domain Expertise** - Years of professional experience encoded  
-✅ **2025 Technology Standards** - Latest tools and practices integrated  
-✅ **Production-Ready Solutions** - Immediately applicable frameworks  
-✅ **Comprehensive Documentation** - Clear instructions and examples  
-✅ **Cross-Functional Design** - Modes work seamlessly together  
-✅ **Ethical Implementation** - Responsible and inclusive practices  
+✅ **Deep Domain Expertise** - Years of professional experience encoded
+✅ **2025 Technology Standards** - Latest tools and practices integrated
+✅ **Production-Ready Solutions** - Immediately applicable frameworks
+✅ **Comprehensive Documentation** - Clear instructions and examples
+✅ **Cross-Functional Design** - Modes work seamlessly together
+✅ **Ethical Implementation** - Responsible and inclusive practices
 
 ### 🚀 **Getting Started Guide**
 1. **Browse Categories** - Review the 10 professional domain categories
-2. **Select Your Mode** - Choose based on your primary expertise needs  
+2. **Select Your Mode** - Choose based on your primary expertise needs
 3. **Copy & Configure** - Import JSON directly into Claude Code
 4. **Start Building** - Leverage elite-level capabilities immediately
 5. **Combine Modes** - Use multiple modes for complex, cross-functional projects
 
 ### 🎯 **Perfect For**
 - **Individual Contributors** seeking domain expertise enhancement
-- **Team Leaders** managing cross-functional initiatives  
+- **Team Leaders** managing cross-functional initiatives
 - **Consultants** requiring diverse professional capabilities
 - **Startups** needing comprehensive business and technical skills
 - **Enterprises** seeking standardized professional excellence
@@ -412,3 +412,4 @@ When using modes that handle sensitive data or operations:
 - **Collaboration**: Community-driven improvements and feedback
 
 **Note**: The Claude Code mode requires the complete Project workspace setup with all MCP tools properly configured. All other modes work with standard Claude Code installations.
+**Note**: The Claude Code ULTRON mode requires the complete ULTRON Project workspace setup with all MCP tools properly configured. Standard Roo Code modes will work with any Roo Code installation.
