@@ -1,23 +1,23 @@
-# 🚀 Roo Code Agents - Professional Collection
-*Meticulously organized 154-agent collection following 2025 standards*
+# 🚀 Roo Code Agents - Optimized Collection
+*Professionally organized 168-agent collection following 2025 standards*
 
 ## 📊 Collection Overview
 
-**Total Agents**: 154 (optimized from 207+ agents)
-**Categories**: 8 primary categories with logical subcategories
+**Total Agents**: 154 (optimized from 207)
+**Categories**: 8 primary categories with subcategories
 **Format**: YAML with 2025 compliance standards
-**Organization**: Eliminated duplicates, enhanced quality, professional structure
+**Organization**: Eliminated 39 duplicates, improved quality
 
 ## 🗂️ Category Structure
 
-### 🏗️ [Core Development](./agents/core-development/) (35 agents)
+### 🏗️ [Core Development](./core-development/)
 Essential development roles and architectural patterns
 - **Architecture** - System architects and technical designers
 - **Fullstack** - End-to-end development specialists
 - **Backend** - Server-side and API development
 - **Frontend** - UI/UX and client-side development
 
-### 👨‍💻 [Language Specialists](./agents/language-specialists/) (23 agents)
+### 👨‍💻 [Language Specialists](./language-specialists/)
 Programming language and framework experts
 - **Python** - Python 3.12+ development specialists
 - **JavaScript** - Modern JavaScript development
@@ -27,7 +27,7 @@ Programming language and framework experts
 - **Java** - Enterprise Java development
 - **C#** - .NET and C# specialists
 
-### 🛠️ [Infrastructure & DevOps](./agents/infrastructure-devops/) (14 agents)
+### 🛠️ [Infrastructure & DevOps](./infrastructure-devops/)
 Infrastructure, operations, and deployment specialists
 - **Cloud** - Cloud platform expertise
 - **Kubernetes** - Container orchestration
@@ -35,7 +35,7 @@ Infrastructure, operations, and deployment specialists
 - **Networking** - Network infrastructure
 - **Monitoring** - Observability and monitoring
 
-### 🤖 [AI & Machine Learning](./agents/ai-ml/) (11 agents)
+### 🤖 [AI & Machine Learning](./ai-ml/)
 Artificial intelligence and machine learning experts
 - **LLM** - Large language model specialists
 - **Computer Vision** - Image and video processing
@@ -43,21 +43,21 @@ Artificial intelligence and machine learning experts
 - **Data Science** - Statistical analysis and insights
 - **MLOps** - ML operations and deployment
 
-### 💼 [Business & Product](./agents/business-product/) (13 agents)
+### 💼 [Business & Product](./business-product/)
 Business analysis, product management, and strategy
 - **Product Management** - Product strategy and roadmaps
 - **Business Analysis** - Requirements and process analysis
 - **Marketing** - Marketing strategy and execution
 - **Sales** - Sales engineering and strategy
 
-### 🔒 [Security & Quality](./agents/security-quality/) (13 agents)
+### 🔒 [Security & Quality](./security-quality/)
 Security, compliance, and quality assurance
 - **Security Audit** - Security assessments and audits
 - **Testing** - Quality assurance and testing
 - **Compliance** - Regulatory compliance specialists
 - **Accessibility** - Accessibility and inclusive design
 
-### 🎯 [Specialized Domains](./agents/specialized-domains/) (17 agents)
+### 🎯 [Specialized Domains](./specialized-domains/)
 Industry-specific and domain experts
 - **FinTech** - Financial technology specialists
 - **Gaming** - Game development experts
@@ -65,7 +65,7 @@ Industry-specific and domain experts
 - **Blockchain** - Distributed systems and crypto
 - **SEO** - Search engine optimization
 
-### ⚙️ [Meta Orchestration](./agents/meta-orchestration/) (28 agents)
+### ⚙️ [Meta Orchestration](./meta-orchestration/)
 Agent coordination, workflow, and system management
 - **Orchestration** - Multi-agent coordination
 - **Coordination** - Workflow management
@@ -85,34 +85,21 @@ All agents follow modern 2025 best practices:
 
 ## 🚀 Quick Start
 
-### Using Individual Agents
-1. **Browse Categories**: Navigate to [agents/](./agents/) directory
-2. **Select Category**: Choose appropriate category directory
-3. **Select Subcategory**: Navigate to specific subcategory
-4. **Choose Agent**: Select appropriate YAML file for your use case
-5. **Import to Roo Code**: Copy configuration to your Roo Code setup
-6. **Customize**: Adapt for project-specific requirements
-
-### Using Master Collection
-1. **Use Master File**: Import `roo-modes.yaml` for all agents
-2. **All-in-One**: Access complete collection in single configuration
-3. **Switch Agents**: Use Roo Code interface to switch between agents
-4. **Multi-Agent**: Coordinate multiple agents for complex workflows
+1. **Browse Categories**: Navigate to category directories for organized access
+2. **Select Agent**: Choose appropriate YAML file for your use case
+3. **Import to Roo Code**: Copy configuration to your Roo Code setup
+4. **Customize**: Adapt for project-specific requirements
 
 ## 📈 Optimization Results
 
-**Before**: 207+ agents across 30+ scattered categories
-**After**: 154 agents in 8 organized categories with subcategories
-
-**Improvements**:
-- ✅ **25.6% Reduction**: Eliminated duplicates and low-quality agents
-- ✅ **73% Category Simplification**: Reduced from 30+ to 8 logical categories
-- ✅ **100% Standards Compliance**: All agents follow 2025 best practices
-- ✅ **Professional Organization**: Hierarchical structure with comprehensive navigation
-- ✅ **Quality Enhancement**: Enhanced instructions and modern compliance
-- ✅ **Format Standardization**: Consistent YAML format across all agents
+**Before**: 207 agents across 30+ scattered categories
+**After**: 168 agents in 8 organized categories with subcategories
+**Improvement**:
+- ✅ 18.8% reduction in agent count (eliminated duplicates)
+- ✅ 73% reduction in category complexity (30→8 categories)
+- ✅ 100% compliance with 2025 standards
+- ✅ Comprehensive navigation and documentation
 
 ---
 
-*Professional collection curated and optimized on 2025-09-20*
-*154 agents across 8 categories following 2025 standards*
+*Optimized collection generated on 2025-09-20 using advanced duplicate detection and quality analysis*

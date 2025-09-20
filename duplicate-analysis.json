@@ -1,0 +1,578 @@
+{
+  "total_agents": 207,
+  "duplicate_groups": 29,
+  "duplicates": [
+    {
+      "primary_slug": "blockchain-developer",
+      "primary_file": "/tmp/roo-modes/specialized-domains/blockchain-developer.json",
+      "primary_quality": 160,
+      "similar_agents": [
+        {
+          "slug": "blockchain-developer",
+          "file": "/tmp/roo-modes/advanced-development-modes/blockchain-developer.json",
+          "similarity": 0.8580000000000001,
+          "quality": 165
+        }
+      ],
+      "recommended": "blockchain-developer"
+    },
+    {
+      "primary_slug": "cybersecurity-expert",
+      "primary_file": "/tmp/roo-modes/special-modes/cybersecurity-expert.json",
+      "primary_quality": 95,
+      "similar_agents": [
+        {
+          "slug": "cybersecurity-expert",
+          "file": "/tmp/roo-modes/security-modes/cybersecurity-expert.json",
+          "similarity": 1.0,
+          "quality": 155
+        }
+      ],
+      "recommended": "cybersecurity-expert"
+    },
+    {
+      "primary_slug": "claude-code",
+      "primary_file": "/tmp/roo-modes/special-modes/claude-code.json",
+      "primary_quality": 90,
+      "similar_agents": [
+        {
+          "slug": "claude-code",
+          "file": "/tmp/roo-modes/development-modes/claude-code-ultron-mode.json",
+          "similarity": 1.0,
+          "quality": 150
+        },
+        {
+          "slug": "claude-code",
+          "file": "/tmp/roo-modes/development-modes/claude-code-ultron-ide.json",
+          "similarity": 0.8550000000000001,
+          "quality": 135
+        }
+      ],
+      "recommended": "claude-code"
+    },
+    {
+      "primary_slug": "data-engineer",
+      "primary_file": "/tmp/roo-modes/research-analysis/data-engineer.json",
+      "primary_quality": 150,
+      "similar_agents": [
+        {
+          "slug": "data-engineer",
+          "file": "/tmp/roo-modes/development-modes/cline_custom_modes.json",
+          "similarity": 0.76775,
+          "quality": 95
+        }
+      ],
+      "recommended": "data-engineer"
+    },
+    {
+      "primary_slug": "data-analyst",
+      "primary_file": "/tmp/roo-modes/research-analysis/data-analyst.json",
+      "primary_quality": 150,
+      "similar_agents": [
+        {
+          "slug": "data-analyst",
+          "file": "/tmp/roo-modes/development-modes/cline_custom_modes.json",
+          "similarity": 0.7701428571428571,
+          "quality": 95
+        }
+      ],
+      "recommended": "data-analyst"
+    },
+    {
+      "primary_slug": "intellectual-property",
+      "primary_file": "/tmp/roo-modes/legal-modes/intellectual-property.json",
+      "primary_quality": 155,
+      "similar_agents": [
+        {
+          "slug": "intellectual-property",
+          "file": "/tmp/roo-modes/legal-compliance/intellectual-property.json",
+          "similarity": 1.0,
+          "quality": 65
+        }
+      ],
+      "recommended": "intellectual-property"
+    },
+    {
+      "primary_slug": "employment-law",
+      "primary_file": "/tmp/roo-modes/legal-modes/employment-law.json",
+      "primary_quality": 155,
+      "similar_agents": [
+        {
+          "slug": "employment-law",
+          "file": "/tmp/roo-modes/legal-compliance/employment-law.json",
+          "similarity": 1.0,
+          "quality": 65
+        }
+      ],
+      "recommended": "employment-law"
+    },
+    {
+      "primary_slug": "criminal-law",
+      "primary_file": "/tmp/roo-modes/legal-modes/criminal-law.json",
+      "primary_quality": 155,
+      "similar_agents": [
+        {
+          "slug": "criminal-law",
+          "file": "/tmp/roo-modes/legal-compliance/criminal-law.json",
+          "similarity": 1.0,
+          "quality": 65
+        }
+      ],
+      "recommended": "criminal-law"
+    },
+    {
+      "primary_slug": "corporate-law",
+      "primary_file": "/tmp/roo-modes/legal-modes/corporate-law.json",
+      "primary_quality": 155,
+      "similar_agents": [
+        {
+          "slug": "corporate-law",
+          "file": "/tmp/roo-modes/legal-compliance/corporate-law.json",
+          "similarity": 1.0,
+          "quality": 65
+        }
+      ],
+      "recommended": "corporate-law"
+    },
+    {
+      "primary_slug": "compliance-specialist",
+      "primary_file": "/tmp/roo-modes/legal-modes/compliance-specialist.json",
+      "primary_quality": 155,
+      "similar_agents": [
+        {
+          "slug": "compliance-specialist",
+          "file": "/tmp/roo-modes/legal-compliance/compliance-specialist.json",
+          "similarity": 0.92,
+          "quality": 65
+        },
+        {
+          "slug": "compliance-specialist",
+          "file": "/tmp/roo-modes/development-modes/cline_custom_modes.json",
+          "similarity": 0.7913636363636364,
+          "quality": 80
+        }
+      ],
+      "recommended": "compliance-specialist"
+    },
+    {
+      "primary_slug": "rust-engineer",
+      "primary_file": "/tmp/roo-modes/language-specialists/rust-engineer.json",
+      "primary_quality": 160,
+      "similar_agents": [
+        {
+          "slug": "rust-developer",
+          "file": "/tmp/roo-modes/development-modes/rust-developer.json",
+          "similarity": 0.7304736842105263,
+          "quality": 155
+        }
+      ],
+      "recommended": "rust-engineer"
+    },
+    {
+      "primary_slug": "python-pro",
+      "primary_file": "/tmp/roo-modes/language-specialists/python-pro.json",
+      "primary_quality": 160,
+      "similar_agents": [
+        {
+          "slug": "python-developer",
+          "file": "/tmp/roo-modes/language-specialists/python-developer.json",
+          "similarity": 0.736,
+          "quality": 85
+        },
+        {
+          "slug": "python-developer",
+          "file": "/tmp/roo-modes/development-modes/python-developer.json",
+          "similarity": 0.736,
+          "quality": 165
+        }
+      ],
+      "recommended": "python-developer"
+    },
+    {
+      "primary_slug": "golang-pro",
+      "primary_file": "/tmp/roo-modes/language-specialists/golang-pro.json",
+      "primary_quality": 160,
+      "similar_agents": [
+        {
+          "slug": "golang-developer",
+          "file": "/tmp/roo-modes/development-modes/golang-developer.json",
+          "similarity": 0.7621818181818182,
+          "quality": 165
+        }
+      ],
+      "recommended": "golang-developer"
+    },
+    {
+      "primary_slug": "devops-engineer",
+      "primary_file": "/tmp/roo-modes/infrastructure-devops/devops-engineer.json",
+      "primary_quality": 160,
+      "similar_agents": [
+        {
+          "slug": "devops-engineer",
+          "file": "/tmp/roo-modes/development-modes/cline_custom_modes.json",
+          "similarity": 0.7548421052631579,
+          "quality": 85
+        }
+      ],
+      "recommended": "devops-engineer"
+    },
+    {
+      "primary_slug": "database-administrator",
+      "primary_file": "/tmp/roo-modes/infrastructure-devops/database-administrator.json",
+      "primary_quality": 160,
+      "similar_agents": [
+        {
+          "slug": "database-administrator",
+          "file": "/tmp/roo-modes/development-modes/cline_custom_modes.json",
+          "similarity": 0.7263333333333334,
+          "quality": 95
+        }
+      ],
+      "recommended": "database-administrator"
+    },
+    {
+      "primary_slug": "cloud-architect",
+      "primary_file": "/tmp/roo-modes/infrastructure-devops/cloud-architect.json",
+      "primary_quality": 160,
+      "similar_agents": [
+        {
+          "slug": "cloud-architect",
+          "file": "/tmp/roo-modes/advanced-development-modes/cloud-architect.json",
+          "similarity": 0.795,
+          "quality": 115
+        }
+      ],
+      "recommended": "cloud-architect"
+    },
+    {
+      "primary_slug": "web-design-specialist",
+      "primary_file": "/tmp/roo-modes/development-modes/web-design-specialist.json",
+      "primary_quality": 135,
+      "similar_agents": [
+        {
+          "slug": "web-design-specialist",
+          "file": "/tmp/roo-modes/development-modes/cline_custom_modes.json",
+          "similarity": 1.0,
+          "quality": 135
+        },
+        {
+          "slug": "web-design-specialist",
+          "file": "/tmp/roo-modes/development-core/web-design-specialist.json",
+          "similarity": 0.9783636363636363,
+          "quality": 75
+        }
+      ],
+      "recommended": "web-design-specialist"
+    },
+    {
+      "primary_slug": "ui-expert",
+      "primary_file": "/tmp/roo-modes/development-modes/ui-expert.json",
+      "primary_quality": 145,
+      "similar_agents": [
+        {
+          "slug": "ui-expert",
+          "file": "/tmp/roo-modes/development-modes/cline_custom_modes.json",
+          "similarity": 1.0,
+          "quality": 145
+        },
+        {
+          "slug": "ui-expert",
+          "file": "/tmp/roo-modes/development-core/ui-expert.json",
+          "similarity": 0.962,
+          "quality": 65
+        }
+      ],
+      "recommended": "ui-expert"
+    },
+    {
+      "primary_slug": "full-stack-developer",
+      "primary_file": "/tmp/roo-modes/development-modes/full-stack-developer.json",
+      "primary_quality": 165,
+      "similar_agents": [
+        {
+          "slug": "full-stack-developer",
+          "file": "/tmp/roo-modes/development-modes/cline_custom_modes.json",
+          "similarity": 0.897,
+          "quality": 90
+        },
+        {
+          "slug": "fullstack-developer",
+          "file": "/tmp/roo-modes/development-core/fullstack-developer.json",
+          "similarity": 0.7983415508740476,
+          "quality": 160
+        },
+        {
+          "slug": "full-stack-developer",
+          "file": "/tmp/roo-modes/development-core/full-stack-developer.json",
+          "similarity": 1.0,
+          "quality": 75
+        }
+      ],
+      "recommended": "full-stack-developer"
+    },
+    {
+      "primary_slug": "deep-research-protocol",
+      "primary_file": "/tmp/roo-modes/development-modes/deep-research-protocol.json",
+      "primary_quality": 135,
+      "similar_agents": [
+        {
+          "slug": "deep-research-protocol",
+          "file": "/tmp/roo-modes/development-modes/deep-research-protocol-enhanced.json",
+          "similarity": 0.992,
+          "quality": 155
+        }
+      ],
+      "recommended": "deep-research-protocol"
+    },
+    {
+      "primary_slug": "content-strategist",
+      "primary_file": "/tmp/roo-modes/development-modes/content-strategist.json",
+      "primary_quality": 155,
+      "similar_agents": [
+        {
+          "slug": "content-strategist",
+          "file": "/tmp/roo-modes/development-modes/cline_custom_modes.json",
+          "similarity": 0.8042105263157895,
+          "quality": 80
+        }
+      ],
+      "recommended": "content-strategist"
+    },
+    {
+      "primary_slug": "frontend-developer",
+      "primary_file": "/tmp/roo-modes/development-modes/cline_custom_modes.json",
+      "primary_quality": 115,
+      "similar_agents": [
+        {
+          "slug": "frontend-developer",
+          "file": "/tmp/roo-modes/development-core/frontend-developer.json",
+          "similarity": 0.7604545454545455,
+          "quality": 160
+        }
+      ],
+      "recommended": "frontend-developer"
+    },
+    {
+      "primary_slug": "product-manager",
+      "primary_file": "/tmp/roo-modes/development-modes/cline_custom_modes.json",
+      "primary_quality": 85,
+      "similar_agents": [
+        {
+          "slug": "product-manager",
+          "file": "/tmp/roo-modes/business-product/product-manager.json",
+          "similarity": 0.7458421052631579,
+          "quality": 150
+        },
+        {
+          "slug": "product-manager",
+          "file": "/tmp/roo-modes/business-modes/product-manager.json",
+          "similarity": 0.79325,
+          "quality": 165
+        }
+      ],
+      "recommended": "product-manager"
+    },
+    {
+      "primary_slug": "business-analyst",
+      "primary_file": "/tmp/roo-modes/development-modes/cline_custom_modes.json",
+      "primary_quality": 85,
+      "similar_agents": [
+        {
+          "slug": "business-analyst",
+          "file": "/tmp/roo-modes/business-product/business-analyst.json",
+          "similarity": 0.7856315789473683,
+          "quality": 150
+        },
+        {
+          "slug": "business-analyst",
+          "file": "/tmp/roo-modes/business-modes/business-analyst.json",
+          "similarity": 0.8300000000000001,
+          "quality": 165
+        }
+      ],
+      "recommended": "business-analyst"
+    },
+    {
+      "primary_slug": "marketing-strategist",
+      "primary_file": "/tmp/roo-modes/development-modes/cline_custom_modes.json",
+      "primary_quality": 85,
+      "similar_agents": [
+        {
+          "slug": "marketing-strategist",
+          "file": "/tmp/roo-modes/business-product/marketing-strategist.json",
+          "similarity": 0.809,
+          "quality": 75
+        },
+        {
+          "slug": "marketing-strategist",
+          "file": "/tmp/roo-modes/business-modes/marketing-strategist.json",
+          "similarity": 0.809,
+          "quality": 155
+        }
+      ],
+      "recommended": "marketing-strategist"
+    },
+    {
+      "primary_slug": "data-scientist",
+      "primary_file": "/tmp/roo-modes/data-modes/data-scientist.json",
+      "primary_quality": 155,
+      "similar_agents": [
+        {
+          "slug": "data-scientist",
+          "file": "/tmp/roo-modes/ai-ml-agents/data-scientist.json",
+          "similarity": 0.842027027027027,
+          "quality": 150
+        }
+      ],
+      "recommended": "data-scientist"
+    },
+    {
+      "primary_slug": "project-manager",
+      "primary_file": "/tmp/roo-modes/business-product/project-manager.json",
+      "primary_quality": 150,
+      "similar_agents": [
+        {
+          "slug": "project-manager",
+          "file": "/tmp/roo-modes/business-modes/project-manager.json",
+          "similarity": 0.7591463414634146,
+          "quality": 155
+        }
+      ],
+      "recommended": "project-manager"
+    },
+    {
+      "primary_slug": "nlp-specialist",
+      "primary_file": "/tmp/roo-modes/ai-modes/nlp-specialist.json",
+      "primary_quality": 145,
+      "similar_agents": [
+        {
+          "slug": "nlp-specialist",
+          "file": "/tmp/roo-modes/ai-ml-agents/nlp-specialist.json",
+          "similarity": 1.0,
+          "quality": 135
+        }
+      ],
+      "recommended": "nlp-specialist"
+    },
+    {
+      "primary_slug": "computer-vision",
+      "primary_file": "/tmp/roo-modes/ai-modes/computer-vision.json",
+      "primary_quality": 155,
+      "similar_agents": [
+        {
+          "slug": "computer-vision",
+          "file": "/tmp/roo-modes/ai-ml-agents/computer-vision.json",
+          "similarity": 1.0,
+          "quality": 135
+        }
+      ],
+      "recommended": "computer-vision"
+    }
+  ],
+  "category_counts": {
+    "specialized-domains": 1,
+    "special-modes": 1,
+    "seo-modes": 1,
+    "security-modes": 1,
+    "research-modes": 1,
+    "research-analysis": 1,
+    "quality-security": 1,
+    "meta-orchestration": 1,
+    "legal-modes": 1,
+    "legal-compliance": 1,
+    "language-specialists": 1,
+    "infrastructure-devops": 1,
+    "finance-modes": 1,
+    "engineering-modes": 1,
+    "development-modes": 1,
+    "development-core": 1,
+    "developer-experience": 1,
+    "data-modes": 1,
+    "creative-modes": 1,
+    "business-product": 1,
+    "business-modes": 1,
+    "ai-modes": 1,
+    "ai-ml-agents": 1,
+    "advanced-development-modes": 1
+  },
+  "proposed_taxonomy": {
+    "core-development": {
+      "description": "Essential development roles",
+      "subcategories": [
+        "architecture",
+        "fullstack",
+        "backend",
+        "frontend"
+      ]
+    },
+    "language-specialists": {
+      "description": "Programming language experts",
+      "subcategories": [
+        "python",
+        "javascript",
+        "typescript",
+        "golang",
+        "rust",
+        "java",
+        "csharp"
+      ]
+    },
+    "infrastructure-devops": {
+      "description": "Infrastructure and operations",
+      "subcategories": [
+        "cloud",
+        "kubernetes",
+        "docker",
+        "networking",
+        "monitoring"
+      ]
+    },
+    "ai-ml": {
+      "description": "AI and machine learning",
+      "subcategories": [
+        "llm",
+        "computer-vision",
+        "nlp",
+        "data-science",
+        "mlops"
+      ]
+    },
+    "business-product": {
+      "description": "Business and product management",
+      "subcategories": [
+        "product-management",
+        "business-analysis",
+        "marketing",
+        "sales"
+      ]
+    },
+    "security-quality": {
+      "description": "Security and quality assurance",
+      "subcategories": [
+        "security-audit",
+        "testing",
+        "compliance",
+        "accessibility"
+      ]
+    },
+    "specialized-domains": {
+      "description": "Domain-specific experts",
+      "subcategories": [
+        "fintech",
+        "gaming",
+        "iot",
+        "blockchain",
+        "legal"
+      ]
+    },
+    "meta-orchestration": {
+      "description": "Agent coordination and workflow",
+      "subcategories": [
+        "orchestration",
+        "coordination",
+        "workflow",
+        "monitoring"
+      ]
+    }
+  }
+}
