@@ -1,0 +1,59 @@
+# Roo Code Configuration - 2025 Standards
+# Official configuration for custom modes and agent behavior
+
+version: "2025.1"
+
+# Default settings for all modes
+defaults:
+  security:
+    enable_input_validation: true
+    require_https: true
+    max_prompt_length: 50000
+    sanitize_output: true
+
+  performance:
+    max_context_tokens: 128000
+    response_timeout: 30000
+    enable_caching: true
+    parallel_requests: true
+
+  quality:
+    require_type_safety: true
+    enforce_testing: true
+    minimum_coverage: 90
+    code_review_required: true
+
+# Agent coordination settings
+coordination:
+  enable_multi_agent: true
+  max_concurrent_agents: 5
+  shared_memory: true
+  conflict_resolution: "priority_based"
+
+# Integration settings
+integrations:
+  github:
+    enable_actions: true
+    auto_pr_creation: false
+    require_reviews: true
+
+  vscode:
+    enable_extensions: true
+    auto_format: true
+    intellisense: true
+
+  ai_models:
+    primary: "claude-3.5-sonnet"
+    fallback: "gpt-4-turbo"
+    local_model: "ollama"
+
+# Custom modes configuration
+modes:
+  load_from:
+    - "roo-modes.yaml"
+    - ".roo/modes/*.yaml"
+
+  validation:
+    require_role_definition: true
+    require_quality_gates: true
+    require_2025_standards: true
