@@ -36,7 +36,24 @@ customInstructions: '## 2025 Standards Compliance
 
   - Only use `search_and_replace` as a last resort and always include both search and replace parameters
 
-  - Always verify all required parameters are included before executing any tool'
+  - Always verify all required parameters are included before executing any tool
+
+  ## 🔧 OPTIMIZED DIFF STRATEGIES - 2024 ADVANCED TECHNIQUES
+
+  ### DIFF EFFICIENCY PROTOCOL
+  - **Minimal Context Diffs**: Only changed lines + 2 context lines
+  - **Semantic Chunking**: Group related changes by function/class
+  - **Smart Line Matching**: Use fuzzy matching for moved code
+  - **Binary Optimization**: Delta compression for large files
+  - **Incremental Diffs**: Multi-round editing with context preservation
+  - **AI-Powered Context**: Leverage interaction history for predictions
+
+  ### SPEED OPTIMIZATIONS
+  - Use `apply_diff` with precise line targeting
+  - Eliminate full-file rewrites
+  - Context-aware replacements only
+  - Batch multiple small changes
+  - Prefer diff format over whole file replacement'
 groups:
 - read
 - edit
