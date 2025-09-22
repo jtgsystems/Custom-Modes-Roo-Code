@@ -1,118 +1,20 @@
-# 🚀 Roo Code Agents - Professional Collection
-*Meticulously organized 154-agent collection following 2025 standards*
+# Roo Code Agents (Newest) + custom_modes.yaml
 
-## 📊 Collection Overview
+This repo is streamlined to include only:
+- agents/ — the newest curated Roo Code agents
+- agents/custom_modes.yaml — a consolidated modes file for quick import
 
-**Total Agents**: 154 (optimized from 207+ agents)
-**Categories**: 8 primary categories with logical subcategories
-**Format**: YAML with 2025 compliance standards
-**Organization**: Eliminated duplicates, enhanced quality, professional structure
+How to use
+- Global: copy relevant modes into your Roo Code global settings file `settings/custom_modes.yaml`.
+- Project: use a `.roomodes` file at your project root for project‑specific modes.
+- Validation: Roo Code validates against the official schema automatically. For extra safety, add this as the first line of your global file:
+  `# yaml-language-server: $schema=https://json.schemastore.org/roomodes.json`
 
-## 🗂️ Category Structure
+Marketplace submission (JTGSYSTEMS)
+- Prepared 5 large, unique modes suitable for the Roo Marketplace (see prior submission artifacts if needed).
+- Credit: JTGSYSTEMS.COM (author / authorUrl).
 
-### 🏗️ [Core Development](./agents/core-development/) (35 agents)
-Essential development roles and architectural patterns
-- **Architecture** - System architects and technical designers
-- **Fullstack** - End-to-end development specialists
-- **Backend** - Server-side and API development
-- **Frontend** - UI/UX and client-side development
+Notes
+- Removed legacy folders (agents-json, backup-original, indexes, combined files) to keep the repo clean and current.
+- Keep modes strictly compliant: required keys are `slug`, `name`, `roleDefinition`; optional `whenToUse`, `customInstructions`, `groups`.
 
-### 👨‍💻 [Language Specialists](./agents/language-specialists/) (23 agents)
-Programming language and framework experts
-- **Python** - Python 3.12+ development specialists
-- **JavaScript** - Modern JavaScript development
-- **TypeScript** - Type-safe application development
-- **Golang** - Go language specialists
-- **Rust** - Systems programming experts
-- **Java** - Enterprise Java development
-- **C#** - .NET and C# specialists
-
-### 🛠️ [Infrastructure & DevOps](./agents/infrastructure-devops/) (14 agents)
-Infrastructure, operations, and deployment specialists
-- **Cloud** - Cloud platform expertise
-- **Kubernetes** - Container orchestration
-- **Docker** - Containerization specialists
-- **Networking** - Network infrastructure
-- **Monitoring** - Observability and monitoring
-
-### 🤖 [AI & Machine Learning](./agents/ai-ml/) (11 agents)
-Artificial intelligence and machine learning experts
-- **LLM** - Large language model specialists
-- **Computer Vision** - Image and video processing
-- **NLP** - Natural language processing
-- **Data Science** - Statistical analysis and insights
-- **MLOps** - ML operations and deployment
-
-### 💼 [Business & Product](./agents/business-product/) (13 agents)
-Business analysis, product management, and strategy
-- **Product Management** - Product strategy and roadmaps
-- **Business Analysis** - Requirements and process analysis
-- **Marketing** - Marketing strategy and execution
-- **Sales** - Sales engineering and strategy
-
-### 🔒 [Security & Quality](./agents/security-quality/) (13 agents)
-Security, compliance, and quality assurance
-- **Security Audit** - Security assessments and audits
-- **Testing** - Quality assurance and testing
-- **Compliance** - Regulatory compliance specialists
-- **Accessibility** - Accessibility and inclusive design
-
-### 🎯 [Specialized Domains](./agents/specialized-domains/) (17 agents)
-Industry-specific and domain experts
-- **FinTech** - Financial technology specialists
-- **Gaming** - Game development experts
-- **IoT** - Internet of Things specialists
-- **Blockchain** - Distributed systems and crypto
-- **SEO** - Search engine optimization
-
-### ⚙️ [Meta Orchestration](./agents/meta-orchestration/) (28 agents)
-Agent coordination, workflow, and system management
-- **Orchestration** - Multi-agent coordination
-- **Coordination** - Workflow management
-- **Workflow** - Process automation
-- **Monitoring** - System monitoring and analytics
-
-## 🌟 2025 Standards Compliance
-
-All agents follow modern 2025 best practices:
-- **Security-First**: Zero-trust, OWASP compliance, encrypted secrets
-- **Performance**: Sub-200ms targets, Core Web Vitals optimization
-- **Type Safety**: TypeScript strict mode, comprehensive validation
-- **Testing**: >90% coverage with unit, integration, E2E tests
-- **AI Integration**: LLM capabilities, vector databases, modern ML
-- **Cloud-Native**: Kubernetes deployment, container-first architecture
-- **Modern Stack**: React 18+, Node 20+, Python 3.12+, latest frameworks
-
-## 🚀 Quick Start
-
-### Using Individual Agents
-1. **Browse Categories**: Navigate to [agents/](./agents/) directory
-2. **Select Category**: Choose appropriate category directory
-3. **Select Subcategory**: Navigate to specific subcategory
-4. **Choose Agent**: Select appropriate YAML file for your use case
-5. **Import to Roo Code**: Copy configuration to your Roo Code setup
-6. **Customize**: Adapt for project-specific requirements
-
-### Using Master Collection
-1. **Use Master File**: Import `roo-modes.yaml` for all agents
-2. **All-in-One**: Access complete collection in single configuration
-3. **Switch Agents**: Use Roo Code interface to switch between agents
-4. **Multi-Agent**: Coordinate multiple agents for complex workflows
-
-## 📈 Optimization Results
-
-**Before**: 207+ agents across 30+ scattered categories
-**After**: 154 agents in 8 organized categories with subcategories
-
-**Improvements**:
-- ✅ **25.6% Reduction**: Eliminated duplicates and low-quality agents
-- ✅ **73% Category Simplification**: Reduced from 30+ to 8 logical categories
-- ✅ **100% Standards Compliance**: All agents follow 2025 best practices
-- ✅ **Professional Organization**: Hierarchical structure with comprehensive navigation
-- ✅ **Quality Enhancement**: Enhanced instructions and modern compliance
-- ✅ **Format Standardization**: Consistent YAML format across all agents
-
----
-
-*Professional collection curated and optimized on 2025-09-20*
-*154 agents across 8 categories following 2025 standards*
