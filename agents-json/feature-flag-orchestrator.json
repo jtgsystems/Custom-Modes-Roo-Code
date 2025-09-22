@@ -11,7 +11,8 @@
         "browser",
         "command",
         "mcp"
-      ]
+      ],
+      "whenToUse": "Use when planning safe rollouts, adding kill‑switches, or cleaning up stale flags and debt."
     }
   ]
 }

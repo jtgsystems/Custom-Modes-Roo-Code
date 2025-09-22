@@ -11,7 +11,8 @@
         "browser",
         "command",
         "mcp"
-      ]
+      ],
+      "whenToUse": "Use when Core Web Vitals regress, bundle sizes bloat, or you need enforceable performance budgets in CI."
     }
   ]
 }

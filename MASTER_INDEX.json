@@ -3,62 +3,77 @@
   "generated": "2025-08-18T09:08:20.709Z",
   "categories": {
     "ai-ml-agents": {
-      "count": 11,
+      "count": 14,
       "agents": [
         {
           "slug": "ai-engineer",
-          "name": "\ud83e\udd16 AI Engineer Expert",
+          "name": "🤖 AI Engineer Expert",
           "file": "ai-ml-agents/ai-engineer.json"
         },
         {
+          "slug": "computer-vision",
+          "name": "👁️ Computer Vision Engineer",
+          "file": "ai-ml-agents/computer-vision.json"
+        },
+        {
           "slug": "data-scientist",
-          "name": "\ud83e\uddec Data Scientist Expert",
+          "name": "🧬 Data Scientist Expert",
           "file": "ai-ml-agents/data-scientist.json"
         },
         {
+          "slug": "dataset-curator",
+          "name": "🗂️ Dataset Curator & Label QA",
+          "file": "agents-json/dataset-curator.json"
+        },
+        {
           "slug": "llm-architect",
-          "name": "\ud83e\udde0 LLM Architect Elite",
+          "name": "🧠 LLM Architect Elite",
           "file": "ai-ml-agents/llm-architect.json"
         },
         {
           "slug": "machine-learning-engineer",
-          "name": "\ud83e\udd16 ML Engineer Expert",
+          "name": "🤖 ML Engineer Expert",
           "file": "ai-ml-agents/machine-learning-engineer.json"
         },
         {
           "slug": "ml-engineer",
-          "name": "\ud83e\uddee ML Engineer Pro",
+          "name": "🧮 ML Engineer Pro",
           "file": "ai-ml-agents/ml-engineer.json"
         },
         {
           "slug": "mlops-engineer",
-          "name": "\ud83d\udd04 MLOps Engineer Elite",
+          "name": "🔄 MLOps Engineer Elite",
           "file": "ai-ml-agents/mlops-engineer.json"
         },
         {
+          "slug": "model-registry-auditor",
+          "name": "📦 Model Registry & Provenance Auditor",
+          "file": "agents-json/model-registry-auditor.json"
+        },
+        {
           "slug": "nlp-engineer",
-          "name": "\ud83d\udcac NLP Engineer Expert",
+          "name": "💬 NLP Engineer Expert",
           "file": "ai-ml-agents/nlp-engineer.json"
         },
         {
+          "slug": "nlp-specialist",
+          "name": "🗣️ NLP Specialist",
+          "file": "ai-ml-agents/nlp-specialist.json"
+        },
+        {
           "slug": "postgres-pro",
-          "name": "\ud83d\udc18 PostgreSQL Expert",
+          "name": "🐘 PostgreSQL Expert",
           "file": "ai-ml-agents/postgres-pro.json"
         },
         {
           "slug": "prompt-engineer",
-          "name": "\u2728 Prompt Engineer Elite",
+          "name": "✨ Prompt Engineer Elite",
           "file": "ai-ml-agents/prompt-engineer.json"
         },
         {
-          "slug": "computer-vision",
-          "name": "\ud83d\udc41\ufe0f Computer Vision Engineer",
-          "file": "ai-ml-agents/computer-vision.json"
-        },
-        {
-          "slug": "nlp-specialist",
-          "name": "\ud83d\udde3\ufe0f NLP Specialist",
-          "file": "ai-ml-agents/nlp-specialist.json"
+          "slug": "rag-evaluator",
+          "name": "🧪 RAG/LLM Evaluator",
+          "file": "agents-json/rag-evaluator.json"
         }
       ]
     },
@@ -67,267 +82,292 @@
       "agents": [
         {
           "slug": "angular-architect",
-          "name": "\ud83c\udd70\ufe0f Angular Architect Elite",
+          "name": "🅰️ Angular Architect Elite",
           "file": "language-specialists/angular-architect.json"
         },
         {
           "slug": "cpp-pro",
-          "name": "\u26a1 C++ Systems Expert",
+          "name": "⚡ C++ Systems Expert",
           "file": "language-specialists/cpp-pro.json"
         },
         {
           "slug": "csharp-developer",
-          "name": "\ud83d\udd37 C# Developer Expert",
+          "name": "🔷 C# Developer Expert",
           "file": "language-specialists/csharp-developer.json"
         },
         {
           "slug": "django-developer",
-          "name": "\ud83d\udc0d Django Developer Pro",
+          "name": "🐍 Django Developer Pro",
           "file": "language-specialists/django-developer.json"
         },
         {
           "slug": "dotnet-core-expert",
-          "name": "\ud83d\udd35 NET Core Expert",
+          "name": "🔵 NET Core Expert",
           "file": "language-specialists/dotnet-core-expert.json"
         },
         {
           "slug": "flutter-expert",
-          "name": "\ud83e\udd8b Flutter Expert",
+          "name": "🦋 Flutter Expert",
           "file": "language-specialists/flutter-expert.json"
         },
         {
           "slug": "golang-pro",
-          "name": "\ud83d\udc39 Go Developer Expert",
+          "name": "🐹 Go Developer Expert",
           "file": "language-specialists/golang-pro.json"
         },
         {
           "slug": "java-architect",
-          "name": "\u2615 Java Architect Elite",
+          "name": "☕ Java Architect Elite",
           "file": "language-specialists/java-architect.json"
         },
         {
           "slug": "javascript-pro",
-          "name": "\ud83d\udfe8 JavaScript Expert",
+          "name": "🟨 JavaScript Expert",
           "file": "language-specialists/javascript-pro.json"
         },
         {
           "slug": "kotlin-specialist",
-          "name": "\ud83d\udfe3 Kotlin Specialist",
+          "name": "🟣 Kotlin Specialist",
           "file": "language-specialists/kotlin-specialist.json"
         },
         {
           "slug": "laravel-specialist",
-          "name": "\ud83d\udd34 Laravel Expert",
+          "name": "🔴 Laravel Expert",
           "file": "language-specialists/laravel-specialist.json"
         },
         {
           "slug": "nextjs-developer",
-          "name": "\u25b2 Next.js Developer Elite",
+          "name": "▲ Next.js Developer Elite",
           "file": "language-specialists/nextjs-developer.json"
         },
         {
           "slug": "php-pro",
-          "name": "\ud83d\udc18 PHP Expert",
+          "name": "🐘 PHP Expert",
           "file": "language-specialists/php-pro.json"
         },
         {
           "slug": "python-pro",
-          "name": "\ud83d\udc0d Python Expert Elite",
+          "name": "🐍 Python Expert Elite",
           "file": "language-specialists/python-pro.json"
         },
         {
           "slug": "rails-expert",
-          "name": "\ud83d\udc8e Rails Expert",
+          "name": "💎 Rails Expert",
           "file": "language-specialists/rails-expert.json"
         },
         {
           "slug": "react-specialist",
-          "name": "\u269b\ufe0f React Specialist Elite",
+          "name": "⚛️ React Specialist Elite",
           "file": "language-specialists/react-specialist.json"
         },
         {
           "slug": "rust-engineer",
-          "name": "\ud83e\udd80 Rust Engineer Expert",
+          "name": "🦀 Rust Engineer Expert",
           "file": "language-specialists/rust-engineer.json"
         },
         {
           "slug": "spring-boot-engineer",
-          "name": "\ud83c\udf31 Spring Boot Expert",
+          "name": "🌱 Spring Boot Expert",
           "file": "language-specialists/spring-boot-engineer.json"
         },
         {
           "slug": "sql-pro",
-          "name": "\ud83d\uddc4\ufe0f SQL Database Expert",
+          "name": "🗄️ SQL Database Expert",
           "file": "language-specialists/sql-pro.json"
         },
         {
           "slug": "swift-expert",
-          "name": "\ud83c\udf4e Swift Expert",
+          "name": "🍎 Swift Expert",
           "file": "language-specialists/swift-expert.json"
         },
         {
           "slug": "typescript-pro",
-          "name": "\ud83d\udc99 TypeScript Expert",
+          "name": "💙 TypeScript Expert",
           "file": "language-specialists/typescript-pro.json"
         },
         {
           "slug": "vue-expert",
-          "name": "\ud83d\udc9a Vue.js Expert",
+          "name": "💚 Vue.js Expert",
           "file": "language-specialists/vue-expert.json"
         },
         {
           "slug": "python-developer",
-          "name": "\ud83d\udc0d Python Developer",
+          "name": "🐍 Python Developer",
           "file": "language-specialists/python-developer.json"
         }
       ]
     },
     "infrastructure-devops": {
-      "count": 13,
+      "count": 15,
       "agents": [
         {
-          "slug": "devops",
-          "name": "\ud83d\ude80 DevOps",
-          "file": "infrastructure-devops/devops.json"
-        },
-        {
           "slug": "cloud-architect",
-          "name": "\u2601\ufe0f Cloud Architect Elite",
+          "name": "☁️ Cloud Architect Elite",
           "file": "infrastructure-devops/cloud-architect.json"
         },
         {
           "slug": "database-administrator",
-          "name": "\ud83d\uddc3\ufe0f Database Admin Expert",
+          "name": "🗃️ Database Admin Expert",
           "file": "infrastructure-devops/database-administrator.json"
         },
         {
           "slug": "deployment-engineer",
-          "name": "\ud83d\udea2 Deployment Engineer Pro",
+          "name": "🚢 Deployment Engineer Pro",
           "file": "infrastructure-devops/deployment-engineer.json"
         },
         {
+          "slug": "devops",
+          "name": "🚀 DevOps",
+          "file": "infrastructure-devops/devops.json"
+        },
+        {
           "slug": "devops-engineer",
-          "name": "\u267e\ufe0f DevOps Engineer Elite",
+          "name": "♾️ DevOps Engineer Elite",
           "file": "infrastructure-devops/devops-engineer.json"
         },
         {
           "slug": "devops-incident-responder",
-          "name": "\ud83d\udea8 DevOps Incident Expert",
+          "name": "🚨 DevOps Incident Expert",
           "file": "infrastructure-devops/devops-incident-responder.json"
         },
         {
+          "slug": "finops-optimizer",
+          "name": "💸 FinOps Cost Optimizer",
+          "file": "agents-json/finops-optimizer.json"
+        },
+        {
           "slug": "incident-responder",
-          "name": "\ud83c\udd98 Incident Response Expert",
+          "name": "🆘 Incident Response Expert",
           "file": "infrastructure-devops/incident-responder.json"
         },
         {
           "slug": "kubernetes-specialist",
-          "name": "\u2638\ufe0f Kubernetes Expert",
+          "name": "☸️ Kubernetes Expert",
           "file": "infrastructure-devops/kubernetes-specialist.json"
         },
         {
           "slug": "network-engineer",
-          "name": "\ud83c\udf10 Network Engineer Pro",
+          "name": "🌐 Network Engineer Pro",
           "file": "infrastructure-devops/network-engineer.json"
         },
         {
+          "slug": "observability-architect",
+          "name": "📊 Observability Architect",
+          "file": "agents-json/observability-architect.json"
+        },
+        {
           "slug": "platform-engineer",
-          "name": "\ud83c\udfaf Platform Engineer Elite",
+          "name": "🎯 Platform Engineer Elite",
           "file": "infrastructure-devops/platform-engineer.json"
         },
         {
           "slug": "security-engineer",
-          "name": "\ud83d\udd10 Security Engineer Expert",
+          "name": "🔐 Security Engineer Expert",
           "file": "infrastructure-devops/security-engineer.json"
         },
         {
           "slug": "sre-engineer",
-          "name": "\ud83d\udcca SRE Engineer Elite",
+          "name": "📊 SRE Engineer Elite",
           "file": "infrastructure-devops/sre-engineer.json"
         },
         {
           "slug": "terraform-engineer",
-          "name": "\ud83c\udfed Terraform Expert",
+          "name": "🏭 Terraform Expert",
           "file": "infrastructure-devops/terraform-engineer.json"
         }
       ]
     },
     "quality-security": {
-      "count": 15,
+      "count": 18,
       "agents": [
         {
-          "slug": "tdd",
-          "name": "\ud83e\uddea Tester (TDD)",
-          "file": "quality-security/tdd.json"
-        },
-        {
-          "slug": "debug",
-          "name": "\ud83e\udeb2 Debugger",
-          "file": "quality-security/debug.json"
-        },
-        {
-          "slug": "security-review",
-          "name": "\ud83d\udee1\ufe0f Security Reviewer",
-          "file": "quality-security/security-review.json"
-        },
-        {
           "slug": "accessibility-tester",
-          "name": "\u267f Accessibility Expert",
+          "name": "♿ Accessibility Expert",
           "file": "quality-security/accessibility-tester.json"
         },
         {
           "slug": "architect-reviewer",
-          "name": "\ud83d\udd0d Architecture Reviewer",
+          "name": "🔍 Architecture Reviewer",
           "file": "quality-security/architect-reviewer.json"
         },
         {
           "slug": "chaos-engineer",
-          "name": "\ud83c\udf2a\ufe0f Chaos Engineer Expert",
+          "name": "🌪️ Chaos Engineer Expert",
           "file": "quality-security/chaos-engineer.json"
         },
         {
           "slug": "code-reviewer",
-          "name": "\ud83d\udc41\ufe0f Code Review Expert",
+          "name": "👁️ Code Review Expert",
           "file": "quality-security/code-reviewer.json"
         },
         {
           "slug": "compliance-auditor",
-          "name": "\ud83d\udccb Compliance Auditor Pro",
+          "name": "📋 Compliance Auditor Pro",
           "file": "quality-security/compliance-auditor.json"
         },
         {
+          "slug": "debug",
+          "name": "🪲 Debugger",
+          "file": "quality-security/debug.json"
+        },
+        {
           "slug": "debugger",
-          "name": "\ud83d\udc1b Debugging Expert",
+          "name": "🐛 Debugging Expert",
           "file": "quality-security/debugger.json"
         },
         {
           "slug": "error-detective",
-          "name": "\ud83d\udd75\ufe0f Error Detective Elite",
+          "name": "🕵️ Error Detective Elite",
           "file": "quality-security/error-detective.json"
         },
         {
+          "slug": "oss-license-auditor",
+          "name": "📜 OSS License Compliance Auditor",
+          "file": "agents-json/oss-license-auditor.json"
+        },
+        {
           "slug": "penetration-tester",
-          "name": "\ud83d\udde1\ufe0f Penetration Tester Pro",
+          "name": "🗡️ Penetration Tester Pro",
           "file": "quality-security/penetration-tester.json"
         },
         {
           "slug": "performance-engineer",
-          "name": "\u26a1 Performance Engineer",
+          "name": "⚡ Performance Engineer",
           "file": "quality-security/performance-engineer.json"
         },
         {
+          "slug": "policy-as-code-auditor",
+          "name": "🛡️ Policy-as-Code Auditor",
+          "file": "agents-json/policy-as-code-auditor.json"
+        },
+        {
           "slug": "qa-expert",
-          "name": "\u2705 QA Expert Elite",
+          "name": "✅ QA Expert Elite",
           "file": "quality-security/qa-expert.json"
         },
         {
+          "slug": "secrets-hygiene-auditor",
+          "name": "🧼 Secrets Hygiene Auditor",
+          "file": "agents-json/secrets-hygiene-auditor.json"
+        },
+        {
           "slug": "security-auditor",
-          "name": "\ud83d\udee1\ufe0f Security Auditor Pro",
+          "name": "🛡️ Security Auditor Pro",
           "file": "quality-security/security-auditor.json"
         },
         {
+          "slug": "security-review",
+          "name": "🛡️ Security Reviewer",
+          "file": "quality-security/security-review.json"
+        },
+        {
+          "slug": "tdd",
+          "name": "🧪 Tester (TDD)",
+          "file": "quality-security/tdd.json"
+        },
+        {
           "slug": "test-automator",
-          "name": "\ud83e\udd16 Test Automation Expert",
+          "name": "🤖 Test Automation Expert",
           "file": "quality-security/test-automator.json"
         }
       ]
@@ -337,133 +377,138 @@
       "agents": [
         {
           "slug": "business-analyst",
-          "name": "\ud83d\udcbc Business Analyst Elite",
+          "name": "💼 Business Analyst Elite",
           "file": "business-product/business-analyst.json"
         },
         {
           "slug": "content-marketer",
-          "name": "\u270d\ufe0f Content Marketing Pro",
+          "name": "✍️ Content Marketing Pro",
           "file": "business-product/content-marketer.json"
         },
         {
           "slug": "customer-success-manager",
-          "name": "\ud83e\udd1d Customer Success Expert",
+          "name": "🤝 Customer Success Expert",
           "file": "business-product/customer-success-manager.json"
         },
         {
           "slug": "legal-advisor-canada",
-          "name": "\ud83c\udde8\ud83c\udde6 \u2696\ufe0f Legal Advisor Pro (Canada)",
+          "name": "🇨🇦 ⚖️ Legal Advisor Pro (Canada)",
           "file": "business-product/general/legal-advisor-canada.yaml"
         },
         {
           "slug": "legal-advisor-usa",
-          "name": "\ud83c\uddfa\ud83c\uddf8 \u2696\ufe0f Legal Advisor Pro (USA)",
+          "name": "🇺🇸 ⚖️ Legal Advisor Pro (USA)",
           "file": "business-product/general/legal-advisor-usa.yaml"
         },
         {
           "slug": "marketing-strategist",
-          "name": "\ud83d\udcc8 Marketing Strategist",
+          "name": "📈 Marketing Strategist",
           "file": "business-product/marketing-strategist.json"
         },
         {
           "slug": "product-manager",
-          "name": "\ud83d\udcf1 Product Manager Elite",
+          "name": "📱 Product Manager Elite",
           "file": "business-product/product-manager.json"
         },
         {
           "slug": "project-manager",
-          "name": "\ud83d\udcc5 Project Manager Expert",
+          "name": "📅 Project Manager Expert",
           "file": "business-product/project-manager.json"
         },
         {
           "slug": "sales-engineer",
-          "name": "\ud83d\udcb0 Sales Engineer Pro",
+          "name": "💰 Sales Engineer Pro",
           "file": "business-product/sales-engineer.json"
         },
         {
           "slug": "scrum-master",
-          "name": "\ud83c\udfc3 Scrum Master Elite",
+          "name": "🏃 Scrum Master Elite",
           "file": "business-product/scrum-master.json"
         },
         {
           "slug": "technical-writer",
-          "name": "\u270f\ufe0f Technical Writer Pro",
+          "name": "✏️ Technical Writer Pro",
           "file": "business-product/technical-writer.json"
         },
         {
           "slug": "ux-researcher",
-          "name": "\ud83d\udd2c UX Researcher Expert",
+          "name": "🔬 UX Researcher Expert",
           "file": "business-product/ux-researcher.json"
         }
       ]
     },
     "development-core": {
-      "count": 13,
+      "count": 14,
       "agents": [
         {
           "slug": "api-designer",
-          "name": "\ud83d\udd0c API Designer Expert",
+          "name": "🔌 API Designer Expert",
           "file": "development-core/api-designer.json"
         },
         {
+          "slug": "api-governance-lead",
+          "name": "🧭 API Governance Lead",
+          "file": "agents-json/api-governance-lead.json"
+        },
+        {
           "slug": "backend-developer",
-          "name": "\u2699\ufe0f Backend Developer Pro",
+          "name": "⚙️ Backend Developer Pro",
           "file": "development-core/backend-developer.json"
         },
         {
           "slug": "electron-pro",
-          "name": "\ud83d\udda5\ufe0f Electron Desktop Expert",
+          "name": "🖥️ Electron Desktop Expert",
           "file": "development-core/electron-pro.json"
         },
         {
           "slug": "frontend-developer",
-          "name": "\ud83c\udfa8 Frontend Developer Elite",
+          "name": "🎨 Frontend Developer Elite",
           "file": "development-core/frontend-developer.json"
         },
         {
+          "slug": "full-stack-developer",
+          "name": "⚡ Full Stack Developer",
+          "file": "development-core/full-stack-developer.json"
+        },
+        {
           "slug": "fullstack-developer",
-          "name": "\ud83d\ude80 Fullstack Developer Master",
+          "name": "🚀 Fullstack Developer Master",
           "file": "development-core/fullstack-developer.json"
         },
         {
           "slug": "graphql-architect",
-          "name": "\ud83d\udd78\ufe0f GraphQL Architect Expert",
+          "name": "🕸️ GraphQL Architect Expert",
           "file": "development-core/graphql-architect.json"
         },
         {
           "slug": "microservices-architect",
-          "name": "\ud83c\udfd7\ufe0f Microservices Architect",
+          "name": "🏗️ Microservices Architect",
           "file": "development-core/microservices-architect.json"
         },
         {
           "slug": "mobile-app-developer",
-          "name": "\ud83d\udcf2 Mobile App Expert",
+          "name": "📲 Mobile App Expert",
           "file": "development-core/mobile-app-developer.json"
         },
         {
           "slug": "mobile-developer",
-          "name": "\ud83d\udcf1 Mobile Developer Expert",
+          "name": "📱 Mobile Developer Expert",
           "file": "development-core/mobile-developer.json"
         },
         {
-          "slug": "websocket-engineer",
-          "name": "\ud83d\udd04 WebSocket Engineer Pro",
-          "file": "development-core/websocket-engineer.json"
-        },
-        {
-          "slug": "full-stack-developer",
-          "name": "\u26a1 Full Stack Developer",
-          "file": "development-core/full-stack-developer.json"
+          "slug": "ui-expert",
+          "name": "🎨 UI Expert",
+          "file": "development-core/ui-expert.json"
         },
         {
           "slug": "web-design-specialist",
-          "name": "\ud83c\udfa8 Web Design Specialist",
+          "name": "🎨 Web Design Specialist",
           "file": "development-core/web-design-specialist.json"
         },
         {
-          "slug": "ui-expert",
-          "name": "\ud83c\udfa8 UI Expert",
-          "file": "development-core/ui-expert.json"
+          "slug": "websocket-engineer",
+          "name": "🔄 WebSocket Engineer Pro",
+          "file": "development-core/websocket-engineer.json"
         }
       ]
     },
@@ -472,147 +517,162 @@
       "agents": [
         {
           "slug": "api-documenter",
-          "name": "\ud83d\udcd6 API Documentation Expert",
+          "name": "📖 API Documentation Expert",
           "file": "specialized-domains/api-documenter.json"
         },
         {
           "slug": "blockchain-developer",
-          "name": "\u26d3\ufe0f Blockchain Developer",
+          "name": "⛓️ Blockchain Developer",
           "file": "specialized-domains/blockchain-developer.json"
         },
         {
           "slug": "embedded-systems",
-          "name": "\ud83c\udf9b\ufe0f Embedded Systems Pro",
+          "name": "🎛️ Embedded Systems Pro",
           "file": "specialized-domains/embedded-systems.json"
         },
         {
           "slug": "fintech-engineer",
-          "name": "\ud83d\udcb0 Fintech Engineer Elite",
+          "name": "💰 Fintech Engineer Elite",
           "file": "specialized-domains/fintech-engineer.json"
         },
         {
           "slug": "game-developer",
-          "name": "\ud83c\udfae Game Developer Expert",
+          "name": "🎮 Game Developer Expert",
           "file": "specialized-domains/game-developer.json"
         },
         {
           "slug": "iot-engineer",
-          "name": "\ud83d\udce1 IoT Engineer Pro",
+          "name": "📡 IoT Engineer Pro",
           "file": "specialized-domains/iot-engineer.json"
         },
         {
           "slug": "payment-integration",
-          "name": "\ud83d\udcb3 Payment Integration Pro",
+          "name": "💳 Payment Integration Pro",
           "file": "specialized-domains/payment-integration.json"
         },
         {
           "slug": "quant-analyst",
-          "name": "\ud83d\udcca Quant Analyst Elite",
+          "name": "📊 Quant Analyst Elite",
           "file": "specialized-domains/quant-analyst.json"
         },
         {
           "slug": "risk-manager",
-          "name": "\u26a0\ufe0f Risk Manager Expert",
+          "name": "⚠️ Risk Manager Expert",
           "file": "specialized-domains/risk-manager.json"
         }
       ]
     },
     "developer-experience": {
-      "count": 10,
+      "count": 12,
       "agents": [
         {
-          "slug": "docs-writer",
-          "name": "\ud83d\udcda Documentation Writer",
-          "file": "developer-experience/docs-writer.json"
-        },
-        {
           "slug": "build-engineer",
-          "name": "\ud83c\udfd7\ufe0f Build Engineer Expert",
+          "name": "🏗️ Build Engineer Expert",
           "file": "developer-experience/build-engineer.json"
         },
         {
           "slug": "cli-developer",
-          "name": "\u2328\ufe0f CLI Developer Pro",
+          "name": "⌨️ CLI Developer Pro",
           "file": "developer-experience/cli-developer.json"
         },
         {
           "slug": "dependency-manager",
-          "name": "\ud83d\udce6 Dependency Manager",
+          "name": "📦 Dependency Manager",
           "file": "developer-experience/dependency-manager.json"
         },
         {
+          "slug": "docs-writer",
+          "name": "📚 Documentation Writer",
+          "file": "developer-experience/docs-writer.json"
+        },
+        {
           "slug": "documentation-engineer",
-          "name": "\ud83d\udcda Documentation Expert",
+          "name": "📚 Documentation Expert",
           "file": "developer-experience/documentation-engineer.json"
         },
         {
           "slug": "dx-optimizer",
-          "name": "\ud83d\ude80 DX Optimizer Elite",
+          "name": "🚀 DX Optimizer Elite",
           "file": "developer-experience/dx-optimizer.json"
         },
         {
+          "slug": "frontend-performance-auditor",
+          "name": "⚡ Frontend Performance Auditor",
+          "file": "agents-json/frontend-performance-auditor.json"
+        },
+        {
           "slug": "git-workflow-manager",
-          "name": "\ud83c\udf33 Git Workflow Expert",
+          "name": "🌳 Git Workflow Expert",
           "file": "developer-experience/git-workflow-manager.json"
         },
         {
+          "slug": "i18n-l10n-reviewer",
+          "name": "🌍 i18n/L10n Reviewer",
+          "file": "agents-json/i18n-l10n-reviewer.json"
+        },
+        {
           "slug": "legacy-modernizer",
-          "name": "\ud83d\udd04 Legacy Modernizer Pro",
+          "name": "🔄 Legacy Modernizer Pro",
           "file": "developer-experience/legacy-modernizer.json"
         },
         {
           "slug": "refactoring-specialist",
-          "name": "\u267b\ufe0f Refactoring Expert",
+          "name": "♻️ Refactoring Expert",
           "file": "developer-experience/refactoring-specialist.json"
         },
         {
           "slug": "tooling-engineer",
-          "name": "\ud83d\udee0\ufe0f Tooling Engineer Elite",
+          "name": "🛠️ Tooling Engineer Elite",
           "file": "developer-experience/tooling-engineer.json"
         }
       ]
     },
     "meta-orchestration": {
-      "count": 8,
+      "count": 9,
       "agents": [
         {
           "slug": "agent-organizer",
-          "name": "\ud83c\udfaf Agent Organizer Elite",
+          "name": "🎯 Agent Organizer Elite",
           "file": "meta-orchestration/agent-organizer.json"
         },
         {
           "slug": "context-manager",
-          "name": "\ud83e\udde9 Context Manager Pro",
+          "name": "🧩 Context Manager Pro",
           "file": "meta-orchestration/context-manager.json"
         },
         {
           "slug": "error-coordinator",
-          "name": "\ud83d\udea8 Error Coordinator",
+          "name": "🚨 Error Coordinator",
           "file": "meta-orchestration/error-coordinator.json"
         },
         {
+          "slug": "feature-flag-orchestrator",
+          "name": "🚩 Feature Flag Orchestrator",
+          "file": "agents-json/feature-flag-orchestrator.json"
+        },
+        {
           "slug": "knowledge-synthesizer",
-          "name": "\ud83e\udde0 Knowledge Synthesizer",
+          "name": "🧠 Knowledge Synthesizer",
           "file": "meta-orchestration/knowledge-synthesizer.json"
         },
         {
           "slug": "multi-agent-coordinator",
-          "name": "\ud83e\udd1d Multi-Agent Coordinator",
+          "name": "🤝 Multi-Agent Coordinator",
           "file": "meta-orchestration/multi-agent-coordinator.json"
         },
         {
           "slug": "performance-monitor",
-          "name": "\ud83d\udcca Performance Monitor Pro",
+          "name": "📊 Performance Monitor Pro",
           "file": "meta-orchestration/performance-monitor.json"
         },
         {
           "slug": "task-distributor",
-          "name": "\ud83d\udccb Task Distributor Elite",
+          "name": "📋 Task Distributor Elite",
           "file": "meta-orchestration/task-distributor.json"
         },
         {
           "slug": "workflow-orchestrator",
-          "name": "\ud83c\udfbc Workflow Orchestrator",
+          "name": "🎼 Workflow Orchestrator",
           "file": "meta-orchestration/workflow-orchestrator.json"
         }
       ]
@@ -622,47 +682,47 @@
       "agents": [
         {
           "slug": "competitive-analyst",
-          "name": "\ud83c\udfc6 Competitive Analyst Pro",
+          "name": "🏆 Competitive Analyst Pro",
           "file": "research-analysis/competitive-analyst.json"
         },
         {
           "slug": "data-analyst",
-          "name": "\ud83d\udcc8 Data Analyst Pro",
+          "name": "📈 Data Analyst Pro",
           "file": "research-analysis/data-analyst.json"
         },
         {
           "slug": "data-engineer",
-          "name": "\ud83d\udd27 Data Engineer Elite",
+          "name": "🔧 Data Engineer Elite",
           "file": "research-analysis/data-engineer.json"
         },
         {
           "slug": "data-researcher",
-          "name": "\ud83d\udd0d Data Researcher Elite",
+          "name": "🔍 Data Researcher Elite",
           "file": "research-analysis/data-researcher.json"
         },
         {
           "slug": "database-optimizer",
-          "name": "\u26a1 Database Optimizer Pro",
+          "name": "⚡ Database Optimizer Pro",
           "file": "research-analysis/database-optimizer.json"
         },
         {
           "slug": "market-researcher",
-          "name": "\ud83d\udcca Market Researcher Pro",
+          "name": "📊 Market Researcher Pro",
           "file": "research-analysis/market-researcher.json"
         },
         {
           "slug": "research-analyst",
-          "name": "\ud83d\udd2c Research Analyst Elite",
+          "name": "🔬 Research Analyst Elite",
           "file": "research-analysis/research-analyst.json"
         },
         {
           "slug": "search-specialist",
-          "name": "\ud83d\udd0e Search Specialist Pro",
+          "name": "🔎 Search Specialist Pro",
           "file": "research-analysis/search-specialist.json"
         },
         {
           "slug": "trend-analyst",
-          "name": "\ud83d\udcc8 Trend Analyst Expert",
+          "name": "📈 Trend Analyst Expert",
           "file": "research-analysis/trend-analyst.json"
         }
       ]
@@ -672,72 +732,72 @@
       "agents": [
         {
           "slug": "compliance-auditor-canada",
-          "name": "\ud83c\udde8\ud83c\udde6 \ud83d\udccb Compliance Auditor Pro (Canada)",
+          "name": "🇨🇦 📋 Compliance Auditor Pro (Canada)",
           "file": "legal-compliance/compliance-auditor-canada.yaml"
         },
         {
           "slug": "compliance-auditor-usa",
-          "name": "\ud83c\uddfa\ud83c\uddf8 \ud83d\udccb Compliance Auditor Pro (USA)",
+          "name": "🇺🇸 📋 Compliance Auditor Pro (USA)",
           "file": "legal-compliance/compliance-auditor-usa.yaml"
         },
         {
           "slug": "compliance-specialist-canada",
-          "name": "\ud83c\udde8\ud83c\udde6 \u2696\ufe0f Compliance Specialist (Canada)",
+          "name": "🇨🇦 ⚖️ Compliance Specialist (Canada)",
           "file": "legal-compliance/compliance-specialist-canada.yaml"
         },
         {
           "slug": "compliance-specialist-usa",
-          "name": "\ud83c\uddfa\ud83c\uddf8 \u2696\ufe0f Compliance Specialist (USA)",
+          "name": "🇺🇸 ⚖️ Compliance Specialist (USA)",
           "file": "legal-compliance/compliance-specialist-usa.yaml"
         },
         {
           "slug": "corporate-law-canada",
-          "name": "\ud83c\udde8\ud83c\udde6 \ud83c\udfe2 Corporate Law Specialist (Canada)",
+          "name": "🇨🇦 🏢 Corporate Law Specialist (Canada)",
           "file": "legal-compliance/corporate-law-canada.yaml"
         },
         {
           "slug": "corporate-law-usa",
-          "name": "\ud83c\uddfa\ud83c\uddf8 \ud83c\udfe2 Corporate Law Specialist (USA)",
+          "name": "🇺🇸 🏢 Corporate Law Specialist (USA)",
           "file": "legal-compliance/corporate-law-usa.yaml"
         },
         {
           "slug": "criminal-law-canada",
-          "name": "\ud83c\udde8\ud83c\udde6 \u2696\ufe0f Criminal Law Specialist (Canada)",
+          "name": "🇨🇦 ⚖️ Criminal Law Specialist (Canada)",
           "file": "legal-compliance/criminal-law-canada.yaml"
         },
         {
           "slug": "criminal-law-usa",
-          "name": "\ud83c\uddfa\ud83c\uddf8 \u2696\ufe0f Criminal Law Specialist (USA)",
+          "name": "🇺🇸 ⚖️ Criminal Law Specialist (USA)",
           "file": "legal-compliance/criminal-law-usa.yaml"
         },
         {
           "slug": "employment-law-canada",
-          "name": "\ud83c\udde8\ud83c\udde6 \ud83d\udc54 Employment Law Specialist (Canada)",
+          "name": "🇨🇦 👔 Employment Law Specialist (Canada)",
           "file": "legal-compliance/employment-law-canada.yaml"
         },
         {
           "slug": "employment-law-usa",
-          "name": "\ud83c\uddfa\ud83c\uddf8 \ud83d\udc54 Employment Law Specialist (USA)",
+          "name": "🇺🇸 👔 Employment Law Specialist (USA)",
           "file": "legal-compliance/employment-law-usa.yaml"
         },
         {
           "slug": "intellectual-property-canada",
-          "name": "\ud83c\udde8\ud83c\udde6 \u26a1 Intellectual Property Specialist (Canada)",
+          "name": "🇨🇦 ⚡ Intellectual Property Specialist (Canada)",
           "file": "legal-compliance/intellectual-property-canada.yaml"
         },
         {
           "slug": "intellectual-property-usa",
-          "name": "\ud83c\uddfa\ud83c\uddf8 \u26a1 Intellectual Property Specialist (USA)",
+          "name": "🇺🇸 ⚡ Intellectual Property Specialist (USA)",
           "file": "legal-compliance/intellectual-property-usa.yaml"
         },
         {
           "slug": "litigation-support-canada",
-          "name": "\ud83c\udde8\ud83c\udde6 \u2696\ufe0f Litigation Support Specialist (Canada)",
+          "name": "🇨🇦 ⚖️ Litigation Support Specialist (Canada)",
           "file": "legal-compliance/litigation-support-canada.yaml"
         },
         {
           "slug": "litigation-support-usa",
-          "name": "\ud83c\uddfa\ud83c\uddf8 \u2696\ufe0f Litigation Support Specialist (USA)",
+          "name": "🇺🇸 ⚖️ Litigation Support Specialist (USA)",
           "file": "legal-compliance/litigation-support-usa.yaml"
         }
       ]
@@ -747,67 +807,67 @@
       "agents": [
         {
           "slug": "architect",
-          "name": "\ud83c\udfd7\ufe0f Architect",
+          "name": "🏗️ Architect",
           "file": "special-modes/architect.json"
         },
         {
           "slug": "code",
-          "name": "\ud83e\udde0 Auto-Coder",
+          "name": "🧠 Auto-Coder",
           "file": "special-modes/code.json"
         },
         {
           "slug": "integration",
-          "name": "\ud83d\udd17 System Integrator",
+          "name": "🔗 System Integrator",
           "file": "special-modes/integration.json"
         },
         {
           "slug": "post-deployment-monitoring-mode",
-          "name": "\ud83d\udcc8 Deployment Monitor",
+          "name": "📈 Deployment Monitor",
           "file": "special-modes/post-deployment-monitoring-mode.json"
         },
         {
           "slug": "refinement-optimization-mode",
-          "name": "\ud83e\uddf9 Optimizer",
+          "name": "🧹 Optimizer",
           "file": "special-modes/refinement-optimization-mode.json"
         },
         {
           "slug": "ask",
-          "name": "\u2753Ask",
+          "name": "❓Ask",
           "file": "special-modes/ask.json"
         },
         {
           "slug": "tutorial",
-          "name": "\ud83d\udcd8 SPARC Tutorial",
+          "name": "📘 SPARC Tutorial",
           "file": "special-modes/tutorial.json"
         },
         {
           "slug": "supabase-admin",
-          "name": "\ud83d\udd10 Supabase Admin",
+          "name": "🔐 Supabase Admin",
           "file": "special-modes/supabase-admin.json"
         },
         {
           "slug": "spec-pseudocode",
-          "name": "\ud83d\udccb Specification Writer",
+          "name": "📋 Specification Writer",
           "file": "special-modes/spec-pseudocode.json"
         },
         {
           "slug": "mcp",
-          "name": "\u267e\ufe0f MCP Integration",
+          "name": "♾️ MCP Integration",
           "file": "special-modes/mcp.json"
         },
         {
           "slug": "sparc",
-          "name": "\u26a1\ufe0f SPARC Orchestrator",
+          "name": "⚡️ SPARC Orchestrator",
           "file": "special-modes/sparc.json"
         },
         {
           "slug": "claude-code",
-          "name": "\u26a1 Claude Code",
+          "name": "⚡ Claude Code",
           "file": "special-modes/claude-code.json"
         },
         {
           "slug": "cybersecurity-expert",
-          "name": "\ud83d\udd12 Cybersecurity Expert",
+          "name": "🔒 Cybersecurity Expert",
           "file": "special-modes/cybersecurity-expert.json"
         }
       ]

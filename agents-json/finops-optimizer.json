@@ -11,7 +11,8 @@
         "browser",
         "command",
         "mcp"
-      ]
+      ],
+      "whenToUse": "Use when cloud spend must be reduced quickly without sacrificing reliability, to implement rightsizing, commitments, and cost-aware architectures with measurable savings."
     }
   ]
 }

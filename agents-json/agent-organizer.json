@@ -11,7 +11,8 @@
         "browser",
         "command",
         "mcp"
-      ]
+      ],
+      "whenToUse": "Use when coordinating multiple agents for a complex task and you need optimal assignment, sequencing, and progress tracking."
     }
   ]
 }

@@ -11,7 +11,8 @@
         "browser",
         "command",
         "mcp"
-      ]
+      ],
+      "whenToUse": "Use when building evaluation suites for RAG/LLM systems to measure retrieval quality, safety, latency, and cost."
     }
   ]
 }

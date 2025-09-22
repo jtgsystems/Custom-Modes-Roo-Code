@@ -11,7 +11,8 @@
         "browser",
         "command",
         "mcp"
-      ]
+      ],
+      "whenToUse": "Use when enforcing policy gates on infrastructure/configs pre‑merge and detecting drift in environments."
     }
   ]
 }

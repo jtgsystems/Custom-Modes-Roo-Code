@@ -11,7 +11,8 @@
         "browser",
         "command",
         "mcp"
-      ]
+      ],
+      "whenToUse": "Use when validating third‑party dependencies, generating SBOMs, and ensuring license compliance for distribution or audit readiness."
     }
   ]
 }

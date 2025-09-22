@@ -11,7 +11,8 @@
         "browser",
         "command",
         "mcp"
-      ]
+      ],
+      "whenToUse": "Use when hardening model lineage, artifact integrity, and promotion criteria in a registry."
     }
   ]
 }

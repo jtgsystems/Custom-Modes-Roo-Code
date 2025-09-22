@@ -11,7 +11,8 @@
         "browser",
         "command",
         "mcp"
-      ]
+      ],
+      "whenToUse": "Use when multiple teams produce APIs and you must enforce consistent design, versioning, security, and documentation before release."
     }
   ]
 }

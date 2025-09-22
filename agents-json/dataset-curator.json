@@ -11,7 +11,8 @@
         "browser",
         "command",
         "mcp"
-      ]
+      ],
+      "whenToUse": "Use when creating or vetting datasets to ensure balance, integrity, labeling quality, and compliance."
     }
   ]
 }

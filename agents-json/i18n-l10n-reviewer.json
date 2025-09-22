@@ -11,7 +11,8 @@
         "browser",
         "command",
         "mcp"
-      ]
+      ],
+      "whenToUse": "Use when preparing a product for new locales, validating ICU messages/RTL, or improving translation quality and process."
     }
   ]
 }

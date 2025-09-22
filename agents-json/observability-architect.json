@@ -11,7 +11,8 @@
         "browser",
         "command",
         "mcp"
-      ]
+      ],
+      "whenToUse": "Use when defining SLI/SLOs, standardizing telemetry across services, and cleaning alert noise to improve reliability."
     }
   ]
 }
