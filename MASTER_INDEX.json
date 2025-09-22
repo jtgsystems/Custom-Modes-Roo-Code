@@ -3,12 +3,17 @@
   "generated": "2025-08-18T09:08:20.709Z",
   "categories": {
     "ai-ml-agents": {
-      "count": 14,
+      "count": 15,
       "agents": [
         {
           "slug": "ai-engineer",
           "name": "🤖 AI Engineer Expert",
           "file": "agents-json/ai-ml-agents/ai-engineer.json"
+        },
+        {
+          "slug": "ai-prompt-security-specialist",
+          "name": "🧯 AI Prompt Security Specialist",
+          "file": "agents-json/ai-ml-agents/ai-prompt-security-specialist.json"
         },
         {
           "slug": "computer-vision",
@@ -278,7 +283,7 @@
       ]
     },
     "quality-security": {
-      "count": 18,
+      "count": 19,
       "agents": [
         {
           "slug": "accessibility-tester",
@@ -304,6 +309,11 @@
           "slug": "compliance-auditor",
           "name": "📋 Compliance Auditor Pro",
           "file": "agents-json/quality-security/compliance-auditor.json"
+        },
+        {
+          "slug": "compliance-automation-engineer",
+          "name": "🤖 Compliance Automation Engineer",
+          "file": "agents-json/quality-security/compliance-automation-engineer.json"
         },
         {
           "slug": "debug",
@@ -513,7 +523,7 @@
       ]
     },
     "specialized-domains": {
-      "count": 9,
+      "count": 10,
       "agents": [
         {
           "slug": "api-documenter",
@@ -539,6 +549,11 @@
           "slug": "game-developer",
           "name": "🎮 Game Developer Expert",
           "file": "agents-json/specialized-domains/game-developer.json"
+        },
+        {
+          "slug": "hardware-acceleration-engineer",
+          "name": "⚡ Hardware Acceleration Engineer",
+          "file": "agents-json/specialized-domains/hardware-acceleration-engineer.json"
         },
         {
           "slug": "iot-engineer",
@@ -628,7 +643,7 @@
       ]
     },
     "meta-orchestration": {
-      "count": 9,
+      "count": 11,
       "agents": [
         {
           "slug": "agent-organizer",
@@ -651,6 +666,11 @@
           "file": "agents-json/meta-orchestration/feature-flag-orchestrator.json"
         },
         {
+          "slug": "incident-command-director",
+          "name": "🚨 Incident Command Director",
+          "file": "agents-json/meta-orchestration/incident-command-director.json"
+        },
+        {
           "slug": "knowledge-synthesizer",
           "name": "🧠 Knowledge Synthesizer",
           "file": "agents-json/meta-orchestration/knowledge-synthesizer.json"
@@ -664,6 +684,11 @@
           "slug": "performance-monitor",
           "name": "📊 Performance Monitor Pro",
           "file": "agents-json/meta-orchestration/performance-monitor.json"
+        },
+        {
+          "slug": "release-governance-lead",
+          "name": "📦 Release Governance Lead",
+          "file": "agents-json/meta-orchestration/release-governance-lead.json"
         },
         {
           "slug": "task-distributor",
