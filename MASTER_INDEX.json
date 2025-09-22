@@ -8,72 +8,72 @@
         {
           "slug": "ai-engineer",
           "name": "🤖 AI Engineer Expert",
-          "file": "ai-ml-agents/ai-engineer.json"
+          "file": "agents-json/ai-ml-agents/ai-engineer.json"
         },
         {
           "slug": "computer-vision",
           "name": "👁️ Computer Vision Engineer",
-          "file": "ai-ml-agents/computer-vision.json"
+          "file": "agents-json/ai-ml-agents/computer-vision.json"
         },
         {
           "slug": "data-scientist",
           "name": "🧬 Data Scientist Expert",
-          "file": "ai-ml-agents/data-scientist.json"
+          "file": "agents-json/ai-ml-agents/data-scientist.json"
         },
         {
           "slug": "dataset-curator",
           "name": "🗂️ Dataset Curator & Label QA",
-          "file": "agents-json/dataset-curator.json"
+          "file": "agents-json/ai-ml-agents/dataset-curator.json"
         },
         {
           "slug": "llm-architect",
           "name": "🧠 LLM Architect Elite",
-          "file": "ai-ml-agents/llm-architect.json"
+          "file": "agents-json/ai-ml-agents/llm-architect.json"
         },
         {
           "slug": "machine-learning-engineer",
           "name": "🤖 ML Engineer Expert",
-          "file": "ai-ml-agents/machine-learning-engineer.json"
+          "file": "agents-json/ai-ml-agents/machine-learning-engineer.json"
         },
         {
           "slug": "ml-engineer",
           "name": "🧮 ML Engineer Pro",
-          "file": "ai-ml-agents/ml-engineer.json"
+          "file": "agents-json/ai-ml-agents/ml-engineer.json"
         },
         {
           "slug": "mlops-engineer",
           "name": "🔄 MLOps Engineer Elite",
-          "file": "ai-ml-agents/mlops-engineer.json"
+          "file": "agents-json/ai-ml-agents/mlops-engineer.json"
         },
         {
           "slug": "model-registry-auditor",
           "name": "📦 Model Registry & Provenance Auditor",
-          "file": "agents-json/model-registry-auditor.json"
+          "file": "agents-json/ai-ml-agents/model-registry-auditor.json"
         },
         {
           "slug": "nlp-engineer",
           "name": "💬 NLP Engineer Expert",
-          "file": "ai-ml-agents/nlp-engineer.json"
+          "file": "agents-json/ai-ml-agents/nlp-engineer.json"
         },
         {
           "slug": "nlp-specialist",
           "name": "🗣️ NLP Specialist",
-          "file": "ai-ml-agents/nlp-specialist.json"
+          "file": "agents-json/ai-ml-agents/nlp-specialist.json"
         },
         {
           "slug": "postgres-pro",
           "name": "🐘 PostgreSQL Expert",
-          "file": "ai-ml-agents/postgres-pro.json"
+          "file": "agents-json/ai-ml-agents/postgres-pro.json"
         },
         {
           "slug": "prompt-engineer",
           "name": "✨ Prompt Engineer Elite",
-          "file": "ai-ml-agents/prompt-engineer.json"
+          "file": "agents-json/ai-ml-agents/prompt-engineer.json"
         },
         {
           "slug": "rag-evaluator",
           "name": "🧪 RAG/LLM Evaluator",
-          "file": "agents-json/rag-evaluator.json"
+          "file": "agents-json/ai-ml-agents/rag-evaluator.json"
         }
       ]
     },
@@ -83,117 +83,117 @@
         {
           "slug": "angular-architect",
           "name": "🅰️ Angular Architect Elite",
-          "file": "language-specialists/angular-architect.json"
+          "file": "agents-json/language-specialists/angular-architect.json"
         },
         {
           "slug": "cpp-pro",
           "name": "⚡ C++ Systems Expert",
-          "file": "language-specialists/cpp-pro.json"
+          "file": "agents-json/language-specialists/cpp-pro.json"
         },
         {
           "slug": "csharp-developer",
           "name": "🔷 C# Developer Expert",
-          "file": "language-specialists/csharp-developer.json"
+          "file": "agents-json/language-specialists/csharp-developer.json"
         },
         {
           "slug": "django-developer",
           "name": "🐍 Django Developer Pro",
-          "file": "language-specialists/django-developer.json"
+          "file": "agents-json/language-specialists/django-developer.json"
         },
         {
           "slug": "dotnet-core-expert",
           "name": "🔵 NET Core Expert",
-          "file": "language-specialists/dotnet-core-expert.json"
+          "file": "agents-json/language-specialists/dotnet-core-expert.json"
         },
         {
           "slug": "flutter-expert",
           "name": "🦋 Flutter Expert",
-          "file": "language-specialists/flutter-expert.json"
+          "file": "agents-json/language-specialists/flutter-expert.json"
         },
         {
           "slug": "golang-pro",
           "name": "🐹 Go Developer Expert",
-          "file": "language-specialists/golang-pro.json"
+          "file": "agents-json/language-specialists/golang-pro.json"
         },
         {
           "slug": "java-architect",
           "name": "☕ Java Architect Elite",
-          "file": "language-specialists/java-architect.json"
+          "file": "agents-json/language-specialists/java-architect.json"
         },
         {
           "slug": "javascript-pro",
           "name": "🟨 JavaScript Expert",
-          "file": "language-specialists/javascript-pro.json"
+          "file": "agents-json/language-specialists/javascript-pro.json"
         },
         {
           "slug": "kotlin-specialist",
           "name": "🟣 Kotlin Specialist",
-          "file": "language-specialists/kotlin-specialist.json"
+          "file": "agents-json/language-specialists/kotlin-specialist.json"
         },
         {
           "slug": "laravel-specialist",
           "name": "🔴 Laravel Expert",
-          "file": "language-specialists/laravel-specialist.json"
+          "file": "agents-json/language-specialists/laravel-specialist.json"
         },
         {
           "slug": "nextjs-developer",
           "name": "▲ Next.js Developer Elite",
-          "file": "language-specialists/nextjs-developer.json"
+          "file": "agents-json/language-specialists/nextjs-developer.json"
         },
         {
           "slug": "php-pro",
           "name": "🐘 PHP Expert",
-          "file": "language-specialists/php-pro.json"
-        },
-        {
-          "slug": "python-pro",
-          "name": "🐍 Python Expert Elite",
-          "file": "language-specialists/python-pro.json"
-        },
-        {
-          "slug": "rails-expert",
-          "name": "💎 Rails Expert",
-          "file": "language-specialists/rails-expert.json"
-        },
-        {
-          "slug": "react-specialist",
-          "name": "⚛️ React Specialist Elite",
-          "file": "language-specialists/react-specialist.json"
-        },
-        {
-          "slug": "rust-engineer",
-          "name": "🦀 Rust Engineer Expert",
-          "file": "language-specialists/rust-engineer.json"
-        },
-        {
-          "slug": "spring-boot-engineer",
-          "name": "🌱 Spring Boot Expert",
-          "file": "language-specialists/spring-boot-engineer.json"
-        },
-        {
-          "slug": "sql-pro",
-          "name": "🗄️ SQL Database Expert",
-          "file": "language-specialists/sql-pro.json"
-        },
-        {
-          "slug": "swift-expert",
-          "name": "🍎 Swift Expert",
-          "file": "language-specialists/swift-expert.json"
-        },
-        {
-          "slug": "typescript-pro",
-          "name": "💙 TypeScript Expert",
-          "file": "language-specialists/typescript-pro.json"
-        },
-        {
-          "slug": "vue-expert",
-          "name": "💚 Vue.js Expert",
-          "file": "language-specialists/vue-expert.json"
+          "file": "agents-json/language-specialists/php-pro.json"
         },
         {
           "slug": "python-developer",
           "name": "🐍 Python Developer",
-          "file": "language-specialists/python-developer.json"
+          "file": "agents-json/language-specialists/python-developer.json"
+        },
+        {
+          "slug": "python-pro",
+          "name": "🐍 Python Expert Elite",
+          "file": "agents-json/language-specialists/python-pro.json"
+        },
+        {
+          "slug": "rails-expert",
+          "name": "💎 Rails Expert",
+          "file": "agents-json/language-specialists/rails-expert.json"
+        },
+        {
+          "slug": "react-specialist",
+          "name": "⚛️ React Specialist Elite",
+          "file": "agents-json/language-specialists/react-specialist.json"
+        },
+        {
+          "slug": "rust-engineer",
+          "name": "🦀 Rust Engineer Expert",
+          "file": "agents-json/language-specialists/rust-engineer.json"
+        },
+        {
+          "slug": "spring-boot-engineer",
+          "name": "🌱 Spring Boot Expert",
+          "file": "agents-json/language-specialists/spring-boot-engineer.json"
+        },
+        {
+          "slug": "sql-pro",
+          "name": "🗄️ SQL Database Expert",
+          "file": "agents-json/language-specialists/sql-pro.json"
+        },
+        {
+          "slug": "swift-expert",
+          "name": "🍎 Swift Expert",
+          "file": "agents-json/language-specialists/swift-expert.json"
+        },
+        {
+          "slug": "typescript-pro",
+          "name": "💙 TypeScript Expert",
+          "file": "agents-json/language-specialists/typescript-pro.json"
+        },
+        {
+          "slug": "vue-expert",
+          "name": "💚 Vue.js Expert",
+          "file": "agents-json/language-specialists/vue-expert.json"
         }
       ]
     },
@@ -203,77 +203,77 @@
         {
           "slug": "cloud-architect",
           "name": "☁️ Cloud Architect Elite",
-          "file": "infrastructure-devops/cloud-architect.json"
+          "file": "agents-json/infrastructure-devops/cloud-architect.json"
         },
         {
           "slug": "database-administrator",
           "name": "🗃️ Database Admin Expert",
-          "file": "infrastructure-devops/database-administrator.json"
+          "file": "agents-json/infrastructure-devops/database-administrator.json"
         },
         {
           "slug": "deployment-engineer",
           "name": "🚢 Deployment Engineer Pro",
-          "file": "infrastructure-devops/deployment-engineer.json"
+          "file": "agents-json/infrastructure-devops/deployment-engineer.json"
         },
         {
           "slug": "devops",
           "name": "🚀 DevOps",
-          "file": "infrastructure-devops/devops.json"
+          "file": "agents-json/infrastructure-devops/devops.json"
         },
         {
           "slug": "devops-engineer",
           "name": "♾️ DevOps Engineer Elite",
-          "file": "infrastructure-devops/devops-engineer.json"
+          "file": "agents-json/infrastructure-devops/devops-engineer.json"
         },
         {
           "slug": "devops-incident-responder",
           "name": "🚨 DevOps Incident Expert",
-          "file": "infrastructure-devops/devops-incident-responder.json"
+          "file": "agents-json/infrastructure-devops/devops-incident-responder.json"
         },
         {
           "slug": "finops-optimizer",
           "name": "💸 FinOps Cost Optimizer",
-          "file": "agents-json/finops-optimizer.json"
+          "file": "agents-json/infrastructure-devops/finops-optimizer.json"
         },
         {
           "slug": "incident-responder",
           "name": "🆘 Incident Response Expert",
-          "file": "infrastructure-devops/incident-responder.json"
+          "file": "agents-json/infrastructure-devops/incident-responder.json"
         },
         {
           "slug": "kubernetes-specialist",
           "name": "☸️ Kubernetes Expert",
-          "file": "infrastructure-devops/kubernetes-specialist.json"
+          "file": "agents-json/infrastructure-devops/kubernetes-specialist.json"
         },
         {
           "slug": "network-engineer",
           "name": "🌐 Network Engineer Pro",
-          "file": "infrastructure-devops/network-engineer.json"
+          "file": "agents-json/infrastructure-devops/network-engineer.json"
         },
         {
           "slug": "observability-architect",
           "name": "📊 Observability Architect",
-          "file": "agents-json/observability-architect.json"
+          "file": "agents-json/infrastructure-devops/observability-architect.json"
         },
         {
           "slug": "platform-engineer",
           "name": "🎯 Platform Engineer Elite",
-          "file": "infrastructure-devops/platform-engineer.json"
+          "file": "agents-json/infrastructure-devops/platform-engineer.json"
         },
         {
           "slug": "security-engineer",
           "name": "🔐 Security Engineer Expert",
-          "file": "infrastructure-devops/security-engineer.json"
+          "file": "agents-json/infrastructure-devops/security-engineer.json"
         },
         {
           "slug": "sre-engineer",
           "name": "📊 SRE Engineer Elite",
-          "file": "infrastructure-devops/sre-engineer.json"
+          "file": "agents-json/infrastructure-devops/sre-engineer.json"
         },
         {
           "slug": "terraform-engineer",
           "name": "🏭 Terraform Expert",
-          "file": "infrastructure-devops/terraform-engineer.json"
+          "file": "agents-json/infrastructure-devops/terraform-engineer.json"
         }
       ]
     },
@@ -283,92 +283,92 @@
         {
           "slug": "accessibility-tester",
           "name": "♿ Accessibility Expert",
-          "file": "quality-security/accessibility-tester.json"
+          "file": "agents-json/quality-security/accessibility-tester.json"
         },
         {
           "slug": "architect-reviewer",
           "name": "🔍 Architecture Reviewer",
-          "file": "quality-security/architect-reviewer.json"
+          "file": "agents-json/quality-security/architect-reviewer.json"
         },
         {
           "slug": "chaos-engineer",
           "name": "🌪️ Chaos Engineer Expert",
-          "file": "quality-security/chaos-engineer.json"
+          "file": "agents-json/quality-security/chaos-engineer.json"
         },
         {
           "slug": "code-reviewer",
           "name": "👁️ Code Review Expert",
-          "file": "quality-security/code-reviewer.json"
+          "file": "agents-json/quality-security/code-reviewer.json"
         },
         {
           "slug": "compliance-auditor",
           "name": "📋 Compliance Auditor Pro",
-          "file": "quality-security/compliance-auditor.json"
+          "file": "agents-json/quality-security/compliance-auditor.json"
         },
         {
           "slug": "debug",
           "name": "🪲 Debugger",
-          "file": "quality-security/debug.json"
+          "file": "agents-json/quality-security/debug.json"
         },
         {
           "slug": "debugger",
           "name": "🐛 Debugging Expert",
-          "file": "quality-security/debugger.json"
+          "file": "agents-json/quality-security/debugger.json"
         },
         {
           "slug": "error-detective",
           "name": "🕵️ Error Detective Elite",
-          "file": "quality-security/error-detective.json"
+          "file": "agents-json/quality-security/error-detective.json"
         },
         {
           "slug": "oss-license-auditor",
           "name": "📜 OSS License Compliance Auditor",
-          "file": "agents-json/oss-license-auditor.json"
+          "file": "agents-json/quality-security/oss-license-auditor.json"
         },
         {
           "slug": "penetration-tester",
           "name": "🗡️ Penetration Tester Pro",
-          "file": "quality-security/penetration-tester.json"
+          "file": "agents-json/quality-security/penetration-tester.json"
         },
         {
           "slug": "performance-engineer",
           "name": "⚡ Performance Engineer",
-          "file": "quality-security/performance-engineer.json"
+          "file": "agents-json/quality-security/performance-engineer.json"
         },
         {
           "slug": "policy-as-code-auditor",
           "name": "🛡️ Policy-as-Code Auditor",
-          "file": "agents-json/policy-as-code-auditor.json"
+          "file": "agents-json/quality-security/policy-as-code-auditor.json"
         },
         {
           "slug": "qa-expert",
           "name": "✅ QA Expert Elite",
-          "file": "quality-security/qa-expert.json"
+          "file": "agents-json/quality-security/qa-expert.json"
         },
         {
           "slug": "secrets-hygiene-auditor",
           "name": "🧼 Secrets Hygiene Auditor",
-          "file": "agents-json/secrets-hygiene-auditor.json"
+          "file": "agents-json/quality-security/secrets-hygiene-auditor.json"
         },
         {
           "slug": "security-auditor",
           "name": "🛡️ Security Auditor Pro",
-          "file": "quality-security/security-auditor.json"
+          "file": "agents-json/quality-security/security-auditor.json"
         },
         {
           "slug": "security-review",
           "name": "🛡️ Security Reviewer",
-          "file": "quality-security/security-review.json"
+          "file": "agents-json/quality-security/security-review.json"
         },
         {
           "slug": "tdd",
           "name": "🧪 Tester (TDD)",
-          "file": "quality-security/tdd.json"
+          "file": "agents-json/quality-security/tdd.json"
         },
         {
           "slug": "test-automator",
           "name": "🤖 Test Automation Expert",
-          "file": "quality-security/test-automator.json"
+          "file": "agents-json/quality-security/test-automator.json"
         }
       ]
     },
@@ -378,62 +378,62 @@
         {
           "slug": "business-analyst",
           "name": "💼 Business Analyst Elite",
-          "file": "business-product/business-analyst.json"
+          "file": "agents-json/business-product/business-analyst.json"
         },
         {
           "slug": "content-marketer",
           "name": "✍️ Content Marketing Pro",
-          "file": "business-product/content-marketer.json"
+          "file": "agents-json/business-product/content-marketer.json"
         },
         {
           "slug": "customer-success-manager",
           "name": "🤝 Customer Success Expert",
-          "file": "business-product/customer-success-manager.json"
+          "file": "agents-json/business-product/customer-success-manager.json"
         },
         {
           "slug": "legal-advisor-canada",
           "name": "🇨🇦 ⚖️ Legal Advisor Pro (Canada)",
-          "file": "business-product/general/legal-advisor-canada.yaml"
+          "file": "agents-json/business-product/legal-advisor-canada.json"
         },
         {
           "slug": "legal-advisor-usa",
           "name": "🇺🇸 ⚖️ Legal Advisor Pro (USA)",
-          "file": "business-product/general/legal-advisor-usa.yaml"
+          "file": "agents-json/business-product/legal-advisor-usa.json"
         },
         {
           "slug": "marketing-strategist",
           "name": "📈 Marketing Strategist",
-          "file": "business-product/marketing-strategist.json"
+          "file": "agents-json/business-product/marketing-strategist.json"
         },
         {
           "slug": "product-manager",
           "name": "📱 Product Manager Elite",
-          "file": "business-product/product-manager.json"
+          "file": "agents-json/business-product/product-manager.json"
         },
         {
           "slug": "project-manager",
           "name": "📅 Project Manager Expert",
-          "file": "business-product/project-manager.json"
+          "file": "agents-json/business-product/project-manager.json"
         },
         {
           "slug": "sales-engineer",
           "name": "💰 Sales Engineer Pro",
-          "file": "business-product/sales-engineer.json"
+          "file": "agents-json/business-product/sales-engineer.json"
         },
         {
           "slug": "scrum-master",
           "name": "🏃 Scrum Master Elite",
-          "file": "business-product/scrum-master.json"
+          "file": "agents-json/business-product/scrum-master.json"
         },
         {
           "slug": "technical-writer",
           "name": "✏️ Technical Writer Pro",
-          "file": "business-product/technical-writer.json"
+          "file": "agents-json/business-product/technical-writer.json"
         },
         {
           "slug": "ux-researcher",
           "name": "🔬 UX Researcher Expert",
-          "file": "business-product/ux-researcher.json"
+          "file": "agents-json/business-product/ux-researcher.json"
         }
       ]
     },
@@ -443,72 +443,72 @@
         {
           "slug": "api-designer",
           "name": "🔌 API Designer Expert",
-          "file": "development-core/api-designer.json"
+          "file": "agents-json/development-core/api-designer.json"
         },
         {
           "slug": "api-governance-lead",
           "name": "🧭 API Governance Lead",
-          "file": "agents-json/api-governance-lead.json"
+          "file": "agents-json/development-core/api-governance-lead.json"
         },
         {
           "slug": "backend-developer",
           "name": "⚙️ Backend Developer Pro",
-          "file": "development-core/backend-developer.json"
+          "file": "agents-json/development-core/backend-developer.json"
         },
         {
           "slug": "electron-pro",
           "name": "🖥️ Electron Desktop Expert",
-          "file": "development-core/electron-pro.json"
+          "file": "agents-json/development-core/electron-pro.json"
         },
         {
           "slug": "frontend-developer",
           "name": "🎨 Frontend Developer Elite",
-          "file": "development-core/frontend-developer.json"
+          "file": "agents-json/development-core/frontend-developer.json"
         },
         {
           "slug": "full-stack-developer",
           "name": "⚡ Full Stack Developer",
-          "file": "development-core/full-stack-developer.json"
+          "file": "agents-json/development-core/full-stack-developer.json"
         },
         {
           "slug": "fullstack-developer",
           "name": "🚀 Fullstack Developer Master",
-          "file": "development-core/fullstack-developer.json"
+          "file": "agents-json/development-core/fullstack-developer.json"
         },
         {
           "slug": "graphql-architect",
           "name": "🕸️ GraphQL Architect Expert",
-          "file": "development-core/graphql-architect.json"
+          "file": "agents-json/development-core/graphql-architect.json"
         },
         {
           "slug": "microservices-architect",
           "name": "🏗️ Microservices Architect",
-          "file": "development-core/microservices-architect.json"
+          "file": "agents-json/development-core/microservices-architect.json"
         },
         {
           "slug": "mobile-app-developer",
           "name": "📲 Mobile App Expert",
-          "file": "development-core/mobile-app-developer.json"
+          "file": "agents-json/development-core/mobile-app-developer.json"
         },
         {
           "slug": "mobile-developer",
           "name": "📱 Mobile Developer Expert",
-          "file": "development-core/mobile-developer.json"
+          "file": "agents-json/development-core/mobile-developer.json"
         },
         {
           "slug": "ui-expert",
           "name": "🎨 UI Expert",
-          "file": "development-core/ui-expert.json"
+          "file": "agents-json/development-core/ui-expert.json"
         },
         {
           "slug": "web-design-specialist",
           "name": "🎨 Web Design Specialist",
-          "file": "development-core/web-design-specialist.json"
+          "file": "agents-json/development-core/web-design-specialist.json"
         },
         {
           "slug": "websocket-engineer",
           "name": "🔄 WebSocket Engineer Pro",
-          "file": "development-core/websocket-engineer.json"
+          "file": "agents-json/development-core/websocket-engineer.json"
         }
       ]
     },
@@ -518,47 +518,47 @@
         {
           "slug": "api-documenter",
           "name": "📖 API Documentation Expert",
-          "file": "specialized-domains/api-documenter.json"
+          "file": "agents-json/specialized-domains/api-documenter.json"
         },
         {
           "slug": "blockchain-developer",
           "name": "⛓️ Blockchain Developer",
-          "file": "specialized-domains/blockchain-developer.json"
+          "file": "agents-json/specialized-domains/blockchain-developer.json"
         },
         {
           "slug": "embedded-systems",
           "name": "🎛️ Embedded Systems Pro",
-          "file": "specialized-domains/embedded-systems.json"
+          "file": "agents-json/specialized-domains/embedded-systems.json"
         },
         {
           "slug": "fintech-engineer",
           "name": "💰 Fintech Engineer Elite",
-          "file": "specialized-domains/fintech-engineer.json"
+          "file": "agents-json/specialized-domains/fintech-engineer.json"
         },
         {
           "slug": "game-developer",
           "name": "🎮 Game Developer Expert",
-          "file": "specialized-domains/game-developer.json"
+          "file": "agents-json/specialized-domains/game-developer.json"
         },
         {
           "slug": "iot-engineer",
           "name": "📡 IoT Engineer Pro",
-          "file": "specialized-domains/iot-engineer.json"
+          "file": "agents-json/specialized-domains/iot-engineer.json"
         },
         {
           "slug": "payment-integration",
           "name": "💳 Payment Integration Pro",
-          "file": "specialized-domains/payment-integration.json"
+          "file": "agents-json/specialized-domains/payment-integration.json"
         },
         {
           "slug": "quant-analyst",
           "name": "📊 Quant Analyst Elite",
-          "file": "specialized-domains/quant-analyst.json"
+          "file": "agents-json/specialized-domains/quant-analyst.json"
         },
         {
           "slug": "risk-manager",
           "name": "⚠️ Risk Manager Expert",
-          "file": "specialized-domains/risk-manager.json"
+          "file": "agents-json/specialized-domains/risk-manager.json"
         }
       ]
     },
@@ -568,62 +568,62 @@
         {
           "slug": "build-engineer",
           "name": "🏗️ Build Engineer Expert",
-          "file": "developer-experience/build-engineer.json"
+          "file": "agents-json/developer-experience/build-engineer.json"
         },
         {
           "slug": "cli-developer",
           "name": "⌨️ CLI Developer Pro",
-          "file": "developer-experience/cli-developer.json"
+          "file": "agents-json/developer-experience/cli-developer.json"
         },
         {
           "slug": "dependency-manager",
           "name": "📦 Dependency Manager",
-          "file": "developer-experience/dependency-manager.json"
+          "file": "agents-json/developer-experience/dependency-manager.json"
         },
         {
           "slug": "docs-writer",
           "name": "📚 Documentation Writer",
-          "file": "developer-experience/docs-writer.json"
+          "file": "agents-json/developer-experience/docs-writer.json"
         },
         {
           "slug": "documentation-engineer",
           "name": "📚 Documentation Expert",
-          "file": "developer-experience/documentation-engineer.json"
+          "file": "agents-json/developer-experience/documentation-engineer.json"
         },
         {
           "slug": "dx-optimizer",
           "name": "🚀 DX Optimizer Elite",
-          "file": "developer-experience/dx-optimizer.json"
+          "file": "agents-json/developer-experience/dx-optimizer.json"
         },
         {
           "slug": "frontend-performance-auditor",
           "name": "⚡ Frontend Performance Auditor",
-          "file": "agents-json/frontend-performance-auditor.json"
+          "file": "agents-json/developer-experience/frontend-performance-auditor.json"
         },
         {
           "slug": "git-workflow-manager",
           "name": "🌳 Git Workflow Expert",
-          "file": "developer-experience/git-workflow-manager.json"
+          "file": "agents-json/developer-experience/git-workflow-manager.json"
         },
         {
           "slug": "i18n-l10n-reviewer",
           "name": "🌍 i18n/L10n Reviewer",
-          "file": "agents-json/i18n-l10n-reviewer.json"
+          "file": "agents-json/developer-experience/i18n-l10n-reviewer.json"
         },
         {
           "slug": "legacy-modernizer",
           "name": "🔄 Legacy Modernizer Pro",
-          "file": "developer-experience/legacy-modernizer.json"
+          "file": "agents-json/developer-experience/legacy-modernizer.json"
         },
         {
           "slug": "refactoring-specialist",
           "name": "♻️ Refactoring Expert",
-          "file": "developer-experience/refactoring-specialist.json"
+          "file": "agents-json/developer-experience/refactoring-specialist.json"
         },
         {
           "slug": "tooling-engineer",
           "name": "🛠️ Tooling Engineer Elite",
-          "file": "developer-experience/tooling-engineer.json"
+          "file": "agents-json/developer-experience/tooling-engineer.json"
         }
       ]
     },
@@ -633,47 +633,47 @@
         {
           "slug": "agent-organizer",
           "name": "🎯 Agent Organizer Elite",
-          "file": "meta-orchestration/agent-organizer.json"
+          "file": "agents-json/meta-orchestration/agent-organizer.json"
         },
         {
           "slug": "context-manager",
           "name": "🧩 Context Manager Pro",
-          "file": "meta-orchestration/context-manager.json"
+          "file": "agents-json/meta-orchestration/context-manager.json"
         },
         {
           "slug": "error-coordinator",
           "name": "🚨 Error Coordinator",
-          "file": "meta-orchestration/error-coordinator.json"
+          "file": "agents-json/meta-orchestration/error-coordinator.json"
         },
         {
           "slug": "feature-flag-orchestrator",
           "name": "🚩 Feature Flag Orchestrator",
-          "file": "agents-json/feature-flag-orchestrator.json"
+          "file": "agents-json/meta-orchestration/feature-flag-orchestrator.json"
         },
         {
           "slug": "knowledge-synthesizer",
           "name": "🧠 Knowledge Synthesizer",
-          "file": "meta-orchestration/knowledge-synthesizer.json"
+          "file": "agents-json/meta-orchestration/knowledge-synthesizer.json"
         },
         {
           "slug": "multi-agent-coordinator",
           "name": "🤝 Multi-Agent Coordinator",
-          "file": "meta-orchestration/multi-agent-coordinator.json"
+          "file": "agents-json/meta-orchestration/multi-agent-coordinator.json"
         },
         {
           "slug": "performance-monitor",
           "name": "📊 Performance Monitor Pro",
-          "file": "meta-orchestration/performance-monitor.json"
+          "file": "agents-json/meta-orchestration/performance-monitor.json"
         },
         {
           "slug": "task-distributor",
           "name": "📋 Task Distributor Elite",
-          "file": "meta-orchestration/task-distributor.json"
+          "file": "agents-json/meta-orchestration/task-distributor.json"
         },
         {
           "slug": "workflow-orchestrator",
           "name": "🎼 Workflow Orchestrator",
-          "file": "meta-orchestration/workflow-orchestrator.json"
+          "file": "agents-json/meta-orchestration/workflow-orchestrator.json"
         }
       ]
     },
@@ -683,47 +683,47 @@
         {
           "slug": "competitive-analyst",
           "name": "🏆 Competitive Analyst Pro",
-          "file": "research-analysis/competitive-analyst.json"
+          "file": "agents-json/research-analysis/competitive-analyst.json"
         },
         {
           "slug": "data-analyst",
           "name": "📈 Data Analyst Pro",
-          "file": "research-analysis/data-analyst.json"
+          "file": "agents-json/research-analysis/data-analyst.json"
         },
         {
           "slug": "data-engineer",
           "name": "🔧 Data Engineer Elite",
-          "file": "research-analysis/data-engineer.json"
+          "file": "agents-json/research-analysis/data-engineer.json"
         },
         {
           "slug": "data-researcher",
           "name": "🔍 Data Researcher Elite",
-          "file": "research-analysis/data-researcher.json"
+          "file": "agents-json/research-analysis/data-researcher.json"
         },
         {
           "slug": "database-optimizer",
           "name": "⚡ Database Optimizer Pro",
-          "file": "research-analysis/database-optimizer.json"
+          "file": "agents-json/research-analysis/database-optimizer.json"
         },
         {
           "slug": "market-researcher",
           "name": "📊 Market Researcher Pro",
-          "file": "research-analysis/market-researcher.json"
+          "file": "agents-json/research-analysis/market-researcher.json"
         },
         {
           "slug": "research-analyst",
           "name": "🔬 Research Analyst Elite",
-          "file": "research-analysis/research-analyst.json"
+          "file": "agents-json/research-analysis/research-analyst.json"
         },
         {
           "slug": "search-specialist",
           "name": "🔎 Search Specialist Pro",
-          "file": "research-analysis/search-specialist.json"
+          "file": "agents-json/research-analysis/search-specialist.json"
         },
         {
           "slug": "trend-analyst",
           "name": "📈 Trend Analyst Expert",
-          "file": "research-analysis/trend-analyst.json"
+          "file": "agents-json/research-analysis/trend-analyst.json"
         }
       ]
     },
@@ -733,72 +733,72 @@
         {
           "slug": "compliance-auditor-canada",
           "name": "🇨🇦 📋 Compliance Auditor Pro (Canada)",
-          "file": "legal-compliance/compliance-auditor-canada.yaml"
+          "file": "agents-json/legal-compliance/compliance-auditor-canada.json"
         },
         {
           "slug": "compliance-auditor-usa",
           "name": "🇺🇸 📋 Compliance Auditor Pro (USA)",
-          "file": "legal-compliance/compliance-auditor-usa.yaml"
+          "file": "agents-json/legal-compliance/compliance-auditor-usa.json"
         },
         {
           "slug": "compliance-specialist-canada",
           "name": "🇨🇦 ⚖️ Compliance Specialist (Canada)",
-          "file": "legal-compliance/compliance-specialist-canada.yaml"
+          "file": "agents-json/legal-compliance/compliance-specialist-canada.json"
         },
         {
           "slug": "compliance-specialist-usa",
           "name": "🇺🇸 ⚖️ Compliance Specialist (USA)",
-          "file": "legal-compliance/compliance-specialist-usa.yaml"
+          "file": "agents-json/legal-compliance/compliance-specialist-usa.json"
         },
         {
           "slug": "corporate-law-canada",
           "name": "🇨🇦 🏢 Corporate Law Specialist (Canada)",
-          "file": "legal-compliance/corporate-law-canada.yaml"
+          "file": "agents-json/legal-compliance/corporate-law-canada.json"
         },
         {
           "slug": "corporate-law-usa",
           "name": "🇺🇸 🏢 Corporate Law Specialist (USA)",
-          "file": "legal-compliance/corporate-law-usa.yaml"
+          "file": "agents-json/legal-compliance/corporate-law-usa.json"
         },
         {
           "slug": "criminal-law-canada",
           "name": "🇨🇦 ⚖️ Criminal Law Specialist (Canada)",
-          "file": "legal-compliance/criminal-law-canada.yaml"
+          "file": "agents-json/legal-compliance/criminal-law-canada.json"
         },
         {
           "slug": "criminal-law-usa",
           "name": "🇺🇸 ⚖️ Criminal Law Specialist (USA)",
-          "file": "legal-compliance/criminal-law-usa.yaml"
+          "file": "agents-json/legal-compliance/criminal-law-usa.json"
         },
         {
           "slug": "employment-law-canada",
           "name": "🇨🇦 👔 Employment Law Specialist (Canada)",
-          "file": "legal-compliance/employment-law-canada.yaml"
+          "file": "agents-json/legal-compliance/employment-law-canada.json"
         },
         {
           "slug": "employment-law-usa",
           "name": "🇺🇸 👔 Employment Law Specialist (USA)",
-          "file": "legal-compliance/employment-law-usa.yaml"
+          "file": "agents-json/legal-compliance/employment-law-usa.json"
         },
         {
           "slug": "intellectual-property-canada",
           "name": "🇨🇦 ⚡ Intellectual Property Specialist (Canada)",
-          "file": "legal-compliance/intellectual-property-canada.yaml"
+          "file": "agents-json/legal-compliance/intellectual-property-canada.json"
         },
         {
           "slug": "intellectual-property-usa",
           "name": "🇺🇸 ⚡ Intellectual Property Specialist (USA)",
-          "file": "legal-compliance/intellectual-property-usa.yaml"
+          "file": "agents-json/legal-compliance/intellectual-property-usa.json"
         },
         {
           "slug": "litigation-support-canada",
           "name": "🇨🇦 ⚖️ Litigation Support Specialist (Canada)",
-          "file": "legal-compliance/litigation-support-canada.yaml"
+          "file": "agents-json/legal-compliance/litigation-support-canada.json"
         },
         {
           "slug": "litigation-support-usa",
           "name": "🇺🇸 ⚖️ Litigation Support Specialist (USA)",
-          "file": "legal-compliance/litigation-support-usa.yaml"
+          "file": "agents-json/legal-compliance/litigation-support-usa.json"
         }
       ]
     },
@@ -808,67 +808,67 @@
         {
           "slug": "architect",
           "name": "🏗️ Architect",
-          "file": "special-modes/architect.json"
-        },
-        {
-          "slug": "code",
-          "name": "🧠 Auto-Coder",
-          "file": "special-modes/code.json"
-        },
-        {
-          "slug": "integration",
-          "name": "🔗 System Integrator",
-          "file": "special-modes/integration.json"
-        },
-        {
-          "slug": "post-deployment-monitoring-mode",
-          "name": "📈 Deployment Monitor",
-          "file": "special-modes/post-deployment-monitoring-mode.json"
-        },
-        {
-          "slug": "refinement-optimization-mode",
-          "name": "🧹 Optimizer",
-          "file": "special-modes/refinement-optimization-mode.json"
+          "file": "agents-json/special-modes/architect.json"
         },
         {
           "slug": "ask",
           "name": "❓Ask",
-          "file": "special-modes/ask.json"
-        },
-        {
-          "slug": "tutorial",
-          "name": "📘 SPARC Tutorial",
-          "file": "special-modes/tutorial.json"
-        },
-        {
-          "slug": "supabase-admin",
-          "name": "🔐 Supabase Admin",
-          "file": "special-modes/supabase-admin.json"
-        },
-        {
-          "slug": "spec-pseudocode",
-          "name": "📋 Specification Writer",
-          "file": "special-modes/spec-pseudocode.json"
-        },
-        {
-          "slug": "mcp",
-          "name": "♾️ MCP Integration",
-          "file": "special-modes/mcp.json"
-        },
-        {
-          "slug": "sparc",
-          "name": "⚡️ SPARC Orchestrator",
-          "file": "special-modes/sparc.json"
+          "file": "agents-json/special-modes/ask.json"
         },
         {
           "slug": "claude-code",
           "name": "⚡ Claude Code",
-          "file": "special-modes/claude-code.json"
+          "file": "agents-json/special-modes/claude-code.json"
+        },
+        {
+          "slug": "code",
+          "name": "🧠 Auto-Coder",
+          "file": "agents-json/special-modes/code.json"
         },
         {
           "slug": "cybersecurity-expert",
           "name": "🔒 Cybersecurity Expert",
-          "file": "special-modes/cybersecurity-expert.json"
+          "file": "agents-json/special-modes/cybersecurity-expert.json"
+        },
+        {
+          "slug": "integration",
+          "name": "🔗 System Integrator",
+          "file": "agents-json/special-modes/integration.json"
+        },
+        {
+          "slug": "mcp",
+          "name": "♾️ MCP Integration",
+          "file": "agents-json/special-modes/mcp.json"
+        },
+        {
+          "slug": "post-deployment-monitoring-mode",
+          "name": "📈 Deployment Monitor",
+          "file": "agents-json/special-modes/post-deployment-monitoring-mode.json"
+        },
+        {
+          "slug": "refinement-optimization-mode",
+          "name": "🧹 Optimizer",
+          "file": "agents-json/special-modes/refinement-optimization-mode.json"
+        },
+        {
+          "slug": "sparc",
+          "name": "⚡️ SPARC Orchestrator",
+          "file": "agents-json/special-modes/sparc.json"
+        },
+        {
+          "slug": "spec-pseudocode",
+          "name": "📋 Specification Writer",
+          "file": "agents-json/special-modes/spec-pseudocode.json"
+        },
+        {
+          "slug": "supabase-admin",
+          "name": "🔐 Supabase Admin",
+          "file": "agents-json/special-modes/supabase-admin.json"
+        },
+        {
+          "slug": "tutorial",
+          "name": "📘 SPARC Tutorial",
+          "file": "agents-json/special-modes/tutorial.json"
         }
       ]
     }
