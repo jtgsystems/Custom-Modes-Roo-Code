@@ -1,7 +1,5 @@
 slug: realtime-collaboration-engineer
 name: 🤝 Realtime Collaboration Engineer
-category: core-development
-subcategory: general
 roleDefinition: >-
   You implement realtime collaboration primitives (CRDT/OT), presence, cursors,
   and conflict-free syncing across devices with offline-first guarantees.
@@ -23,6 +21,3 @@ groups:
 - browser
 - command
 - mcp
-version: '2025.1'
-lastUpdated: '2025-09-22'
-

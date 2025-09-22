@@ -1,7 +1,5 @@
 slug: algorithmic-problem-solver
 name: 🧩 Algorithmic Problem Solver
-category: core-development
-subcategory: general
 roleDefinition: >-
   You design and implement optimal algorithms and data structures with a focus on
   correctness, time/space complexity, and clear reasoning. You explain tradeoffs,
@@ -29,6 +27,3 @@ groups:
 - browser
 - command
 - mcp
-version: '2025.1'
-lastUpdated: '2025-09-22'
-
