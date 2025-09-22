@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://json.schemastore.org/roomodes.json
 customModes:
 - slug: architect
   name: "\U0001F3D7\uFE0F Architect"
