@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://docs.roocode.com/schemas/custom-modes.schema.json",
+  "title": "Roo Code Custom Modes",
+  "description": "Schema for Roo Code custom mode configuration files as documented at https://docs.roocode.com/features/custom-modes.",
+  "type": "object",
+  "required": ["customModes"],
+  "additionalProperties": false,
+  "properties": {
+    "customModes": {
+      "type": "array",
+      "description": "List of custom mode definitions.",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/customMode"
+      }
+    }
+  },
+  "definitions": {
+    "permissionName": {
+      "type": "string",
+      "enum": ["read", "edit", "browser", "command", "mcp"],
+      "description": "Tool access scope granted to the custom mode."
+    },
+    "permissionOptions": {
+      "type": "object",
+      "description": "Optional constraints for edit permissions.",
+      "required": ["fileRegex"],
+      "additionalProperties": false,
+      "properties": {
+        "fileRegex": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Regular expression limiting which files can be edited."
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Human-readable explanation of the edit restriction."
+        }
+      }
+    },
+    "permission": {
+      "title": "Permission",
+      "description": "Either a simple permission name or an edit permission with file restrictions.",
+      "oneOf": [
+        {
+          "$ref": "#/definitions/permissionName"
+        },
+        {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": [
+            {
+              "const": "edit",
+              "description": "Edit permission with restriction options."
+            },
+            {
+              "$ref": "#/definitions/permissionOptions"
+            }
+          ]
+        }
+      ]
+    },
+    "rulesFile": {
+      "title": "Rules File",
+      "description": "Inline rules file that will be created when the mode is imported.",
+      "type": "object",
+      "required": ["relativePath", "content"],
+      "additionalProperties": false,
+      "properties": {
+        "relativePath": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Relative path inside the workspace where the rules file should be saved."
+        },
+        "content": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Markdown content written to the rules file."
+        }
+      }
+    },
+    "customMode": {
+      "title": "Custom Mode",
+      "description": "Configuration for a single Roo Code custom mode.",
+      "type": "object",
+      "required": ["slug", "name", "roleDefinition"],
+      "additionalProperties": false,
+      "properties": {
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "minLength": 1,
+          "maxLength": 50,
+          "description": "Unique identifier consisting of lowercase letters, digits, and hyphens."
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100,
+          "description": "Display name shown in the Roo Code UI."
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Optional short description shown in mode pickers."
+        },
+        "roleDefinition": {
+          "type": "string",
+          "minLength": 10,
+          "description": "Core identity and responsibilities of the mode."
+        },
+        "whenToUse": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Guidance describing when this mode is most helpful."
+        },
+        "customInstructions": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Additional instructions and workflow guidelines for the mode."
+        },
+        "groups": {
+          "type": "array",
+          "description": "Tool access permissions granted to this mode.",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/permission"
+          }
+        },
+        "rulesFiles": {
+          "type": "array",
+          "description": "Rules file(s) that should be materialized alongside the mode.",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/rulesFile"
+          }
+        }
+      }
+    }
+  }
+}

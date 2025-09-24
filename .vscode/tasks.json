@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Validate Roo Custom Modes",
+      "type": "shell",
+      "command": "python3",
+      "args": [
+        "${workspaceFolder}/scripts/validate_custom_modes.py",
+        "${workspaceFolder}/custom_modes.yaml"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": {
+        "owner": "roo-custom-modes",
+        "fileLocation": ["relative", "${workspaceFolder}"],
+        "pattern": [
+          {
+            "regexp": "^validation error: (.*)$",
+            "message": 1
+          },
+          {
+            "regexp": "^error: (.*)$",
+            "message": 1
+          },
+          {
+            "regexp": "^YAML parse error in (.*?): (.*)$",
+            "file": 1,
+            "message": 2
+          }
+        ]
+      },
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "detail": "Validates custom_modes.yaml with the Roo schema on demand or when the workspace opens"
+    }
+  ]
+}
