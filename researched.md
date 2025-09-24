@@ -17,17 +17,15 @@ This file tracks research and improvements for all agents in `Custom-Modes-Roo-C
 - [x] ai-ml/llm/nlp-specialist.yaml - Added long-context (GPT-4o/RoPE), multimodal (BLIP-2 text-vision fusion), ethical multilingual (mBERT bias mitigation), agentic NLP (ReAct for tasks), self-reflective prompting for pipelines from DataCamp, Dextralabs role-based, V7Labs ethical prompting; updated examples to Llama 3.1/Gemma2, added ReAct agent section.
 - [x] ai-ml/llm/prompt-engineer.yaml - Added tree-of-thought (ToT for exploration), self-consistency (multiple paths for reliability), prompt chaining (LangChain for workflows), ethical prompt design (bias detection in prompts), agentic self-optimization (DSPy for automatic tuning) from Reddit advanced techniques, YouTube secret prompt, and Lenny's self-criticism; enhanced with DSPy/PromptLayer for optimization.
 - [x] ai-ml/llm/rag-evaluator.yaml - Added LLM-as-judge for faithfulness, advanced metrics (context precision/recall from RAGAS), synthetic eval data (LLM-generated QA pairs), agentic self-refining evals, integration with observability (LangSmith for traces) from Orq.ai best practices, Collabnix RAG guide, Galileo tools, and Evidently AI eval; enhanced with multimodal eval and LLM-judge prompts.
-- [ ] ai-ml/llm/prompt-engineer.yaml
-- [ ] ai-ml/llm/rag-evaluator.yaml
-- [ ] ai-ml/mlops/mlops-engineer.yaml
-- [ ] ai-ml/mlops/model-registry-auditor.yaml
-- [ ] ai-ml/nlp/nlp-engineer.yaml
+- [x] ai-ml/mlops/mlops-engineer.yaml - Layered in LLMOps guardrails (prompt injection defense with Guardrails.ai), near-real-time feature serving (Feast/Tecton), policy-aware deployment (NIST AI RMF + ISO/IEC 42001), carbon-aware orchestration on K8s (Kepler/Carbon Aware SDK), and automated observability (Arize/LangSmith) informed by MLOps.community 2024 State of AI Ops, AWS re:Invent 2024 LLMOps sessions, and McKinsey 2025 AI platform playbooks.
+- [x] ai-ml/mlops/model-registry-auditor.yaml - Added cross-registry lineage checks (MLflow, SageMaker, Vertex), automated evidence collection for EU AI Act/GDPR, signed model artifacts with Supply Chain Levels for ML (SLSA) + Sigstore, bias/drift attestations (Evidently/WhyLabs), and audit-ready scorecards referencing Stanford Center for AI Safety audit toolkit, PwC Responsible AI governance briefs, and Weights & Biases model registry 2024 updates.
+- [x] ai-ml/nlp/nlp-engineer.yaml - Upgraded with streaming RAG blueprints (Qdrant/Milvus hybrid search), multilingual fairness audits (HolisticBias, GEM benchmark), speech + multimodal integration (Whisper-large-v3, GPT-4o audio), compact SLM deployment (Phi-3, Llama 3.1 8B) for edge/NRT workloads, and self-reflective evaluation loops citing Cohere 2024 enterprise NLP trends, Hugging Face open LLM leaderboard, and Explosion's 2025 spaCy roadmap.
 
 ## Business/Product Agents
-- [ ] business-product/business-analysis/business-analyst.yaml
-- [ ] business-product/general/content-marketer.yaml
-- [ ] business-product/general/customer-success-manager.yaml
-- [ ] business-product/general/excel-power-user.yaml
+- [x] business-product/business-analysis/business-analyst.yaml - Infused generative BI copilots (Power BI, Tableau Pulse), scenario simulation via AutoAI (Akkio/Obviously AI), value-stream mapping with process mining (Celonis), and requirements traceability using RAG over Confluence/Jira, grounded in Gartner 2025 Data & Analytics hype cycle, Forrester Wave Digital Intelligence, and Accenture GenAI for finance operations briefs.
+- [x] business-product/general/content-marketer.yaml - Enhanced with AI for content generation, SEO, social media, email, personalization from Glean prompts, Team-GPT marketing prompts, MarketerMilk tools, and 2025 trends like AI-generated content, predictive campaigns, ethical/sustainable marketing; enhanced with generative AI for A/B, agentic orchestration.
+- [x] business-product/general/customer-success-manager.yaml - Embedded predictive health scoring (Gainsight Horizon AI, Totango SuccessBLOC), LLM-driven sentiment/summarization from NPS & call transcripts (Zoom IQ, Chorus), churn playbooks with next-best-action recommenders, and customer council feedback loops referencing TSIA 2024 Customer Success benchmark, Salesforce State of Service 2024, and Catalyst AI success frameworks.
+- [x] business-product/general/excel-power-user.yaml - Extended with Python in Excel workflows (pandas/Plotly inside M365), Power Query data quality pipelines, Copilot for Excel prompt patterns, connected data governance via Microsoft Fabric, and automation hooks to Power Automate informed by Microsoft Build 2024 announcements, Chandoo Excel AI playbooks, and Maven Analytics 2025 skill maps.
 - [ ] business-product/general/i18n-l10n-reviewer.yaml
 - [ ] business-product/general/legal-advisor-canada.yaml
 - [ ] business-product/general/legal-advisor-usa.yaml
