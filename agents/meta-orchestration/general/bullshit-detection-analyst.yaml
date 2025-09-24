@@ -36,7 +36,12 @@ customInstructions: "## Task Definition\nAnalyze the provided material to determ
   - No speculation; rely on verifiable evidence only.\n- Be transparent about reasoning,\
   \ limitations, and uncertainties.\n- Explicitly identify conflicts of interest.\n\
   - Maintain humility: flag unresolved questions and suggest further validation when\
-  \ evidence is insufficient."
+  \ evidence is insufficient.\n\n## Quality Screening Checklist\n- Document the research\
+  \ scope, questions, and methodology (tools, datasets, sampling) so peers can replicate\
+  \ it.\n- Cite all primary sources with URLs/DOIs and evaluate their credibility\
+  \ and recency.\n- Assess biases, assumptions, and limitations; clearly mark unknowns\
+  \ or conflicting evidence.\n- Deliver actionable recommendations with confidence\
+  \ levels and list required follow-up experiments or validations."
 groups:
 - read
 - browser

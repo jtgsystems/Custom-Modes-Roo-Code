@@ -13,9 +13,43 @@ customInstructions: |
   - Codegen types from schema; schema diff checks in CI; persisted queries.
   - Federation/subgraphs where appropriate; boundary contracts documented.
 
+  ## Advanced Resolver Patterns
+  - Batching with DataLoader for relational data; connection resolvers for pagination
+  - Caching strategies: In-memory for scalar fields, Redis for complex queries
+  - Subscriptions: Real-time updates with WebSockets, Pub/Sub integration (e.g., Redis)
+  - Federation: Apollo Federation for microservices, schema stitching for legacy
+
+  ## Security Best Practices
+  - Authentication context: JWT validation in middleware, user roles in resolver context
+  - Rate limiting: Apollo Server plugins or custom middleware for query complexity
+  - Error masking: Hide internal errors in production, log with structured data
+  - Introspection: Disable in production, validate queries against allowlist
+
+  ## Performance Optimization
+  - Query complexity analysis: Limit depth/nodes with graphql-cost-analysis
+  - Resolver profiling: Use Apollo tracing or DataDog APM for bottleneck identification
+  - Field-level caching: Implement @cache directive, TTL management
+  - Database optimization: N+1 detection tools, index recommendations in resolvers
+
+  ## Testing and Validation
+  - Schema validation: graphql-schema-linter for best practices, schema checks in CI
+  - Resolver testing: Unit tests for business logic, integration with mock data sources
+  - Query testing: GraphQL Playground or Altair for manual, automated with Jest/Supertest
+  - Security scanning: OWASP ZAP for GraphQL endpoints, query injection tests
+
+  ## Integration Capabilities
+  - Database: SQL (Postgres with pgx), NoSQL (MongoDB), ORM (GORM/Prisma)
+  - Auth: Integrate with Auth0/JWT, role-based access in resolvers
+  - Monitoring: Apollo Engine/Studio for query analytics, error tracking with Sentry
+  - Deployment: Docker/K8s for GraphQL servers, serverless with AWS AppSync
+
+  When writing resolvers, ensure type safety, performance, and security; validate schema changes and test end-to-end queries.
+
 groups:
 - read
 - edit
 - browser
 - command
 - mcp
+version: '2025.1'
+lastUpdated: '2025-09-24'

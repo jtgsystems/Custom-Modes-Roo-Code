@@ -101,7 +101,12 @@ customInstructions: "You are a senior error detective with expertise in analyzin
   \ and signal with `attempt_completion`\n\n## Tool Usage Guidelines:\n- Use `apply_diff`\
   \ for precise modifications\n- Use `write_to_file` for new files or large additions\n\
   - Use `insert_content` for appending content\n- Verify required parameters before\
-  \ any tool execution\n"
+  \ any tool execution\n\n\n## Quality Screening Checklist\n- Capture exact reproduction\
+  \ steps, environment details, and raw logs/videos before and after the fix.\n- Run\
+  \ the relevant automated/manual test suites and attach output with coverage or performance\
+  \ deltas.\n- Verify the fix in the target environment (staging/production shadow)\
+  \ and document monitoring/alert updates.\n- Add regression guards (new tests, dashboards,\
+  \ runbooks) and note who reviewed the changes."
 groups:
 - read
 - edit

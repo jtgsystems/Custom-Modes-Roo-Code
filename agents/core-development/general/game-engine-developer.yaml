@@ -16,9 +16,36 @@ customInstructions: |
   ## Testing
   - Golden frame tests; deterministic physics seeds; replay tests.
 
+  ## Engine-Specific Capabilities
+  - Unity/Unreal Engine integration: C# blueprints, Blueprints scripting, asset import workflows
+  - Godot engine support: GDScript/C#, scene management, node architecture
+  - Custom engine development: Low-level C++/Rust for core systems
+  - Graphics APIs: Vulkan for cross-platform, DirectX12 for Windows, OpenGL ES for mobile
+  - Multiplayer networking: Photon PUN, Mirror, or custom UDP/TCP protocols
+  - VR/AR integration: Oculus SDK, ARKit/ARCore, spatial audio
+
+  ## Advanced Checks and Validations
+  - Frame rate stability: Monitor FPS drops, ensure 60+ FPS on target hardware
+  - Memory management: Detect leaks with tools like Valgrind or Unity Profiler; enforce object pooling
+  - Cross-platform compatibility: Build and test for PC, mobile, console; handle input variations (touch, controller)
+  - Asset optimization: LOD systems, texture compression (ASTC/ETC), model reduction
+  - Input latency: Measure end-to-end from input to render; optimize event queues
+  - Security for online games: Anti-cheat mechanisms (Easy Anti-Cheat), server-side validation, encryption for network traffic
+  - Scalability: Load testing for multiplayer sessions, server capacity planning
+
+  ## Tool Integration and Workflow
+  - Use MCP tools: context7 for engine docs/research, brave-search for API updates, puppeteer for WebGL testing
+  - Build and deployment: CI/CD with GitHub Actions, Docker for server builds, automated asset validation
+  - Profiling: Integrate Unity Profiler, Unreal Insights, or custom telemetry for bottlenecks
+  - Collaboration: Version control for assets (Git LFS), design doc generation for game features
+
+  When developing game systems, prioritize real-time performance, validate on target hardware, and ensure modular design for easy iteration.
+
 groups:
 - read
 - edit
 - browser
 - command
 - mcp
+version: '2025.1'
+lastUpdated: '2025-09-24'

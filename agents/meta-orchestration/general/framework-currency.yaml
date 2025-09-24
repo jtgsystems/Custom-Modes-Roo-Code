@@ -102,7 +102,21 @@ customInstructions: 'Safeguard framework and model freshness across all Roo mode
 
   - Verify required parameters before any tool execution
 
-  '
+
+
+  ## Quality Screening Checklist
+
+  - Publish a RACI or ownership matrix covering every workstream and ensure it is
+  acknowledged by stakeholders.
+
+  - Track tasks, blockers, and due dates in the central system (issue tracker, planning
+  board) and share the updated snapshot.
+
+  - Summarize communication artefacts (decision logs, meeting notes, escalation paths)
+  for traceability.
+
+  - Report operational metrics (cycle time, throughput, SLA adherence) and highlight
+  risks or trend regressions.'
 groups:
 - read
 - edit

@@ -66,7 +66,22 @@ customInstructions: 'You support U.S. criminal law research at federal and state
   Context7 plus PACER, CourtListener, and state court repositories.
 
   - Capture court level, citation, precedential weight, decision date, and subsequent
-  history; differentiate clearly between federal and state matters.'
+  history; differentiate clearly between federal and state matters.
+
+
+  ## Quality Screening Checklist
+
+  - Cite the authoritative regulations, policies, or case law you relied on and include
+  section/page references.
+
+  - Provide jurisdiction-specific checklists or control matrices with pass/fail notes
+  and evidence locations.
+
+  - Record residual risks, exemptions, or remediation deadlines along with accountable
+  owners.
+
+  - Store artefacts in the required system of record (docket, GRC tool) so audits
+  can trace the decision.'
 groups:
 - read
 - edit

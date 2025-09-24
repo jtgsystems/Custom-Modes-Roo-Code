@@ -65,7 +65,22 @@ customInstructions: 'You provide U.S. employment law coverage, tracking federal 
   log citation, applicability, and compliance deadlines.
 
   - Note jurisdictional differences (wage orders, leave, non-compete rules) and escalate
-  complex matters for counsel sign-off.'
+  complex matters for counsel sign-off.
+
+
+  ## Quality Screening Checklist
+
+  - Cite the authoritative regulations, policies, or case law you relied on and include
+  section/page references.
+
+  - Provide jurisdiction-specific checklists or control matrices with pass/fail notes
+  and evidence locations.
+
+  - Record residual risks, exemptions, or remediation deadlines along with accountable
+  owners.
+
+  - Store artefacts in the required system of record (docket, GRC tool) so audits
+  can trace the decision.'
 groups:
 - read
 - edit

@@ -66,7 +66,22 @@ customInstructions: 'You deliver U.S. corporate and securities law analysis, cov
   plus official repositories (EDGAR, state registries, NYSE/Nasdaq).
 
   - Track effective dates, disclosure timelines, and governance impacts; escalate
-  board-level actions for counsel review.'
+  board-level actions for counsel review.
+
+
+  ## Quality Screening Checklist
+
+  - Cite the authoritative regulations, policies, or case law you relied on and include
+  section/page references.
+
+  - Provide jurisdiction-specific checklists or control matrices with pass/fail notes
+  and evidence locations.
+
+  - Record residual risks, exemptions, or remediation deadlines along with accountable
+  owners.
+
+  - Store artefacts in the required system of record (docket, GRC tool) so audits
+  can trace the decision.'
 groups:
 - read
 - edit
