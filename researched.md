@@ -1,0 +1,238 @@
+# Researched Agents for Improvement
+
+This file tracks research and improvements for all agents in `Custom-Modes-Roo-Code/agents`. Each agent is listed with its relative path. Status:
+- [ ] Pending (not researched)
+- [-] In Progress
+- [x] Completed (with notes on improvements)
+
+## AI/ML Agents
+- [x] ai-ml/computer-vision/computer-vision.yaml - Enhanced with multimodal fusion (CLIP/Florence-2), ethical AI/safety anchoring, iterative self-refinement loop, generative augmentation (Stable Diffusion), and 2025 updates (YOLOv10, SAM2, diffusion models) from Lakera AI guide, awesome-ai-system-prompts repo, and Ultralytics trends.
+- [x] ai-ml/data-science/data-scientist.yaml - Added causal inference (DoWhy/EconML), LLM-assisted analysis (PandasAI), AutoML (H2O/Optuna), ethical reproducibility (AIF360/MLflow+DVC), self-improvement loops, and modern tools (Polars/Ray) from Exploding Topics trends, Pragmatic Institute prompts, and Together.ai agent guide.
+- [x] ai-ml/data-science/dataset-curator.yaml - Integrated LLM-assisted labeling (zero/few-shot prompts), active learning (modAL), synthetic data (SDV/LLM gen), automated bias audits (Facet/AIF360), versioning (HF Datasets/DVC), and iterative curation from Labellerr guide, Lightly AI tools, and LLM data labeling best practices.
+- [x] ai-ml/general/ai-engineer.yaml - Added agentic/multi-agent orchestration (CrewAI/LangGraph), RAG/KB integration (LlamaIndex), federated/distributed learning (Flower/Ray), sustainable/green AI (CodeCarbon), decomposition/self-criticism/ROCTTOC structuring from Lenny's Newsletter, YouTube agent formula, and PromptHub patterns; enhanced MLOps with 2025 tools like vLLM/Adversarial Toolbox.
+- [x] ai-ml/general/machine-learning-engineer.yaml - Added LLM serving (vLLM/TGI), K8s ML operators (KServe/Kubeflow), carbon-aware scaling (Kepler), agentic MLOps (LangGraph), decomposition/self-optimization for bottlenecks from Shakudo frameworks, MachineLearningMastery agent guide, and PromptHub patterns; enhanced sustainable serving with 2025 tools.
+- [x] ai-ml/general/ml-engineer.yaml - Added AutoML (TPOT/H2O for lifecycle), agentic workflows (LangGraph for pipelines), sustainable training (carbon-aware Ray), LLM-assisted HPO (Optuna + LLM suggestions), advanced techniques (decomposition for optimization) from MobiDev trends, InterviewKickstart roadmap, 365DataScience skills; enhanced full lifecycle agentic MLOps.
+- [x] ai-ml/general/postgres-pro.yaml - Added pgvector for AI embeddings/search, LLM-assisted query opt (pgai/PGML), sustainable ops (energy-efficient query opt), automated scaling (Citus/Neon), agentic monitoring (self-diagnosing LLM prompts) from Instaclustr best practices, Galaxy AI SQL prompts, and Postgres 2025 trends like vector extensions.
+- [x] ai-ml/llm/llm-architect.yaml - Added MoE architectures (Mixtral/Grok), long-context handling (RoPE/YaRN/ALiBi), agentic prompting (tool-calling/self-reflection), sustainable fine-tuning (QLoRA/PEFT low-carbon), decomposition for design from DataCamp/Lakera sources, TowardsDataScience tips, and PromptEngineering.org system prompts; enhanced with constitutional AI and RAG for architecture.
+- [x] ai-ml/llm/nlp-specialist.yaml - Added long-context (GPT-4o/RoPE), multimodal (BLIP-2 text-vision fusion), ethical multilingual (mBERT bias mitigation), agentic NLP (ReAct for tasks), self-reflective prompting for pipelines from DataCamp, Dextralabs role-based, V7Labs ethical prompting; updated examples to Llama 3.1/Gemma2, added ReAct agent section.
+- [x] ai-ml/llm/prompt-engineer.yaml - Added tree-of-thought (ToT for exploration), self-consistency (multiple paths for reliability), prompt chaining (LangChain for workflows), ethical prompt design (bias detection in prompts), agentic self-optimization (DSPy for automatic tuning) from Reddit advanced techniques, YouTube secret prompt, and Lenny's self-criticism; enhanced with DSPy/PromptLayer for optimization.
+- [x] ai-ml/llm/rag-evaluator.yaml - Added LLM-as-judge for faithfulness, advanced metrics (context precision/recall from RAGAS), synthetic eval data (LLM-generated QA pairs), agentic self-refining evals, integration with observability (LangSmith for traces) from Orq.ai best practices, Collabnix RAG guide, Galileo tools, and Evidently AI eval; enhanced with multimodal eval and LLM-judge prompts.
+- [ ] ai-ml/llm/prompt-engineer.yaml
+- [ ] ai-ml/llm/rag-evaluator.yaml
+- [ ] ai-ml/mlops/mlops-engineer.yaml
+- [ ] ai-ml/mlops/model-registry-auditor.yaml
+- [ ] ai-ml/nlp/nlp-engineer.yaml
+
+## Business/Product Agents
+- [ ] business-product/business-analysis/business-analyst.yaml
+- [ ] business-product/general/content-marketer.yaml
+- [ ] business-product/general/customer-success-manager.yaml
+- [ ] business-product/general/excel-power-user.yaml
+- [ ] business-product/general/i18n-l10n-reviewer.yaml
+- [ ] business-product/general/legal-advisor-canada.yaml
+- [ ] business-product/general/legal-advisor-usa.yaml
+- [ ] business-product/general/legal-advisor.yaml
+- [ ] business-product/general/powerpoint-presenter.yaml
+- [ ] business-product/general/project-manager.yaml
+- [ ] business-product/general/scrum-master.yaml
+- [ ] business-product/general/technical-writer.yaml
+- [ ] business-product/general/ux-researcher.yaml
+- [ ] business-product/marketing/growth-experimentation-lead.yaml
+- [ ] business-product/marketing/marketing-strategist.yaml
+- [ ] business-product/product-management/product-analytics-scientist.yaml
+- [ ] business-product/product-management/product-manager.yaml
+- [ ] business-product/sales/sales-engineer.yaml
+
+## Core Development Agents
+- [ ] core-development/architecture/architect-reviewer.yaml
+- [ ] core-development/architecture/architect.yaml
+- [ ] core-development/architecture/cloud-architect.yaml
+- [ ] core-development/architecture/graphql-architect.yaml
+- [ ] core-development/architecture/microservices-architect.yaml
+- [ ] core-development/backend/backend-developer.yaml
+- [ ] core-development/frontend/frontend-developer.yaml
+- [ ] core-development/frontend/frontend-performance-auditor.yaml
+- [ ] core-development/frontend/react-optimization-director.yaml
+- [ ] core-development/fullstack/full-stack-developer.yaml
+- [ ] core-development/fullstack/fullstack-developer.yaml
+- [ ] core-development/general/algorithmic-problem-solver.yaml
+- [ ] core-development/general/api-contract-first-developer.yaml
+- [ ] core-development/general/api-designer.yaml
+- [ ] core-development/general/ask.yaml
+- [ ] core-development/general/bff-engineer.yaml
+- [ ] core-development/general/blockchain-developer.yaml
+- [ ] core-development/general/claude-code.yaml
+- [ ] core-development/general/cli-tool-developer.yaml
+- [ ] core-development/general/code.yaml
+- [ ] core-development/general/compiler-engineer.yaml
+- [ ] core-development/general/concurrency-specialist.yaml
+- [ ] core-development/general/content-strategist.yaml
+- [ ] core-development/general/cybersecurity-expert.yaml
+- [ ] core-development/general/data-pipeline-engineer.yaml
+- [ ] core-development/general/database-migration-engineer.yaml
+- [ ] core-development/general/deep-research-protocol.yaml
+- [ ] core-development/general/electron-pro.yaml
+- [ ] core-development/general/embedded-firmware-developer.yaml
+- [ ] core-development/general/frontend-architecture-engineer.yaml
+- [ ] core-development/general/functional-programming-expert.yaml
+- [ ] core-development/general/game-engine-developer.yaml
+- [ ] core-development/general/golang-developer.yaml
+- [ ] core-development/general/graphql-resolver-writer.yaml
+- [ ] core-development/general/integration.yaml
+- [ ] core-development/general/java-developer.yaml
+- [ ] core-development/general/mcp.yaml
+- [ ] core-development/general/mobile-app-developer.yaml
+- [ ] core-development/general/mobile-developer.yaml
+- [ ] core-development/general/performance-engineer.yaml
+- [ ] core-development/general/post-deployment-monitoring-mode.yaml
+- [ ] core-development/general/product-owner.yaml
+- [ ] core-development/general/python-developer.yaml
+- [ ] core-development/general/realtime-collaboration-engineer.yaml
+- [ ] core-development/general/refinement-optimization-mode.yaml
+- [ ] core-development/general/runtime-performance-engineer.yaml
+- [ ] core-development/general/rust-developer.yaml
+- [ ] core-development/general/sdk-developer.yaml
+- [ ] core-development/general/silent-coder.yaml
+- [ ] core-development/general/sparc.yaml
+- [ ] core-development/general/spec-pseudocode.yaml
+- [ ] core-development/general/streaming-systems-engineer.yaml
+- [ ] core-development/general/supabase-admin.yaml
+- [ ] core-development/general/tutorial.yaml
+- [ ] core-development/general/ui-expert.yaml
+- [ ] core-development/general/wasm-systems-developer.yaml
+- [ ] core-development/general/web-design-specialist.yaml
+- [ ] core-development/general/websocket-engineer.yaml
+
+## Infrastructure/DevOps Agents
+- [ ] infrastructure-devops/cloud/cloud-architect.yaml
+- [ ] infrastructure-devops/cloud/edge-computing-architect.yaml
+- [ ] infrastructure-devops/cloud/serverless-platform-architect.yaml
+- [ ] infrastructure-devops/cloud/terraform-module-author.yaml
+- [ ] infrastructure-devops/general/chaos-engineer.yaml
+- [ ] infrastructure-devops/general/chaos-resilience-lead.yaml
+- [ ] infrastructure-devops/general/database-administrator.yaml
+- [ ] infrastructure-devops/general/deployment-engineer.yaml
+- [ ] infrastructure-devops/general/devops-architect.yaml
+- [ ] infrastructure-devops/general/devops-engineer.yaml
+- [ ] infrastructure-devops/general/devops-incident-responder.yaml
+- [ ] infrastructure-devops/general/devops.yaml
+- [ ] infrastructure-devops/general/finops-optimizer.yaml
+- [ ] infrastructure-devops/general/hardware-acceleration-engineer.yaml
+- [ ] infrastructure-devops/general/incident-command-director.yaml
+- [ ] infrastructure-devops/general/incident-responder.yaml
+- [ ] infrastructure-devops/general/observability-architect.yaml
+- [ ] infrastructure-devops/general/platform-engineer.yaml
+- [ ] infrastructure-devops/general/security-engineer.yaml
+- [ ] infrastructure-devops/general/site-readiness-engineer.yaml
+- [ ] infrastructure-devops/general/sre-engineer.yaml
+- [ ] infrastructure-devops/general/terraform-engineer.yaml
+- [ ] infrastructure-devops/kubernetes/kubernetes-specialist.yaml
+- [ ] infrastructure-devops/networking/network-engineer.yaml
+
+## Language Specialists Agents
+- [ ] language-specialists/csharp/csharp-developer.yaml
+- [ ] language-specialists/general/angular-architect.yaml
+- [ ] language-specialists/general/cpp-pro.yaml
+- [ ] language-specialists/general/dotnet-core-expert.yaml
+- [ ] language-specialists/general/flutter-expert.yaml
+- [ ] language-specialists/general/kotlin-specialist.yaml
+- [ ] language-specialists/general/laravel-specialist.yaml
+- [ ] language-specialists/general/php-pro.yaml
+- [ ] language-specialists/general/rails-expert.yaml
+- [ ] language-specialists/general/react-specialist.yaml
+- [ ] language-specialists/general/spring-boot-engineer.yaml
+- [ ] language-specialists/general/sql-pro.yaml
+- [ ] language-specialists/general/swift-expert.yaml
+- [ ] language-specialists/general/vue-expert.yaml
+- [ ] language-specialists/golang/django-developer.yaml
+- [ ] language-specialists/golang/golang-pro.yaml
+- [ ] language-specialists/java/java-architect.yaml
+- [ ] language-specialists/javascript/javascript-pro.yaml
+- [ ] language-specialists/javascript/nextjs-developer.yaml
+- [ ] language-specialists/python/python-developer.yaml
+- [ ] language-specialists/python/python-pro.yaml
+- [ ] language-specialists/rust/rust-engineer.yaml
+- [ ] language-specialists/typescript/typescript-pro.yaml
+
+## Legal/Compliance Agents
+- [ ] legal-compliance/compliance-auditor-canada.yaml
+- [ ] legal-compliance/compliance-auditor-usa.yaml
+- [ ] legal-compliance/compliance-specialist-canada.yaml
+- [ ] legal-compliance/compliance-specialist-usa.yaml
+- [ ] legal-compliance/corporate-law-canada.yaml
+- [ ] legal-compliance/corporate-law-usa.yaml
+- [ ] legal-compliance/criminal-law-canada.yaml
+- [ ] legal-compliance/criminal-law-usa.yaml
+- [ ] legal-compliance/employment-law-canada.yaml
+- [ ] legal-compliance/employment-law-usa.yaml
+- [ ] legal-compliance/intellectual-property-canada.yaml
+- [ ] legal-compliance/intellectual-property-usa.yaml
+- [ ] legal-compliance/litigation-support-canada.yaml
+- [ ] legal-compliance/litigation-support-usa.yaml
+- [ ] legal-compliance/general/compliance-automation-engineer.yaml
+- [ ] legal-compliance/general/oss-license-auditor.yaml
+
+## Meta/Orchestration Agents
+- [ ] meta-orchestration/general/agent-organizer.yaml
+- [ ] meta-orchestration/general/api-governance-lead.yaml
+- [ ] meta-orchestration/general/build-engineer.yaml
+- [ ] meta-orchestration/general/bullshit-detection-analyst.yaml
+- [ ] meta-orchestration/general/cli-developer.yaml
+- [ ] meta-orchestration/general/competitive-analyst.yaml
+- [ ] meta-orchestration/general/context-manager.yaml
+- [ ] meta-orchestration/general/data-analyst.yaml
+- [ ] meta-orchestration/general/data-engineer.yaml
+- [ ] meta-orchestration/general/data-researcher.yaml
+- [ ] meta-orchestration/general/database-optimizer.yaml
+- [ ] meta-orchestration/general/dependency-manager.yaml
+- [ ] meta-orchestration/general/docs-writer.yaml
+- [ ] meta-orchestration/general/documentation-engineer.yaml
+- [ ] meta-orchestration/general/dx-optimizer.yaml
+- [ ] meta-orchestration/general/error-coordinator.yaml
+- [ ] meta-orchestration/general/experience-polish-director.yaml
+- [ ] meta-orchestration/general/feature-flag-orchestrator.yaml
+- [ ] meta-orchestration/general/framework-currency.yaml
+- [ ] meta-orchestration/general/git-workflow-manager.yaml
+- [ ] meta-orchestration/general/knowledge-synthesizer.yaml
+- [ ] meta-orchestration/general/legacy-modernizer.yaml
+- [ ] meta-orchestration/general/market-researcher.yaml
+- [ ] meta-orchestration/general/multi-agent-coordinator.yaml
+- [ ] meta-orchestration/general/performance-benchmark.yaml
+- [ ] meta-orchestration/general/performance-monitor.yaml
+- [ ] meta-orchestration/general/refactoring-specialist.yaml
+- [ ] meta-orchestration/general/release-governance-lead.yaml
+- [ ] meta-orchestration/general/research-analyst.yaml
+- [ ] meta-orchestration/general/research-scientist.yaml
+- [ ] meta-orchestration/general/search-specialist.yaml
+- [ ] meta-orchestration/general/task-distributor.yaml
+- [ ] meta-orchestration/general/tech-research-strategist.yaml
+- [ ] meta-orchestration/general/tooling-engineer.yaml
+- [ ] meta-orchestration/general/trend-analyst.yaml
+- [ ] meta-orchestration/general/website-foundation-planner.yaml
+- [ ] meta-orchestration/general/workflow-orchestrator.yaml
+
+## Security/Quality Agents
+- [ ] security-quality/compliance/compliance-specialist.yaml
+- [ ] security-quality/compliance/policy-as-code-auditor.yaml
+- [ ] security-quality/general/code-reviewer.yaml
+- [ ] security-quality/general/code-skeptic.yaml
+
+## Specialized Domains Agents
+- [ ] specialized-domains/blockchain/blockchain-developer.yaml
+- [ ] specialized-domains/fintech/fintech-engineer.yaml
+- [ ] specialized-domains/gaming/game-developer.yaml
+- [ ] specialized-domains/general/api-documenter.yaml
+- [ ] specialized-domains/general/creative-director.yaml
+- [ ] specialized-domains/general/embedded-systems.yaml
+- [ ] specialized-domains/general/financial-analyst.yaml
+- [ ] specialized-domains/general/payment-integration.yaml
+- [ ] specialized-domains/general/quant-analyst.yaml
+- [ ] specialized-domains/general/risk-manager.yaml
+- [ ] specialized-domains/iot/iot-engineer.yaml
+- [ ] specialized-domains/seo/ai-content-seo.yaml
+- [ ] specialized-domains/seo/core-web-vitals-seo.yaml
+- [ ] specialized-domains/seo/ecommerce-seo-specialist.yaml
+- [ ] specialized-domains/seo/local-seo-specialist.yaml
+- [ ] specialized-domains/seo/technical-seo-optimizer.yaml
+
+Notes for completed agents will be added below each checklist item, e.g., [x] agent.yaml - Improved with X from Y source.
