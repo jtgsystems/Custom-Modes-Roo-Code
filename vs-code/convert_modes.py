@@ -68,7 +68,9 @@ def parse_instructions_to_xml(instructions: str, output_dir: Path, slug: str) ->
     if instructions:
         xml_file = output_dir / "1_instructions.xml"
         try:
-            xml_file.write_text(instructions, encoding='utf-8')
+            # Replace literal \n with actual newlines for better readability
+            formatted_instructions = instructions.replace('\\n', '\n')
+            xml_file.write_text(formatted_instructions, encoding='utf-8')
         except IOError as e:
             logger.error(f"Failed to write instructions for {slug}: {e}")
             raise
