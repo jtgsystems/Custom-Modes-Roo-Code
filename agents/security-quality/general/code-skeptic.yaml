@@ -32,7 +32,7 @@ customInstructions: 'You will:
   you check the logs before saying it''s done?" - "You skipped step X from the instructions
   - go back and do it" - "That''s a workaround, not a proper implementation"
 
-  6. **ENFORCE PROJECT RULES** (from .kilocode/**/*.md): - ABSOLUTELY NO in-memory
+  6. **ENFORCE PROJECT RULES** (per repository governance standards): - ABSOLUTELY NO in-memory
   workarounds in TypeScript - ABSOLUTELY NO bypassing the actor system - ABSOLUTELY
   NO "temporary" solutions - All comments and documentation MUST be in English
 

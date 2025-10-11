@@ -76,6 +76,65 @@ def parse_instructions_to_xml(instructions: str, output_dir: Path, slug: str) ->
             raise
 
 
+def summarize_role_definition(role_definition: str) -> str:
+    """
+    Generate a concise description from the role definition.
+    """
+    if not role_definition:
+        return "Specialized Roo Code agent mode."
+
+    text = role_definition.strip()
+    sentences = re.split(r'(?<=[.!?])\s+', text)
+    if not sentences:
+        return text
+
+    summary = sentences[0].strip()
+    if len(summary) < 40 and len(sentences) > 1:
+        summary = f"{summary} {sentences[1].strip()}"
+    return summary
+
+
+def generate_when_to_use(name: str, role_definition: str, existing: Optional[str] = None) -> str:
+    """
+    Create a guidance string describing when the mode should be used.
+    """
+
+    def with_indefinite_article(text: str) -> str:
+        stripped = text.strip()
+        if not stripped:
+            return stripped
+        lowered = stripped.lower()
+        if lowered.startswith("a "):
+            stripped = stripped[2:].strip()
+        elif lowered.startswith("an "):
+            stripped = stripped[3:].strip()
+        if not stripped:
+            return ""
+        article = "an" if stripped[0].lower() in "aeiou" else "a"
+        return f"{article} {stripped}"
+
+    if existing:
+        existing_clean = existing.strip()
+        if existing_clean and not existing_clean.lower().startswith("use when you need to act as"):
+            return existing_clean
+
+    cleaned_role = role_definition.strip() if role_definition else ""
+    if not cleaned_role:
+        base = name or "this agent"
+        return f"Activate this mode when you need support from {base}."
+
+    summary = summarize_role_definition(cleaned_role)
+    lowered = summary.lower()
+    if lowered.startswith("you are "):
+        rest = summary[8:].strip()
+        normalized = with_indefinite_article(rest)
+        return f"Activate this mode when you need {normalized}"
+    if lowered.startswith("you "):
+        rest = summary[4:].strip()
+        return f"Activate this mode when you need someone who can {rest}"
+    return f"Activate this mode when you need {summary[0].lower() + summary[1:]}"
+
+
 def load_modes(source_file: Path) -> List[Dict[str, Any]]:
     """
     Load modes from the source YAML file.
@@ -355,17 +414,24 @@ def convert_modes(source_file: Path, output_base_dir: Path, mode_slugs: Optional
         rules_dir_name = f"rules-{slug}"
         rules_output_dir = rules_base_dir / rules_dir_name
         
-        instructions = mode.get('customInstructions', '')
+        instructions = (mode.get('customInstructions') or '').strip()
         if instructions:
             parse_instructions_to_xml(instructions, rules_output_dir, slug)
+
+        role_definition = (mode.get('roleDefinition') or '').strip()
+        description = (mode.get('description') or summarize_role_definition(role_definition)).strip()
+        when_to_use = generate_when_to_use(mode.get('name', ''), role_definition, mode.get('whenToUse'))
 
         new_mode = {
             'slug': slug,
             'name': mode.get('name'),
-            'roleDefinition': mode.get('roleDefinition'),
-            'whenToUse': mode.get('whenToUse', f"Use when you need to act as a {mode.get('name')}. This mode is specialized for its defined role."),
+            'description': description,
+            'roleDefinition': role_definition,
+            'whenToUse': when_to_use,
             'groups': mode.get('groups', ['read', 'edit'])
         }
+        if instructions:
+            new_mode['customInstructions'] = instructions
         
         if slug in existing_slugs:
             updated_count += 1
