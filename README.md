@@ -6,11 +6,17 @@
 
 # Custom Modes for Roo Code 🤖
 
+<div align="center">
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/Version-2025.1-blue)](https://github.com/jtgsystems/Custom-Modes-Roo-Code)
 [![Agents](https://img.shields.io/badge/Agents-171-green)](https://github.com/jtgsystems/Custom-Modes-Roo-Code)
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen)](https://github.com/jtgsystems/Custom-Modes-Roo-Code)
 [![Security](https://img.shields.io/badge/Security-2025%20Standards-red)](https://github.com/jtgsystems/Custom-Modes-Roo-Code)
+
+### ⭐ **[Star this repo](https://github.com/jtgsystems/Custom-Modes-Roo-Code/stargazers)** if you find it useful! ⭐
+
+</div>
 
 > **Professional AI Agent Configuration Library for Roo Code - 2025 Edition**
 >
