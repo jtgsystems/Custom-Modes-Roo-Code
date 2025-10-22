@@ -1,3 +1,9 @@
+<div align="center">
+
+![Custom Modes for Roo Code Banner](./assets/banner.png)
+
+</div>
+
 # Custom Modes for Roo Code 🤖
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
