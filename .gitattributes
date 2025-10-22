@@ -1,0 +1,23 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# YAML files should always use LF
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Markdown files should always use LF
+*.md text eol=lf
+
+# Python files should always use LF
+*.py text eol=lf
+
+# Shell scripts should always use LF
+*.sh text eol=lf
+
+# JSON files should always use LF
+*.json text eol=lf
+
+# Config files should always use LF
+.gitignore text eol=lf
+.gitattributes text eol=lf
+LICENSE text eol=lf
