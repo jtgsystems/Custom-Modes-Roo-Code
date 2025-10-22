@@ -1,3 +1,5 @@
+![Banner](banner.png)
+
 <div align="center">
 
 ![Custom Modes for Roo Code Banner](./assets/banner.png)
