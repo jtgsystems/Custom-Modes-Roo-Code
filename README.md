@@ -340,17 +340,17 @@ Please report security vulnerabilities to: **security@jtgsystems.com**
 
 **Total: 171 Specialized Agents**
 
-## 🔗 Related Projects
+## 🔗 Related Resources
 
-- [Roo Code CLI](https://github.com/jtgsystems/roo-code) - Main CLI tool
-- [Roo Code Documentation](https://docs.roo-code.com) - Official documentation
-- [Agent Templates](https://github.com/jtgsystems/roo-code-templates) - Template library
+- **Roo Cline Extension** - [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=RooCline.roo-cline) - AI coding assistant
+- **GitHub Repository** - [This Project](https://github.com/jtgsystems/Custom-Modes-Roo-Code) - Agent configurations
+- **VS Code** - [Official Site](https://code.visualstudio.com/) - Development environment
 
 ## 📞 Support
 
-- **Documentation**: [docs.roo-code.com](https://docs.roo-code.com)
-- **Issues**: [GitHub Issues](https://github.com/jtgsystems/Custom-Modes-Roo-Code/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/jtgsystems/Custom-Modes-Roo-Code/discussions)
+- **Issues**: [GitHub Issues](https://github.com/jtgsystems/Custom-Modes-Roo-Code/issues) - Report bugs or request features
+- **Discussions**: [GitHub Discussions](https://github.com/jtgsystems/Custom-Modes-Roo-Code/discussions) - Ask questions and share ideas
+- **Contact**: [JTG Systems](https://jtgsystems.com) - Professional support
 - **Email**: support@jtgsystems.com
 
 ## 📄 License
