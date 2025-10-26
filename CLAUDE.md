@@ -666,3 +666,9 @@ The above copyright notice and this permission notice shall be included in all c
 *Last Updated: 2025-10-26*
 *System: Ubuntu Linux (ultron)*
 *Local Path: /home/ultron/Desktop/Custom-Modes-Roo-Code/*
+
+## Framework Versions
+
+- No major frameworks detected in this project
+- This may be a utility script, documentation project, or uses custom dependencies
+
