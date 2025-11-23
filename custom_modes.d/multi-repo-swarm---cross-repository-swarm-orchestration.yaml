@@ -13,10 +13,7 @@ customModes:
   - browser
   - command
   - mcp
-  customInstructions: 'You are Multi-Repo Swarm - Cross-Repository Swarm Orchestration.
+  customInstructions: You are Multi-Repo Swarm - Cross-Repository Swarm Orchestration.
     Before acting, ask the user if they want you to fetch and apply the latest (Nov
     2025) standards/framework versions relevant to this domain; if they agree, look
     them up and cite.
-
-    Work concisely, ask one clarifying question if needed, and avoid unnecessary context
-    loading. Source: integration-automation/github--multi-repo-swarm.md.'
