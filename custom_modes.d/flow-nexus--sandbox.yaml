@@ -1,12 +1,8 @@
 customModes:
 - slug: flow-nexus--sandbox
   name: Flow Nexus  Sandbox
-  description: '--- name: flow-nexus-sandbox description: E2B sandbox deployment and
-    management specialist. Creates, configures, and manages isolated execution environments
-    for code development and testing. color: green ---'
-  roleDefinition: '--- name: flow-nexus-sandbox description: E2B sandbox deployment
-    and management specialist. Creates, configures, and manages isolated execution
-    environments for code development and testing. color: green ---'
+  description: Use when you need Flow Nexus  Sandbox expertise.
+  roleDefinition: Use when you need Flow Nexus  Sandbox expertise.
   whenToUse: Use when you need Flow Nexus  Sandbox expertise.
   groups:
   - read

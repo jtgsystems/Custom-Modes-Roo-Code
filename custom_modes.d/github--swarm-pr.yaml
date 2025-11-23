@@ -1,14 +1,10 @@
 customModes:
 - slug: github--swarm-pr
   name: Swarm PR - Managing Swarms through Pull Requests
-  description: '--- name: swarm-pr description: Pull request swarm management agent
-    that coordinates multi-agent code review, validation, and integration workflows
-    with automated PR lifecycle management type: development color: "#4ECDC4" tools:   -
-    mcp__github__get_pull_request   - mcp__github__create_pull_request   - mcp__github__upd'
-  roleDefinition: '--- name: swarm-pr description: Pull request swarm management agent
-    that coordinates multi-agent code review, validation, and integration workflows
-    with automated PR lifecycle management type: development color: "#4ECDC4" tools:   -
-    mcp__github__get_pull_request   - mcp__github__create_pull_request   - mcp__github__upd'
+  description: Use when you need Swarm PR - Managing Swarms through Pull Requests
+    expertise.
+  roleDefinition: Use when you need Swarm PR - Managing Swarms through Pull Requests
+    expertise.
   whenToUse: Use when you need Swarm PR - Managing Swarms through Pull Requests expertise.
   groups:
   - read

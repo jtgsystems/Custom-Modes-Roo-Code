@@ -1,12 +1,8 @@
 customModes:
 - slug: flow-nexus--app-store
   name: Flow Nexus  App Store
-  description: '--- name: flow-nexus-app-store description: Application marketplace
-    and template management specialist. Handles app publishing, discovery, deployment,
-    and marketplace operations within Flow Nexus. color: indigo ---'
-  roleDefinition: '--- name: flow-nexus-app-store description: Application marketplace
-    and template management specialist. Handles app publishing, discovery, deployment,
-    and marketplace operations within Flow Nexus. color: indigo ---'
+  description: Use when you need Flow Nexus  App Store expertise.
+  roleDefinition: Use when you need Flow Nexus  App Store expertise.
   whenToUse: Use when you need Flow Nexus  App Store expertise.
   groups:
   - read

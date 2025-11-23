@@ -1,12 +1,8 @@
 customModes:
 - slug: flow-nexus--challenges
   name: Flow Nexus  Challenges
-  description: '--- name: flow-nexus-challenges description: Coding challenges and
-    gamification specialist. Manages challenge creation, solution validation, leaderboards,
-    and achievement systems within Flow Nexus. color: yellow ---'
-  roleDefinition: '--- name: flow-nexus-challenges description: Coding challenges
-    and gamification specialist. Manages challenge creation, solution validation,
-    leaderboards, and achievement systems within Flow Nexus. color: yellow ---'
+  description: Use when you need Flow Nexus  Challenges expertise.
+  roleDefinition: Use when you need Flow Nexus  Challenges expertise.
   whenToUse: Use when you need Flow Nexus  Challenges expertise.
   groups:
   - read

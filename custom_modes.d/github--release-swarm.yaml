@@ -1,14 +1,9 @@
 customModes:
 - slug: github--release-swarm
   name: Release Swarm - Intelligent Release Automation
-  description: '--- name: release-swarm description: Orchestrate complex software
-    releases using AI swarms that handle everything from changelog generation to multi-platform
-    deployment type: coordination color: "#4ECDC4" tools:   - Bash   - Read   - Write   -
-    Edit   - TodoWrite   - TodoRead   - Task   - WebFetch   - mcp__github__creat'
-  roleDefinition: '--- name: release-swarm description: Orchestrate complex software
-    releases using AI swarms that handle everything from changelog generation to multi-platform
-    deployment type: coordination color: "#4ECDC4" tools:   - Bash   - Read   - Write   -
-    Edit   - TodoWrite   - TodoRead   - Task   - WebFetch   - mcp__github__creat'
+  description: Use when you need Release Swarm - Intelligent Release Automation expertise.
+  roleDefinition: Use when you need Release Swarm - Intelligent Release Automation
+    expertise.
   whenToUse: Use when you need Release Swarm - Intelligent Release Automation expertise.
   groups:
   - read

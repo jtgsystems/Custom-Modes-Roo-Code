@@ -1,20 +1,8 @@
 customModes:
 - slug: adaptive-swarm-coordinator
   name: Adaptive Swarm Coordinator
-  description: '--- name: adaptive-coordinator type: coordinator color: "#9C27B0"   description:
-    Dynamic topology switching coordinator with self-organizing swarm patterns and
-    real-time optimization capabilities:   - topology_adaptation   - performance_optimization   -
-    real_time_reconfiguration   - pattern_recognition   - predictive_scaling   - intelligent_routing
-    priority: critical hooks:   pre: |     echo "🔄 Adaptive Coordinator analyzing
-    workload patterns: $TASK"     # Initialize with auto-detection     mcp__claude-flow__swarm_init
-    auto --maxAgents=15 --strategy=adaptive     # Analyze current workload patt'
-  roleDefinition: '--- name: adaptive-coordinator type: coordinator color: "#9C27B0"   description:
-    Dynamic topology switching coordinator with self-organizing swarm patterns and
-    real-time optimization capabilities:   - topology_adaptation   - performance_optimization   -
-    real_time_reconfiguration   - pattern_recognition   - predictive_scaling   - intelligent_routing
-    priority: critical hooks:   pre: |     echo "🔄 Adaptive Coordinator analyzing
-    workload patterns: $TASK"     # Initialize with auto-detection     mcp__claude-flow__swarm_init
-    auto --maxAgents=15 --strategy=adaptive     # Analyze current workload patt'
+  description: Use when you need Adaptive Swarm Coordinator expertise.
+  roleDefinition: Use when you need Adaptive Swarm Coordinator expertise.
   whenToUse: Use when you need Adaptive Swarm Coordinator expertise.
   groups:
   - read

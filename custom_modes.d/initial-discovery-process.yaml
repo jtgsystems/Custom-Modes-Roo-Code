@@ -1,22 +1,8 @@
 customModes:
 - slug: initial-discovery-process
   name: 🧭 Initial Discovery Process
-  description: '--- name: frontend-designer description: Use this agent when you need
-    to convert design mockups, wireframes, or visual concepts into detailed technical
-    specifications and implementation guides for frontend development. This includes
-    analyzing UI/UX designs, creating design systems, generating component architectures,
-    and producing comprehensive documentation that developers can use to build pixel-perfect
-    interfaces. Examples:\n\n<example>\nContext: User has a Figma mockup of a dashboard
-    and needs to implement it in React\nuser: "I have this dashboard design from our
-    designer, can you help me f'
-  roleDefinition: '--- name: frontend-designer description: Use this agent when you
-    need to convert design mockups, wireframes, or visual concepts into detailed technical
-    specifications and implementation guides for frontend development. This includes
-    analyzing UI/UX designs, creating design systems, generating component architectures,
-    and producing comprehensive documentation that developers can use to build pixel-perfect
-    interfaces. Examples:\n\n<example>\nContext: User has a Figma mockup of a dashboard
-    and needs to implement it in React\nuser: "I have this dashboard design from our
-    designer, can you help me f'
+  description: Use when you need Initial Discovery Process expertise.
+  roleDefinition: Use when you need Initial Discovery Process expertise.
   whenToUse: Use when you need Initial Discovery Process expertise.
   groups:
   - read

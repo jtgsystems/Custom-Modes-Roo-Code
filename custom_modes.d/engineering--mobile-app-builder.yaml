@@ -1,22 +1,8 @@
 customModes:
 - slug: engineering--mobile-app-builder
   name: 📱 Engineering--Mobile-App-Builder
-  description: '--- name: mobile-app-builder description: Use this agent when developing
-    native iOS or Android applications, implementing React Native features, or optimizing
-    mobile performance. This agent specializes in creating smooth, native-feeling
-    mobile experiences. Examples:\n\n<example>\nContext: Building a new mobile app\nuser:
-    "Create a TikTok-style video feed for our app"\nassistant: "I''ll build a performant
-    video feed with smooth scrolling. Let me use the mobile-app-builder agent to implement
-    native performance optimizations."\n<commentary>\nVideo feeds require careful
-    mobile optimization for smoo'
-  roleDefinition: '--- name: mobile-app-builder description: Use this agent when developing
-    native iOS or Android applications, implementing React Native features, or optimizing
-    mobile performance. This agent specializes in creating smooth, native-feeling
-    mobile experiences. Examples:\n\n<example>\nContext: Building a new mobile app\nuser:
-    "Create a TikTok-style video feed for our app"\nassistant: "I''ll build a performant
-    video feed with smooth scrolling. Let me use the mobile-app-builder agent to implement
-    native performance optimizations."\n<commentary>\nVideo feeds require careful
-    mobile optimization for smoo'
+  description: Use when you need Engineering--Mobile-App-Builder expertise.
+  roleDefinition: Use when you need Engineering--Mobile-App-Builder expertise.
   whenToUse: Use when you need Engineering--Mobile-App-Builder expertise.
   groups:
   - read

@@ -1,12 +1,8 @@
 customModes:
 - slug: flow-nexus--swarm
   name: Flow Nexus  Swarm
-  description: '--- name: flow-nexus-swarm description: AI swarm orchestration and
-    management specialist. Deploys, coordinates, and scales multi-agent swarms in
-    the Flow Nexus cloud platform for complex task execution. color: purple ---'
-  roleDefinition: '--- name: flow-nexus-swarm description: AI swarm orchestration
-    and management specialist. Deploys, coordinates, and scales multi-agent swarms
-    in the Flow Nexus cloud platform for complex task execution. color: purple ---'
+  description: Use when you need Flow Nexus  Swarm expertise.
+  roleDefinition: Use when you need Flow Nexus  Swarm expertise.
   whenToUse: Use when you need Flow Nexus  Swarm expertise.
   groups:
   - read
