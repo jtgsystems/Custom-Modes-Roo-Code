@@ -1,6 +1,6 @@
 customModes:
 - slug: github-sync-coordinator
-  name: GitHub Sync Coordinator
+  name: 🐙 GitHub Sync Coordinator
   description: Use when you need GitHub Sync Coordinator expertise.
   roleDefinition: Use when you need GitHub Sync Coordinator expertise.
   whenToUse: Use when you need GitHub Sync Coordinator expertise.

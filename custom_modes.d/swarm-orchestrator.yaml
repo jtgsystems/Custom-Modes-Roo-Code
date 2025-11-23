@@ -1,6 +1,6 @@
 customModes:
 - slug: swarm-orchestrator
-  name: Swarm Orchestrator
+  name: 🕸️ Swarm Orchestrator
   description: Routes tasks to specialized swarm/repo orchestration modes.
   roleDefinition: Swarm orchestrator for multi-repo and release automation.
   whenToUse: Use to choose the right swarm/repo orchestration mode and route the task.

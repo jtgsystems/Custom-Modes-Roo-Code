@@ -1,6 +1,6 @@
 customModes:
 - slug: github-repository-architect
-  name: GitHub Repository Architect
+  name: 🐙 GitHub Repository Architect
   description: Use when you need GitHub Repository Architect expertise.
   roleDefinition: Use when you need GitHub Repository Architect expertise.
   whenToUse: Use when you need GitHub Repository Architect expertise.

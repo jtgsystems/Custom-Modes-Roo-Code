@@ -1,6 +1,6 @@
 customModes:
 - slug: adaptive-swarm-coordinator
-  name: Adaptive Swarm Coordinator
+  name: 🕸️ Adaptive Swarm Coordinator
   description: Use when you need Adaptive Swarm Coordinator expertise.
   roleDefinition: Use when you need Adaptive Swarm Coordinator expertise.
   whenToUse: Use when you need Adaptive Swarm Coordinator expertise.

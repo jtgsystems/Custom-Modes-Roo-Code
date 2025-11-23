@@ -1,6 +1,6 @@
 customModes:
 - slug: github-issue-tracker
-  name: GitHub Issue Tracker
+  name: 🐙 GitHub Issue Tracker
   description: Use when you need GitHub Issue Tracker expertise.
   roleDefinition: Use when you need GitHub Issue Tracker expertise.
   whenToUse: Use when you need GitHub Issue Tracker expertise.

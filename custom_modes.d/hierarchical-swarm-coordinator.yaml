@@ -1,6 +1,6 @@
 customModes:
 - slug: hierarchical-swarm-coordinator
-  name: Hierarchical Swarm Coordinator
+  name: 🕸️ Hierarchical Swarm Coordinator
   description: Use when you need Hierarchical Swarm Coordinator expertise.
   roleDefinition: Use when you need Hierarchical Swarm Coordinator expertise.
   whenToUse: Use when you need Hierarchical Swarm Coordinator expertise.

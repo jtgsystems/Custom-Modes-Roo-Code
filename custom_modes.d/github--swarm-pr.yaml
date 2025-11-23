@@ -1,6 +1,6 @@
 customModes:
 - slug: github--swarm-pr
-  name: Swarm PR - Managing Swarms through Pull Requests
+  name: 🕸️ Swarm PR - Managing Swarms through Pull Requests
   description: Use when you need Swarm PR - Managing Swarms through Pull Requests
     expertise.
   roleDefinition: Use when you need Swarm PR - Managing Swarms through Pull Requests

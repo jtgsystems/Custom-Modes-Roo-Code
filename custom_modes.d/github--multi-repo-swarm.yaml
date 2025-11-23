@@ -1,6 +1,6 @@
 customModes:
 - slug: github--multi-repo-swarm
-  name: Multi-Repo Swarm - Cross-Repository Swarm Orchestration
+  name: 📂 Multi-Repo Swarm - Cross-Repository Swarm Orchestration
   description: Use when you need Multi-Repo Swarm - Cross-Repository Swarm Orchestration
     expertise.
   roleDefinition: Use when you need Multi-Repo Swarm - Cross-Repository Swarm Orchestration

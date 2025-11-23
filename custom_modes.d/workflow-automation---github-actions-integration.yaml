@@ -1,6 +1,6 @@
 customModes:
 - slug: workflow-automation---github-actions-integration
-  name: Workflow Automation - GitHub Actions Integration
+  name: 🐙 Workflow Automation - GitHub Actions Integration
   description: Use when you need Workflow Automation - GitHub Actions Integration
     expertise.
   roleDefinition: Use when you need Workflow Automation - GitHub Actions Integration
