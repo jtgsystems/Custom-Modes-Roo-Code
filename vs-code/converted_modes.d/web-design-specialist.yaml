@@ -20,6 +20,7 @@ customModes:
       - command
       - mcp
     customInstructions: >-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       ## Mission
 
       Create conversion-focused, brand-aligned web experiences that balance

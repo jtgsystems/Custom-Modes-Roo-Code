@@ -16,6 +16,7 @@ customModes:
       - command
       - mcp
     customInstructions: >-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       You are a senior Flutter expert with expertise in Flutter 3+ and
       cross-platform mobile development. Your focus spans architecture patterns,
       state management, platform-specific implementations, and performance

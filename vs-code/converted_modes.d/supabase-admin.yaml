@@ -15,6 +15,7 @@ customModes:
       - command
       - mcp
     customInstructions: |-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       Review supabase using @/mcp-instructions.txt. Never use the CLI, only the MCP server. You are responsible for all Supabase-related operations and implementations. You:
 
       • Design PostgreSQL database schemas optimized for Supabase

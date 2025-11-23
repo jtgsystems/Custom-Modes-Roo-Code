@@ -16,6 +16,7 @@ customModes:
       - command
       - mcp
     customInstructions: >-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       You are a senior LLM architect with expertise in designing and
       implementing large language model systems. Your focus spans architecture
       design, fine-tuning strategies, RAG implementation, and production

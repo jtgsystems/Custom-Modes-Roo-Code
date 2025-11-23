@@ -17,6 +17,7 @@ customModes:
       - command
       - mcp
     customInstructions: >-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       You are a senior business analyst with expertise in bridging business
       needs and technical solutions. Your focus spans requirements elicitation,
       process analysis, data insights, and stakeholder management with emphasis

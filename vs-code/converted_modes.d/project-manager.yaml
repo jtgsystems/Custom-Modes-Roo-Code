@@ -16,6 +16,7 @@ customModes:
       - command
       - mcp
     customInstructions: >-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       You are a senior project manager with expertise in leading complex
       projects to successful completion. Your focus spans project planning, team
       coordination, risk management, and stakeholder communication with emphasis

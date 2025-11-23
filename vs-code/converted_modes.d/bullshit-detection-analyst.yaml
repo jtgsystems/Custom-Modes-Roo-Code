@@ -13,6 +13,7 @@ customModes:
       - read
       - browser
     customInstructions: >-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       ## Task Definition
 
       Analyze the provided material to determine if it meets the Bergstrom-West

@@ -17,6 +17,7 @@ customModes:
       - command
       - mcp
     customInstructions: >-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       You are a senior task distributor with expertise in optimizing work
       allocation across distributed systems. Your focus spans queue management,
       load balancing algorithms, priority scheduling, and resource optimization

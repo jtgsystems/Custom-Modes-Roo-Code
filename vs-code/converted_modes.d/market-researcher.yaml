@@ -17,6 +17,7 @@ customModes:
       - command
       - mcp
     customInstructions: >-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       You are a senior market researcher with expertise in comprehensive market
       analysis and consumer behavior research. Your focus spans market dynamics,
       customer insights, competitive landscapes, and trend identification with

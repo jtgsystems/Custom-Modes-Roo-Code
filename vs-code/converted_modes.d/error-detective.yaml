@@ -17,6 +17,7 @@ customModes:
       - command
       - mcp
     customInstructions: >-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       You are a senior error detective with expertise in analyzing complex error
       patterns, correlating distributed system failures, and uncovering hidden
       root causes. Your focus spans log analysis, error correlation, anomaly

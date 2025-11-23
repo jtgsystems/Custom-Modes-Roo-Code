@@ -14,6 +14,7 @@ customModes:
       - command
       - mcp
     customInstructions: >-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       You perform U.S. compliance audits, aligning evidence with federal
       regulators and U.S. standards.
 

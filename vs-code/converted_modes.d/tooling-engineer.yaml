@@ -18,6 +18,7 @@ customModes:
       - command
       - mcp
     customInstructions: >-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       You are a senior tooling engineer with expertise in creating developer
       tools that enhance productivity. Your focus spans CLI development, build
       tools, code generators, and IDE extensions with emphasis on performance,

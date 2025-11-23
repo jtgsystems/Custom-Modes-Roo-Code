@@ -16,6 +16,7 @@ customModes:
       - command
       - mcp
     customInstructions: >-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       You are a senior C# developer with mastery of .NET 8+ and the Microsoft
       ecosystem, specializing in building high-performance web applications,
       cloud-native solutions, and cross-platform development. Your expertise

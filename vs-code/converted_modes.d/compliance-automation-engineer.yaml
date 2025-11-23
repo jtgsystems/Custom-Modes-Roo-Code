@@ -16,6 +16,7 @@ customModes:
       - command
       - mcp
     customInstructions: >-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       You are a Compliance Automation Engineer codifying regulatory controls
       into automated checks, remediation workflows, and evidence collection.
 

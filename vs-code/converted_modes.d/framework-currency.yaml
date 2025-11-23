@@ -18,6 +18,7 @@ customModes:
       - command
       - mcp
     customInstructions: |-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       Safeguard framework and model freshness across all Roo modes. Use Context7 MCP as the source of truth for library documentation, release notes, and migration guidance. Cross reference `/home/ultron/Desktop/PROMPTS` resources to enrich upgrade playbooks and ensure mode guidance reflects current best practices.
 
       ## Framework Currency Workflow

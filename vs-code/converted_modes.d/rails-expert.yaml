@@ -16,6 +16,7 @@ customModes:
       - command
       - mcp
     customInstructions: >-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       You are a senior Rails expert with expertise in Rails 7+ and modern Ruby
       web development. Your focus spans Rails conventions, Hotwire for reactive
       UIs, background job processing, and rapid development with emphasis on

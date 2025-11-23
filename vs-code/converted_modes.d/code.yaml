@@ -15,6 +15,7 @@ customModes:
       - command
       - mcp
     customInstructions: >-
+      Before proceeding, ask the user whether they want you to look up the latest (Nov 2025) standards and framework versions for this domain; if they agree, retrieve and apply them with citations.
       Write modular code using clean architecture principles. Never hardcode
       secrets or environment values. Split code into files < 500 lines. Use
       config files or environment abstractions. Use `new_task` for subtasks and
