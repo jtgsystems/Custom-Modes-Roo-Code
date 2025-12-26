@@ -12,15 +12,16 @@ This file contains project structure, configuration details, and development gui
 **License**: MIT License
 **Version**: 2025.1
 **Status**: Active and Maintained
+**Primary Language**: YAML (Configuration), Python (Tooling)
 
 ### Description
-A comprehensive collection of 171+ specialized AI agent configurations for Roo Code, designed for modern software development following 2025 security-first principles and best practices.
+A comprehensive collection of specialized AI agent configurations for Roo Code, designed for modern software development following 2025 security-first principles and best practices. This project includes Python utilities for validation, conversion, and management of custom modes.
 
 ### Key Statistics
 - **Total Agents**: 171+ specialized configurations
 - **Agent Files**: 232 YAML files
-- **Repository Size**: ~14MB
-- **Main Config**: 39,724 lines (custom_modes.yaml)
+- **Python Scripts**: 2 utility scripts
+- **Repository Size**: ~2.5MB
 - **Categories**: 9 major agent categories
 - **Security Standard**: 2025 Security-First Architecture
 
@@ -30,18 +31,23 @@ A comprehensive collection of 171+ specialized AI agent configurations for Roo C
 
 ### Root Directory
 ```
-/home/ultron/Desktop/Custom-Modes-Roo-Code/
+/tmp/repo-updates/Custom-Modes-Roo-Code/
 ├── agents/                    # All agent configurations (232 YAML files)
 ├── assets/                    # Banner images and visual assets
 ├── schemas/                   # JSON schema for validation
-├── scripts/                   # Validation and utility scripts
-├── vs-code/                   # VS Code specific documentation
+├── scripts/                   # Python validation and utility scripts
+│   └── validate_custom_modes.py    # YAML validation script (195 lines)
+├── vs-code/                   # VS Code specific tools and documentation
+│   ├── convert_modes.py            # Mode conversion utility (625 lines)
+│   └── README.md                   # VS Code integration guide
 ├── .vscode/                   # VS Code configuration
-├── custom_modes.yaml          # Master configuration (39,724 lines)
+├── banner.png                 # Repository banner image
+├── CLAUDE.md                  # Claude Code system reference (this file)
 ├── README.md                  # Main documentation (12KB)
 ├── CONTRIBUTING.md            # Contribution guidelines (6.9KB)
 ├── SECURITY.md                # Security policy (6.3KB)
 ├── LICENSE                    # MIT License
+├── .gitignore                 # Git ignore patterns
 └── researched.md              # Research documentation (18KB)
 ```
 
@@ -114,30 +120,187 @@ groups:
 
 ---
 
+## Python Tooling and Utilities
+
+This repository includes sophisticated Python utilities for managing and converting custom modes. All Python code follows modern best practices with type hints, comprehensive error handling, and detailed documentation.
+
+### 1. Validation Script: `scripts/validate_custom_modes.py`
+
+**Purpose**: Validates custom_modes.yaml against Roo Code requirements
+**Language**: Python 3.9+
+**Lines of Code**: 195
+**Dependencies**: `pyyaml`
+
+**Key Features**:
+- Schema-style validation matching Roo Code documentation
+- Validates mode structure, permissions, and required fields
+- Checks for duplicate slugs and invalid permission groups
+- Supports rulesFiles validation with relativePath and content checks
+- Type-safe implementation with type hints throughout
+- Custom ValidationError exception for clear error reporting
+
+**Validation Rules**:
+- **Slug Pattern**: Must match `^[a-z0-9-]+$` (lowercase alphanumeric with hyphens)
+- **Required Fields**: `slug`, `name`, `roleDefinition`, `groups`
+- **Optional Fields**: `description`, `whenToUse`, `customInstructions`, `rulesFiles`
+- **Permission Groups**: Must be from `{read, edit, browser, command, mcp}`
+- **Edit Permissions**: Supports tuple syntax with fileRegex restrictions
+- **Role Definition**: Minimum 10 characters
+- **Name**: 1-100 characters
+
+**Usage**:
+```bash
+# Validate default custom_modes.yaml
+python3 scripts/validate_custom_modes.py
+
+# Validate specific file
+python3 scripts/validate_custom_modes.py path/to/custom_modes.yaml
+```
+
+**Implementation Highlights**:
+- Uses `argparse` for CLI argument parsing
+- Type-safe with Python 3.9+ type hints
+- Comprehensive error messages with context
+- Returns appropriate exit codes (0=success, 1=validation error, 2=file not found)
+- Validates complex nested structures (groups tuples, rulesFiles)
+
+### 2. Conversion Tool: `vs-code/convert_modes.py`
+
+**Purpose**: Convert Roo Code CLI custom modes to VS Code compatible format
+**Language**: Python 3.9+
+**Lines of Code**: 625
+**Dependencies**: `pyyaml`, `argparse`
+
+**Key Features**:
+- Multi-platform support (Windows, macOS, Linux)
+- Intelligent mode merging (update existing, add new)
+- XML rule file generation from customInstructions
+- Automatic description and whenToUse generation
+- Search functionality with wildcard support
+- Direct VS Code settings integration (remote/local)
+- Organized mode listing by alphabetical groups
+
+**Commands**:
+
+1. **List Modes**: Display all available modes organized alphabetically
+   ```bash
+   python3 vs-code/convert_modes.py list
+   ```
+
+2. **Search Modes**: Find modes with wildcard pattern matching
+   ```bash
+   python3 vs-code/convert_modes.py search python*
+   python3 vs-code/convert_modes.py search *architect* *security*
+   ```
+
+3. **Convert Modes**: Transform CLI modes to VS Code format
+   ```bash
+   # Convert all modes
+   python3 vs-code/convert_modes.py convert all
+
+   # Convert specific modes
+   python3 vs-code/convert_modes.py convert code-skeptic architect python-pro
+
+   # Convert to custom output directory
+   python3 vs-code/convert_modes.py convert all --output my_modes
+   ```
+
+4. **Purge Output**: Clean the converted modes directory
+   ```bash
+   python3 vs-code/convert_modes.py purge
+   ```
+
+5. **Copy to VS Code**: Install converted modes to VS Code
+   ```bash
+   # Copy to remote VS Code server
+   python3 vs-code/convert_modes.py copy remote
+
+   # Copy to local VS Code installation
+   python3 vs-code/convert_modes.py copy local
+   ```
+
+**Implementation Highlights**:
+- **Platform Detection**: Automatic VS Code settings path detection
+  - Windows: `%APPDATA%/Code/User/globalStorage/rooveterinaryinc.roo-cline/settings`
+  - macOS: `~/Library/Application Support/Code/User/globalStorage/...`
+  - Linux: `~/.config/Code/User/globalStorage/...`
+  - Remote: `~/.vscode-server/data/User/globalStorage/...`
+
+- **Filename Sanitization**: Converts mode names to safe filenames
+  - Strips special characters
+  - Converts to lowercase
+  - Replaces spaces with underscores
+  - Limits to 50 characters
+
+- **Smart Description Generation**:
+  - Extracts first 1-2 sentences from roleDefinition
+  - Creates concise, meaningful summaries
+  - Falls back to default if roleDefinition is missing
+
+- **WhenToUse Auto-generation**:
+  - Analyzes roleDefinition patterns
+  - Converts "You are X" to "Activate when you need X"
+  - Adds grammatically correct indefinite articles (a/an)
+  - Preserves existing whenToUse if already defined
+
+- **XML Rule File Generation**:
+  - Converts customInstructions to XML format
+  - Handles newline conversion for readability
+  - Creates organized `.roo/rules-{slug}/` directories
+  - Names files as `1_instructions.xml`
+
+- **Intelligent Merging**:
+  - Preserves existing modes not being converted
+  - Updates modes that already exist in output
+  - Adds new modes without duplicates
+  - Reports update/add/keep statistics
+
+- **YAML Formatting**:
+  - Fixes PyYAML indentation issues
+  - Maintains consistent 2-space indentation
+  - Preserves mode order
+  - Unicode-aware output
+
+**Error Handling**:
+- File not found errors with helpful messages
+- YAML parsing errors with context
+- Invalid slug detection and warnings
+- IO error handling for file operations
+- Platform-specific path validation
+
+### 3. JSON Schema: `schemas/custom_modes.schema.json`
+
+**Purpose**: JSON Schema for custom mode validation
+**Reference**: https://docs.roocode.com/schemas/custom-modes.schema.json
+**Validates**: Mode structure, permissions, required fields, data types
+
+---
+
 ## Key Files and Configurations
 
-### 1. Main Configuration File
-**Location**: `/home/ultron/Desktop/Custom-Modes-Roo-Code/custom_modes.yaml`
-- **Size**: 39,724 lines
-- **Purpose**: Master configuration file containing all agent definitions
-- **Format**: YAML with customModes array structure
+### Python Requirements
 
-### 2. JSON Schema
-**Location**: `/home/ultron/Desktop/Custom-Modes-Roo-Code/schemas/custom_modes.schema.json`
-- **Purpose**: Validation schema for custom mode configurations
-- **Reference**: https://docs.roocode.com/schemas/custom-modes.schema.json
-- **Validates**: Mode structure, permissions, required fields
+**Python Version**: 3.9 or higher recommended
+**Required Packages**:
+- `pyyaml` - YAML parsing and generation
+- `argparse` - Command-line argument parsing (standard library)
+- `pathlib` - Path operations (standard library)
+- `typing` - Type hints (standard library)
 
-### 3. Validation Script
-**Location**: `/home/ultron/Desktop/Custom-Modes-Roo-Code/scripts/validate_custom_modes.py`
-- **Type**: Python validation script
-- **Purpose**: Validate agent configurations against schema
-- **Executable**: Yes (755 permissions)
+**Installation**:
+```bash
+# Install required dependencies
+pip install pyyaml
 
-### 4. VS Code Integration
-**Location**: `/home/ultron/Desktop/Custom-Modes-Roo-Code/.vscode/tasks.json`
-- **Purpose**: VS Code task definitions for Roo Code integration
-- **Documentation**: `/home/ultron/Desktop/Custom-Modes-Roo-Code/vs-code/README.md`
+# Or using a virtual environment (recommended)
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install pyyaml
+```
+
+### Configuration Files
+
+All configuration paths have been updated for the new location at `/tmp/repo-updates/Custom-Modes-Roo-Code/`
 
 ---
 
@@ -574,7 +737,7 @@ Process for ensuring latest framework versions:
 ### Repository Management
 ```bash
 # Navigate to repository
-cd ~/Desktop/Custom-Modes-Roo-Code
+cd /tmp/repo-updates/Custom-Modes-Roo-Code
 
 # Check status
 git status
@@ -589,7 +752,65 @@ ls -la agents/
 find agents -name "*.yaml" | wc -l
 
 # Validate configuration
-python scripts/validate_custom_modes.py
+python3 scripts/validate_custom_modes.py
+```
+
+### Python Tooling Commands
+
+#### Validation
+```bash
+# Validate default custom_modes.yaml
+python3 scripts/validate_custom_modes.py
+
+# Validate specific YAML file
+python3 scripts/validate_custom_modes.py agents/core-development/general/python-developer.yaml
+```
+
+#### Mode Conversion and Management
+```bash
+# List all available modes
+python3 vs-code/convert_modes.py list
+
+# Search for specific modes
+python3 vs-code/convert_modes.py search python*
+python3 vs-code/convert_modes.py search *security* *audit*
+
+# Convert all modes to VS Code format
+python3 vs-code/convert_modes.py convert all
+
+# Convert specific modes
+python3 vs-code/convert_modes.py convert code-skeptic architect python-developer
+
+# Convert with custom output directory
+python3 vs-code/convert_modes.py convert all --output custom_output
+
+# Purge converted modes directory
+python3 vs-code/convert_modes.py purge
+
+# Copy to VS Code (remote environment)
+python3 vs-code/convert_modes.py copy remote
+
+# Copy to VS Code (local environment)
+python3 vs-code/convert_modes.py copy local
+```
+
+#### Python Development Setup
+```bash
+# Create virtual environment
+python3 -m venv venv
+
+# Activate virtual environment
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+
+# Install dependencies
+pip install pyyaml
+
+# Run validation tests
+python3 scripts/validate_custom_modes.py
+
+# Run conversion with help
+python3 vs-code/convert_modes.py --help
 ```
 
 ### Agent Development
@@ -598,10 +819,10 @@ python scripts/validate_custom_modes.py
 cp agents/template.yaml agents/category/new-agent.yaml
 
 # Edit agent
-code agents/category/new-agent.yaml
+nano agents/category/new-agent.yaml
 
 # Validate
-python scripts/validate_custom_modes.py
+python3 scripts/validate_custom_modes.py
 
 # Test with Roo Code
 roo-code validate agents/category/new-agent.yaml
@@ -663,12 +884,63 @@ The above copyright notice and this permission notice shall be included in all c
 
 **Following 2025 Security-First Development Standards**
 
-*Last Updated: 2025-10-26*
-*System: Ubuntu Linux (ultron)*
-*Local Path: /home/ultron/Desktop/Custom-Modes-Roo-Code/*
+*Last Updated: 2025-12-26*
+*System: Linux*
+*Repository Path: /tmp/repo-updates/Custom-Modes-Roo-Code/*
 
-## Framework Versions
+## Python Project Information
 
-- No major frameworks detected in this project
-- This may be a utility script, documentation project, or uses custom dependencies
+### Technology Stack
+- **Python**: 3.9+ recommended
+- **YAML Processing**: PyYAML library
+- **Type Safety**: Full type hints using Python typing module
+- **CLI Framework**: argparse (standard library)
+- **Path Operations**: pathlib (standard library)
+- **Platform Support**: Cross-platform (Windows, macOS, Linux)
+
+### Code Quality Standards
+- **Type Hints**: All functions use type annotations
+- **Error Handling**: Comprehensive try-except blocks
+- **Documentation**: Detailed docstrings for all modules and functions
+- **Validation**: Schema validation for all configuration files
+- **Exit Codes**: Proper Unix exit codes (0=success, 1=error, 2=file not found)
+- **Logging**: Structured logging using Python logging module
+
+### Python Scripts Overview
+
+1. **validate_custom_modes.py** (195 lines)
+   - Validates YAML configuration files
+   - Ensures compliance with Roo Code schema
+   - Checks for duplicate slugs and invalid permissions
+   - Returns detailed error messages with context
+
+2. **convert_modes.py** (625 lines)
+   - Converts CLI modes to VS Code format
+   - Multi-command interface (list, search, convert, purge, copy)
+   - Platform-aware VS Code settings path detection
+   - Intelligent YAML merging and formatting
+   - XML rule file generation
+
+### Dependencies
+```
+pyyaml>=6.0  # YAML parsing and generation
+```
+
+### Development Environment Setup
+```bash
+# Clone repository
+git clone git@github.com:jtgsystems/Custom-Modes-Roo-Code.git
+cd Custom-Modes-Roo-Code
+
+# Set up Python environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install pyyaml
+
+# Verify installation
+python3 scripts/validate_custom_modes.py --help
+python3 vs-code/convert_modes.py --help
+```
 
