@@ -10,11 +10,36 @@ jobs:
     if: ${{ github.actor == 'dependabot[bot]' }}
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/github-script@v7
+        id: files
+        with:
+          script: |
+            const allowed = [
+              /^package\.json$/, /^package-lock\.json$/, /^npm-shrinkwrap\.json$/, /^yarn\.lock$/, /^pnpm-lock\.yaml$/,
+              /^pyproject\.toml$/, /^setup\.py$/, /^setup\.cfg$/, /^Pipfile$/, /^Pipfile\.lock$/, /^poetry\.lock$/, /^requirements[^/]*\.txt$/,
+              /^go\.mod$/, /^go\.sum$/, /^go\.work$/, /^go\.work\.sum$/,
+              /^Cargo\.toml$/, /^Cargo\.lock$/,
+              /^Gemfile$/, /^Gemfile\.lock$/,
+              /^composer\.json$/, /^composer\.lock$/,
+              /^pom\.xml$/,
+              /^build\.gradle$/, /^build\.gradle\.kts$/, /^gradle\.properties$/, /^settings\.gradle$/, /^settings\.gradle\.kts$/,
+              /^Directory\.Packages\.props$/, /^packages\.config$/, /^packages\.lock\.json$/, /\.csproj$/, /\.fsproj$/, /\.vbproj$/,
+              /^mix\.exs$/, /^mix\.lock$/,
+              /^pubspec\.yaml$/, /^pubspec\.lock$/,
+              /^\.github\/workflows\/[^/]+\.ya?ml$/
+            ];
+            const { owner, repo } = context.repo;
+            const pull_number = context.payload.pull_request.number;
+            const files = await github.paginate(github.rest.pulls.listFiles, { owner, repo, pull_number, per_page: 100 });
+            const bad = files.map(f => f.filename).filter(p => !allowed.some(re => re.test(p)));
+            core.setOutput('ok', bad.length === 0 ? 'true' : 'false');
+            if (bad.length > 0) core.notice(`Skipping auto-merge; disallowed files: ${bad.join(', ')}`);
       - uses: dependabot/fetch-metadata@v2
         id: metadata
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - name: Enable auto-merge
+        if: steps.files.outputs.ok == 'true'
         uses: peter-evans/enable-pull-request-automerge@v3
         with:
           token: "${{ secrets.GITHUB_TOKEN }}"
