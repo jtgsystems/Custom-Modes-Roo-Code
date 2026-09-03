@@ -1,48 +1,36 @@
 {
   "version": "2.0.0",
+  "options": {
+    "cwd": "${workspaceFolder}"
+  },
   "tasks": [
     {
-      "label": "Validate Roo Custom Modes",
-      "type": "shell",
-      "command": "python3",
-      "args": [
-        "${workspaceFolder}/scripts/validate_custom_modes.py",
-        "${workspaceFolder}/custom_modes.yaml"
-      ],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "problemMatcher": {
-        "owner": "roo-custom-modes",
-        "fileLocation": ["relative", "${workspaceFolder}"],
-        "pattern": [
-          {
-            "regexp": "^validation error: (.*)$",
-            "message": 1
-          },
-          {
-            "regexp": "^error: (.*)$",
-            "message": 1
-          },
-          {
-            "regexp": "^YAML parse error in (.*?): (.*)$",
-            "file": 1,
-            "message": 2
-          }
-        ]
-      },
-      "group": {
-        "kind": "test",
-        "isDefault": true
-      },
+      "label": "folder-open",
+      "dependsOn": ["eslint-check"],
       "runOptions": {
         "runOn": "folderOpen"
       },
-      "presentation": {
-        "reveal": "always",
-        "panel": "shared"
+      "hide": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "eslint-check",
+      "type": "process",
+      "command": "sh",
+      "args": [".vscode/eslint-check.sh"],
+      "windows": {
+        "command": "cmd.exe",
+        "args": ["/d", "/c", ".vscode\\eslint-check.cmd"]
       },
-      "detail": "Validates custom_modes.yaml with the Roo schema on demand or when the workspace opens"
+      "isBackground": true,
+      "hide": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "never",
+        "panel": "dedicated",
+        "echo": false,
+        "close": true
+      }
     }
   ]
 }
