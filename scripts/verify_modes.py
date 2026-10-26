@@ -58,7 +58,15 @@ def verify_mode(mode: dict, source: str) -> list:
     if not isinstance(groups, list):
         issues.append(f"{prefix}: groups is not a list")
     else:
-        invalid_groups = set(groups) - ALLOWED_GROUPS
+        # Each entry is either a simple permission name (str) or the
+        # schema-valid array form [edit, {fileRegex, description}].
+        invalid_groups = []
+        for g in groups:
+            if isinstance(g, list):
+                if len(g) != 2 or g[0] != "edit" or not isinstance(g[1], dict):
+                    invalid_groups.append(f"malformed array-form group: {g!r}")
+            elif g not in ALLOWED_GROUPS:
+                invalid_groups.append(g)
         if invalid_groups:
             issues.append(f"{prefix}: INVALID groups: {invalid_groups}")
         if not groups:
