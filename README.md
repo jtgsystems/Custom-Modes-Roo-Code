@@ -10,7 +10,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/Version-2026.1-blue)](https://github.com/jtgsystems/Custom-Modes-Roo-Code)
-[![Agents](https://img.shields.io/badge/Agents-225-green)](https://github.com/jtgsystems/Custom-Modes-Roo-Code)
+[![Agents](https://img.shields.io/badge/Agents-233-green)](https://github.com/jtgsystems/Custom-Modes-Roo-Code)
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen)](https://github.com/jtgsystems/Custom-Modes-Roo-Code)
 [![Security](https://img.shields.io/badge/Security-2026%20Standards-red)](https://github.com/jtgsystems/Custom-Modes-Roo-Code)
 
@@ -20,7 +20,7 @@
 
 > **Professional AI Agent Configuration Library for Roo Code — 2026 Edition**
 >
-> A comprehensive collection of 225 specialized AI agents designed for modern software development, following 2026 security-first principles and best practices. Includes 11 SOTA reasoning personas for advanced cognitive workflows.
+> A comprehensive collection of 233 specialized AI agents designed for modern software development, following 2026 security-first principles and best practices. Includes 11 SOTA reasoning personas for advanced cognitive workflows.
 
 ## 🚀 Quick Start
 
@@ -60,7 +60,7 @@ This repository contains a meticulously curated collection of AI agent configura
 
 ### Key Features
 
-- ✅ **225 Specialized Agents** across 10 categories
+- ✅ **233 Specialized Agents** across 10 categories
 - ✅ **11 SOTA 2026 Reasoning Personas** for advanced cognitive workflows
 - ✅ **YAML-based Configuration** for easy customization
 - ✅ **2026 Security Standards** compliance (OWASP, Zero-Trust)
@@ -87,7 +87,7 @@ All agents are updated to reference the latest 2026 technology stack:
 
 ## 🗂️ Agent Categories
 
-### 🧠 AI & Machine Learning (14 agents)
+### 🧠 AI & Machine Learning (11 agents)
 **Specialized AI/ML development and deployment**
 - Machine Learning Engineers
 - AI System Architects
@@ -107,7 +107,7 @@ All agents are updated to reference the latest 2026 technology stack:
 - Content Strategists
 - Customer Success Managers
 
-### 💻 Core Development (58 agents)
+### 💻 Core Development (53 agents)
 **Foundation development roles and architectures**
 - Full-Stack Developers
 - Backend Specialists
@@ -118,7 +118,7 @@ All agents are updated to reference the latest 2026 technology stack:
 - Electron Desktop Experts
 - Deep Research Protocol
 
-### 🏗️ Infrastructure & DevOps (25 agents)
+### 🏗️ Infrastructure & DevOps (23 agents)
 **Modern infrastructure and deployment**
 - Cloud Engineers (AWS, Azure, GCP)
 - Kubernetes Specialists
@@ -128,7 +128,7 @@ All agents are updated to reference the latest 2026 technology stack:
 - SRE Engineers
 - Platform Engineers
 
-### 💬 Language Specialists (23 agents)
+### 💬 Language Specialists (20 agents)
 **Programming language experts**
 - **Python** - FastAPI, Django, asyncio
 - **JavaScript/TypeScript** - React, Node.js, Next.js
@@ -141,7 +141,7 @@ All agents are updated to reference the latest 2026 technology stack:
 - **Angular** - Angular 15+ enterprise patterns
 - **Vue.js** - Vue 3 Composition API
 
-### ⚖️ Legal & Compliance (16 agents)
+### ⚖️ Legal & Compliance (22 agents)
 **Regulatory and legal expertise**
 - GDPR Compliance
 - Security Auditing
@@ -152,7 +152,7 @@ All agents are updated to reference the latest 2026 technology stack:
 - Criminal Law
 - Intellectual Property
 
-### 🎛️ Meta-Orchestration (37 agents)
+### 🎛️ Meta-Orchestration (36 agents)
 **System coordination and workflow management**
 - Workflow Orchestrators
 - Project Coordinators
@@ -162,7 +162,7 @@ All agents are updated to reference the latest 2026 technology stack:
 - Data Engineers & Analysts
 - Search Specialists
 
-### 🔐 Security & Quality (25 agents)
+### 🔐 Security & Quality (16 agents)
 **Security-first development and quality assurance**
 - Cybersecurity Experts
 - Penetration Testers
@@ -172,7 +172,7 @@ All agents are updated to reference the latest 2026 technology stack:
 - Debug Specialists
 - Test Automators
 
-### 🎯 Specialized Domains (16 agents)
+### 🎯 Specialized Domains (23 agents)
 **Industry-specific expertise**
 - **Fintech** - Financial systems, compliance
 - **Gaming** - Game development, engines
@@ -397,18 +397,18 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 | Category | Agents | Primary Use Case |
 |----------|--------|------------------|
-| 🧠 AI & ML | 14 | Machine learning and AI development |
+| 🧠 AI & ML | 11 | Machine learning and AI development |
 | 💼 Business & Product | 18 | Product strategy and business analysis |
-| 💻 Core Development | 58 | Application development and architecture |
-| 🏗️ Infrastructure & DevOps | 25 | Cloud infrastructure and deployment |
-| 💬 Language Specialists | 23 | Programming language expertise |
-| ⚖️ Legal & Compliance | 16 | Regulatory and legal compliance |
-| 🎛️ Meta-Orchestration | 37 | Workflow and system coordination |
-| 🔐 Security & Quality | 25 | Security and quality assurance |
-| 🎯 Specialized Domains | 16 | Industry-specific applications |
+| 💻 Core Development | 53 | Application development and architecture |
+| 🏗️ Infrastructure & DevOps | 23 | Cloud infrastructure and deployment |
+| 💬 Language Specialists | 20 | Programming language expertise |
+| ⚖️ Legal & Compliance | 22 | Regulatory and legal compliance |
+| 🎛️ Meta-Orchestration | 36 | Workflow and system coordination |
+| 🔐 Security & Quality | 16 | Security and quality assurance |
+| 🎯 Specialized Domains | 23 | Industry-specific applications |
 | 🧠 SOTA Personas | 11 | Advanced reasoning and cognitive workflows |
 
-**Total: 225 Specialized Agents**
+**Total: 233 Specialized Agents**
 
 ## 🔗 Related Resources
 
