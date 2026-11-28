@@ -26,6 +26,8 @@ ENV/
 env/
 
 # IDEs
+.vscode/settings.json
+.vscode/launch.json
 .idea/
 *.swp
 *.swo
@@ -51,5 +53,5 @@ desktop.ini
 
 # Local configuration
 *.local
-config.bat
-node_modules
+.env
+.env.local
